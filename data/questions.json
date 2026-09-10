@@ -1,22 +1,1627 @@
 {
-  "version": "1.0",
-  "status": "starter",
-  "note": "Starter demo bank. Expand with verified exam-specific questions and 2025-2026 current affairs before production.",
+  "version": "4.0",
+  "status": "UPSC Phase 1",
+  "note": "Original practice questions. These are not official UPSC PYQs.",
   "questions": [
     {
       "id": 1,
-      "question": "भारतीय संविधान में राज्य के नीति-निदेशक तत्व किस भाग में हैं?",
+      "exam": "UPSC CSE",
+      "subject": "History",
+      "chapter": "Ancient India",
+      "topic": "Indus Valley Civilization",
+      "question": "हड़प्पा सभ्यता के नगरों की एक प्रमुख विशेषता क्या थी?",
       "options": [
-        "Part IV",
-        "Part III",
-        "Part V",
-        "Part VI"
+        "सुनियोजित नगर व्यवस्था",
+        "केवल गुफा आवास",
+        "लोहे का व्यापक उपयोग",
+        "स्थायी संसद"
       ],
       "answer": 0,
-      "solution": "अनुच्छेद 36 से 51 तक राज्य के नीति-निदेशक तत्व हैं।",
-      "chapter": "Indian Polity",
-      "topic": "Fundamentals",
-      "article": "36-51"
+      "solution": "हड़प्पा नगरों में नियोजित सड़कें, जल निकासी और नगर विन्यास उल्लेखनीय थे।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 2,
+      "exam": "UPSC CSE",
+      "subject": "History",
+      "chapter": "Ancient India",
+      "topic": "Vedic Age",
+      "question": "ऋग्वेद किस भाषा के प्राचीन रूप में रचा गया?",
+      "options": [
+        "वैदिक संस्कृत",
+        "पाली",
+        "प्राकृत",
+        "तमिल"
+      ],
+      "answer": 0,
+      "solution": "ऋग्वेद वैदिक संस्कृत में रचा गया।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 3,
+      "exam": "UPSC CSE",
+      "subject": "History",
+      "chapter": "Ancient India",
+      "topic": "Buddhism",
+      "question": "बौद्ध धर्म के चार आर्य सत्यों में पहला सत्य किससे संबंधित है?",
+      "options": [
+        "दुःख",
+        "निर्वाण",
+        "अष्टांगिक मार्ग",
+        "संघ"
+      ],
+      "answer": 0,
+      "solution": "पहला आर्य सत्य दुःख के अस्तित्व को बताता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 4,
+      "exam": "UPSC CSE",
+      "subject": "History",
+      "chapter": "Ancient India",
+      "topic": "Mauryan Empire",
+      "question": "अशोक के अधिकांश शिलालेख किस लिपि में लिखे गए थे?",
+      "options": [
+        "ब्राह्मी",
+        "शारदा",
+        "ग्रंथ",
+        "देवनागरी"
+      ],
+      "answer": 0,
+      "solution": "अशोक के अधिकांश अभिलेख ब्राह्मी लिपि में हैं; उत्तर-पश्चिम में खरोष्ठी भी मिली है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 5,
+      "exam": "UPSC CSE",
+      "subject": "History",
+      "chapter": "Medieval India",
+      "topic": "Delhi Sultanate",
+      "question": "इक्ता व्यवस्था मुख्यतः किससे संबंधित थी?",
+      "options": [
+        "राजस्व/प्रशासनिक अधिकार",
+        "समुद्री व्यापार",
+        "धार्मिक अनुष्ठान",
+        "मुद्रा निर्माण"
+      ],
+      "answer": 0,
+      "solution": "इक्ता में अधिकारियों को राजस्व वसूली से जुड़े अधिकार दिए जाते थे।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 6,
+      "exam": "UPSC CSE",
+      "subject": "History",
+      "chapter": "Medieval India",
+      "topic": "Mughal Empire",
+      "question": "अकबर की मनसबदारी व्यवस्था किससे संबंधित थी?",
+      "options": [
+        "सैन्य-प्रशासनिक पद",
+        "कृषि कर समाप्ति",
+        "समुद्री कानून",
+        "ग्राम पंचायत"
+      ],
+      "answer": 0,
+      "solution": "मनसबदारी ने अधिकारियों के पद और सैन्य दायित्वों को व्यवस्थित किया।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 7,
+      "exam": "UPSC CSE",
+      "subject": "History",
+      "chapter": "Modern India",
+      "topic": "Revolt of 1857",
+      "question": "1857 का विद्रोह सबसे पहले कहाँ से व्यापक रूप में शुरू हुआ?",
+      "options": [
+        "मेरठ",
+        "लखनऊ",
+        "दिल्ली",
+        "कानपुर"
+      ],
+      "answer": 0,
+      "solution": "10 मई 1857 को मेरठ में सैनिक विद्रोह हुआ, जिसके बाद यह तेजी से फैला।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 8,
+      "exam": "UPSC CSE",
+      "subject": "History",
+      "chapter": "Modern India",
+      "topic": "Congress",
+      "question": "भारतीय राष्ट्रीय कांग्रेस की स्थापना 1885 में हुई थी। इसके प्रथम अध्यक्ष कौन थे?",
+      "options": [
+        "डब्ल्यू. सी. बनर्जी",
+        "दादाभाई नौरोजी",
+        "गोपाल कृष्ण गोखले",
+        "बाल गंगाधर तिलक"
+      ],
+      "answer": 0,
+      "solution": "डब्ल्यू. सी. बनर्जी कांग्रेस के प्रथम अध्यक्ष थे।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 9,
+      "exam": "UPSC CSE",
+      "subject": "History",
+      "chapter": "Modern India",
+      "topic": "Gandhian Era",
+      "question": "दांडी मार्च किस आंदोलन से जुड़ा था?",
+      "options": [
+        "सविनय अवज्ञा आंदोलन",
+        "असहयोग आंदोलन",
+        "भारत छोड़ो आंदोलन",
+        "स्वदेशी आंदोलन"
+      ],
+      "answer": 0,
+      "solution": "1930 का दांडी मार्च नमक कानून के विरोध और सविनय अवज्ञा आंदोलन का प्रमुख चरण था।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 10,
+      "exam": "UPSC CSE",
+      "subject": "History",
+      "chapter": "Modern India",
+      "topic": "Quit India",
+      "question": "भारत छोड़ो आंदोलन किस वर्ष शुरू हुआ?",
+      "options": [
+        "1942",
+        "1930",
+        "1919",
+        "1947"
+      ],
+      "answer": 0,
+      "solution": "अगस्त 1942 में भारत छोड़ो आंदोलन शुरू हुआ।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 11,
+      "exam": "UPSC CSE",
+      "subject": "Geography",
+      "chapter": "Physical Geography",
+      "topic": "Earth",
+      "question": "पृथ्वी के आंतरिक भाग में सबसे अधिक तापमान सामान्यतः किस क्षेत्र में माना जाता है?",
+      "options": [
+        "आंतरिक क्रोड",
+        "भूपर्पटी",
+        "मेंटल का ऊपरी भाग",
+        "लिथोस्फीयर"
+      ],
+      "answer": 0,
+      "solution": "पृथ्वी के केंद्र के निकट आंतरिक क्रोड अत्यधिक तापमान और दबाव वाला क्षेत्र है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 12,
+      "exam": "UPSC CSE",
+      "subject": "Geography",
+      "chapter": "Physical Geography",
+      "topic": "Plate Tectonics",
+      "question": "प्लेट विवर्तनिकी मुख्यतः किसका अध्ययन करती है?",
+      "options": [
+        "लिथोस्फेरिक प्लेटों की गति",
+        "नदियों का प्रवाह",
+        "वायुदाब",
+        "मृदा की उर्वरता"
+      ],
+      "answer": 0,
+      "solution": "प्लेट विवर्तनिकी पृथ्वी की प्लेटों की गति और उससे जुड़ी घटनाओं को समझाती है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 13,
+      "exam": "UPSC CSE",
+      "subject": "Geography",
+      "chapter": "Physical Geography",
+      "topic": "Atmosphere",
+      "question": "क्षोभमंडल की एक प्रमुख विशेषता क्या है?",
+      "options": [
+        "अधिकांश मौसम संबंधी घटनाएँ यहीं होती हैं",
+        "यह सबसे बाहरी परत है",
+        "यहाँ ओजोन की अधिकतम मात्रा होती है",
+        "यह निर्वात है"
+      ],
+      "answer": 0,
+      "solution": "बादल, वर्षा और अधिकांश मौसम घटनाएँ क्षोभमंडल में होती हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 14,
+      "exam": "UPSC CSE",
+      "subject": "Geography",
+      "chapter": "Indian Geography",
+      "topic": "Rivers",
+      "question": "नर्मदा नदी किस दिशा में बहने वाली प्रमुख प्रायद्वीपीय नदी है?",
+      "options": [
+        "पश्चिम",
+        "पूर्व",
+        "उत्तर",
+        "दक्षिण"
+      ],
+      "answer": 0,
+      "solution": "नर्मदा पश्चिम की ओर बहकर अरब सागर में गिरती है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 15,
+      "exam": "UPSC CSE",
+      "subject": "Geography",
+      "chapter": "Indian Geography",
+      "topic": "Monsoon",
+      "question": "भारतीय दक्षिण-पश्चिम मानसून का मुख्य आगमन सामान्यतः किस दिशा से होता है?",
+      "options": [
+        "दक्षिण-पश्चिम",
+        "उत्तर-पश्चिम",
+        "उत्तर-पूर्व",
+        "दक्षिण-पूर्व"
+      ],
+      "answer": 0,
+      "solution": "दक्षिण-पश्चिम मानसून अरब सागर और बंगाल की खाड़ी शाखाओं के रूप में आता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 16,
+      "exam": "UPSC CSE",
+      "subject": "Geography",
+      "chapter": "Indian Geography",
+      "topic": "Soils",
+      "question": "काली मिट्टी किस फसल के लिए विशेष रूप से उपयुक्त मानी जाती है?",
+      "options": [
+        "कपास",
+        "चाय",
+        "जूट",
+        "केसर"
+      ],
+      "answer": 0,
+      "solution": "काली मिट्टी की नमी धारण क्षमता के कारण कपास के लिए उपयुक्त है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 17,
+      "exam": "UPSC CSE",
+      "subject": "Geography",
+      "chapter": "World Geography",
+      "topic": "Oceanography",
+      "question": "गल्फ स्ट्रीम किस प्रकार की महासागरीय धारा है?",
+      "options": [
+        "गर्म धारा",
+        "ठंडी धारा",
+        "ज्वारीय लहर",
+        "स्थानीय झील धारा"
+      ],
+      "answer": 0,
+      "solution": "गल्फ स्ट्रीम उत्तरी अटलांटिक की गर्म समुद्री धारा है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 18,
+      "exam": "UPSC CSE",
+      "subject": "Geography",
+      "chapter": "Indian Geography",
+      "topic": "Resources",
+      "question": "भारत में लौह अयस्क के प्रमुख भंडार किन क्षेत्रों में पाए जाते हैं?",
+      "options": [
+        "ओडिशा-झारखंड-बेल्ट आदि",
+        "केवल पंजाब",
+        "केवल राजस्थान",
+        "केवल केरल"
+      ],
+      "answer": 0,
+      "solution": "ओडिशा, झारखंड, छत्तीसगढ़ और कर्नाटक प्रमुख लौह-अयस्क क्षेत्र हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 19,
+      "exam": "UPSC CSE",
+      "subject": "Geography",
+      "chapter": "Environment Geography",
+      "topic": "Disasters",
+      "question": "भूकंप की तीव्रता और ऊर्जा के आकलन में रिक्टर पैमाना किससे जुड़ा है?",
+      "options": [
+        "परिमाण",
+        "वर्षा",
+        "वायु वेग",
+        "समुद्र तल"
+      ],
+      "answer": 0,
+      "solution": "रिक्टर पैमाना पारंपरिक रूप से भूकंप के परिमाण को व्यक्त करता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 20,
+      "exam": "UPSC CSE",
+      "subject": "Geography",
+      "chapter": "Human Geography",
+      "topic": "Population",
+      "question": "जनसांख्यिकीय संक्रमण सिद्धांत मुख्यतः किस बदलाव को समझाता है?",
+      "options": [
+        "जन्म-मृत्यु दर के परिवर्तन",
+        "पर्वत निर्माण",
+        "समुद्री ज्वार",
+        "नदी कटाव"
+      ],
+      "answer": 0,
+      "solution": "यह विकास के साथ जन्म और मृत्यु दर के चरणबद्ध परिवर्तन को समझाता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 21,
+      "exam": "UPSC CSE",
+      "subject": "Indian Polity",
+      "chapter": "Constitution",
+      "topic": "Constitution Basics",
+      "question": "भारतीय संविधान में मौलिक अधिकार किस भाग में हैं?",
+      "options": [
+        "भाग III",
+        "भाग IV",
+        "भाग V",
+        "भाग VI"
+      ],
+      "answer": 0,
+      "solution": "मौलिक अधिकार संविधान के भाग III में हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 22,
+      "exam": "UPSC CSE",
+      "subject": "Indian Polity",
+      "chapter": "Constitution",
+      "topic": "DPSP",
+      "question": "राज्य के नीति-निदेशक तत्व किस भाग में हैं?",
+      "options": [
+        "भाग IV",
+        "भाग III",
+        "भाग II",
+        "भाग VI"
+      ],
+      "answer": 0,
+      "solution": "अनुच्छेद 36 से 51 तक DPSP भाग IV में हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 23,
+      "exam": "UPSC CSE",
+      "subject": "Indian Polity",
+      "chapter": "Fundamental Rights",
+      "topic": "Article 14",
+      "question": "अनुच्छेद 14 किससे संबंधित है?",
+      "options": [
+        "कानून के समक्ष समानता",
+        "धर्म की स्वतंत्रता",
+        "शिक्षा का अधिकार",
+        "संपत्ति का अधिकार"
+      ],
+      "answer": 0,
+      "solution": "अनुच्छेद 14 समानता और समान संरक्षण से संबंधित है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 24,
+      "exam": "UPSC CSE",
+      "subject": "Indian Polity",
+      "chapter": "Fundamental Rights",
+      "topic": "Article 21",
+      "question": "अनुच्छेद 21 किस अधिकार की रक्षा करता है?",
+      "options": [
+        "जीवन और व्यक्तिगत स्वतंत्रता",
+        "मतदान",
+        "संपत्ति",
+        "व्यवसाय कर"
+      ],
+      "answer": 0,
+      "solution": "अनुच्छेद 21 जीवन और व्यक्तिगत स्वतंत्रता की सुरक्षा करता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 25,
+      "exam": "UPSC CSE",
+      "subject": "Indian Polity",
+      "chapter": "Parliament",
+      "topic": "Lok Sabha",
+      "question": "लोकसभा का सामान्य कार्यकाल कितना है?",
+      "options": [
+        "5 वर्ष",
+        "4 वर्ष",
+        "6 वर्ष",
+        "7 वर्ष"
+      ],
+      "answer": 0,
+      "solution": "लोकसभा का सामान्य कार्यकाल 5 वर्ष है, जब तक पहले भंग न हो।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 26,
+      "exam": "UPSC CSE",
+      "subject": "Indian Polity",
+      "chapter": "Executive",
+      "topic": "President",
+      "question": "भारत के राष्ट्रपति का चुनाव किसके द्वारा होता है?",
+      "options": [
+        "निर्वाचक मंडल",
+        "प्रत्यक्ष सार्वभौम मतदान",
+        "केवल लोकसभा",
+        "केवल राज्य विधानसभाएँ"
+      ],
+      "answer": 0,
+      "solution": "राष्ट्रपति का निर्वाचन निर्वाचक मंडल द्वारा होता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 27,
+      "exam": "UPSC CSE",
+      "subject": "Indian Polity",
+      "chapter": "Judiciary",
+      "topic": "Supreme Court",
+      "question": "भारत के सर्वोच्च न्यायालय की स्थापना संविधान के किस अनुच्छेद के तहत हुई?",
+      "options": [
+        "अनुच्छेद 124",
+        "अनुच्छेद 32",
+        "अनुच्छेद 226",
+        "अनुच्छेद 280"
+      ],
+      "answer": 0,
+      "solution": "अनुच्छेद 124 सर्वोच्च न्यायालय की स्थापना और संरचना से संबंधित है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 28,
+      "exam": "UPSC CSE",
+      "subject": "Indian Polity",
+      "chapter": "Federalism",
+      "topic": "Seventh Schedule",
+      "question": "सातवीं अनुसूची में क्या है?",
+      "options": [
+        "संघ, राज्य और समवर्ती सूचियाँ",
+        "भाषाओं की सूची",
+        "दल-बदल प्रावधान",
+        "नगरपालिकाएँ"
+      ],
+      "answer": 0,
+      "solution": "सातवीं अनुसूची में विधायी विषयों की तीन सूचियाँ हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 29,
+      "exam": "UPSC CSE",
+      "subject": "Indian Polity",
+      "chapter": "Local Government",
+      "topic": "73rd Amendment",
+      "question": "73वाँ संविधान संशोधन मुख्यतः किससे संबंधित है?",
+      "options": [
+        "पंचायती राज",
+        "नगरपालिकाएँ",
+        "GST",
+        "मौलिक कर्तव्य"
+      ],
+      "answer": 0,
+      "solution": "73वाँ संशोधन पंचायती राज संस्थाओं से संबंधित है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 30,
+      "exam": "UPSC CSE",
+      "subject": "Indian Polity",
+      "chapter": "Constitutional Bodies",
+      "topic": "Election Commission",
+      "question": "भारत का निर्वाचन आयोग किस अनुच्छेद में वर्णित है?",
+      "options": [
+        "अनुच्छेद 324",
+        "अनुच्छेद 280",
+        "अनुच्छेद 148",
+        "अनुच्छेद 76"
+      ],
+      "answer": 0,
+      "solution": "अनुच्छेद 324 चुनावों के अधीक्षण, निर्देशन और नियंत्रण से संबंधित है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 31,
+      "exam": "UPSC CSE",
+      "subject": "Economy",
+      "chapter": "National Income",
+      "topic": "GDP",
+      "question": "GDP का सामान्य अर्थ क्या है?",
+      "options": [
+        "देश की सीमा के भीतर उत्पादित अंतिम वस्तुओं व सेवाओं का मूल्य",
+        "केवल निर्यात का मूल्य",
+        "केवल सरकारी आय",
+        "केवल कृषि उत्पादन"
+      ],
+      "answer": 0,
+      "solution": "GDP एक अवधि में देश की घरेलू सीमा के भीतर अंतिम उत्पादन का मौद्रिक मूल्य है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 32,
+      "exam": "UPSC CSE",
+      "subject": "Economy",
+      "chapter": "Banking",
+      "topic": "RBI",
+      "question": "भारत में मौद्रिक नीति का संचालन किस संस्था की प्रमुख जिम्मेदारी है?",
+      "options": [
+        "भारतीय रिजर्व बैंक",
+        "वित्त आयोग",
+        "नीति आयोग",
+        "CAG"
+      ],
+      "answer": 0,
+      "solution": "RBI मौद्रिक नीति के संचालन में केंद्रीय भूमिका निभाता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 33,
+      "exam": "UPSC CSE",
+      "subject": "Economy",
+      "chapter": "Monetary Policy",
+      "topic": "Repo Rate",
+      "question": "रेपो दर किससे संबंधित है?",
+      "options": [
+        "RBI द्वारा बैंकों को अल्पकालिक ऋण",
+        "सरकार द्वारा आयकर",
+        "निर्यात शुल्क",
+        "कृषि सब्सिडी"
+      ],
+      "answer": 0,
+      "solution": "रेपो दर वह दर है जिस पर RBI पात्र प्रतिभूतियों के विरुद्ध बैंकों को धन देता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 34,
+      "exam": "UPSC CSE",
+      "subject": "Economy",
+      "chapter": "Fiscal Policy",
+      "topic": "Fiscal Deficit",
+      "question": "राजकोषीय घाटा broadly किस अंतर को दर्शाता है?",
+      "options": [
+        "सरकार के कुल व्यय और उधारी छोड़कर कुल प्राप्तियों का अंतर",
+        "केवल व्यापार घाटा",
+        "केवल चालू खाता",
+        "केवल बैंक घाटा"
+      ],
+      "answer": 0,
+      "solution": "राजकोषीय घाटा सरकार की कुल व्यय आवश्यकताओं और उधारी छोड़कर प्राप्तियों के अंतर को दर्शाता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 35,
+      "exam": "UPSC CSE",
+      "subject": "Economy",
+      "chapter": "External Sector",
+      "topic": "Current Account",
+      "question": "चालू खाते में सामान्यतः क्या शामिल होता है?",
+      "options": [
+        "वस्तु-सेवा व्यापार, आय और अंतरण",
+        "केवल FDI",
+        "केवल विदेशी मुद्रा भंडार",
+        "केवल सरकारी ऋण"
+      ],
+      "answer": 0,
+      "solution": "चालू खाते में goods/services, primary income और transfers जैसे घटक आते हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 36,
+      "exam": "UPSC CSE",
+      "subject": "Economy",
+      "chapter": "Inflation",
+      "topic": "CPI",
+      "question": "उपभोक्ता मूल्य सूचकांक मुख्यतः किससे संबंधित है?",
+      "options": [
+        "उपभोक्ता वस्तुओं और सेवाओं की कीमतों में बदलाव",
+        "शेयर बाजार",
+        "औद्योगिक उत्पादन",
+        "जनसंख्या वृद्धि"
+      ],
+      "answer": 0,
+      "solution": "CPI उपभोक्ता स्तर पर कीमतों में बदलाव को मापने का प्रमुख सूचक है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 37,
+      "exam": "UPSC CSE",
+      "subject": "Economy",
+      "chapter": "Public Finance",
+      "topic": "Finance Commission",
+      "question": "वित्त आयोग का संवैधानिक आधार किस अनुच्छेद में है?",
+      "options": [
+        "अनुच्छेद 280",
+        "अनुच्छेद 324",
+        "अनुच्छेद 148",
+        "अनुच्छेद 76"
+      ],
+      "answer": 0,
+      "solution": "अनुच्छेद 280 वित्त आयोग के गठन का प्रावधान करता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 38,
+      "exam": "UPSC CSE",
+      "subject": "Economy",
+      "chapter": "Agriculture",
+      "topic": "MSP",
+      "question": "न्यूनतम समर्थन मूल्य का उद्देश्य क्या है?",
+      "options": [
+        "कुछ कृषि उपज के लिए घोषित मूल्य समर्थन",
+        "सभी उत्पादों पर कर",
+        "बैंकों की ब्याज दर तय करना",
+        "आयात बंद करना"
+      ],
+      "answer": 0,
+      "solution": "MSP कुछ अधिसूचित फसलों के लिए किसानों को मूल्य समर्थन का नीति साधन है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 39,
+      "exam": "UPSC CSE",
+      "subject": "Economy",
+      "chapter": "Development",
+      "topic": "Human Development",
+      "question": "मानव विकास सूचकांक में सामान्यतः किन आयामों का संयोजन होता है?",
+      "options": [
+        "स्वास्थ्य, शिक्षा और आय",
+        "केवल GDP",
+        "केवल निर्यात",
+        "केवल मुद्रास्फीति"
+      ],
+      "answer": 0,
+      "solution": "HDI स्वास्थ्य, शिक्षा और जीवन स्तर/आय से जुड़े आयामों को जोड़ता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 40,
+      "exam": "UPSC CSE",
+      "subject": "Economy",
+      "chapter": "Inclusive Growth",
+      "topic": "Financial Inclusion",
+      "question": "वित्तीय समावेशन का प्रमुख लक्ष्य क्या है?",
+      "options": [
+        "वित्तीय सेवाओं तक व्यापक और किफायती पहुँच",
+        "केवल बड़े उद्योगों को ऋण",
+        "निर्यात बढ़ाना मात्र",
+        "मुद्रा छापना"
+      ],
+      "answer": 0,
+      "solution": "वित्तीय समावेशन का उद्देश्य बैंकिंग और अन्य वित्तीय सेवाओं तक पहुँच बढ़ाना है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 41,
+      "exam": "UPSC CSE",
+      "subject": "Environment & Ecology",
+      "chapter": "Ecology",
+      "topic": "Ecosystem",
+      "question": "पारिस्थितिकी तंत्र में कौन-से घटक शामिल होते हैं?",
+      "options": [
+        "जैविक और अजैविक दोनों",
+        "केवल पौधे",
+        "केवल पशु",
+        "केवल जल"
+      ],
+      "answer": 0,
+      "solution": "Ecosystem में living organisms और physical environment दोनों शामिल होते हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 42,
+      "exam": "UPSC CSE",
+      "subject": "Environment & Ecology",
+      "chapter": "Biodiversity",
+      "topic": "Species",
+      "question": "जैव विविधता का एक स्तर कौन-सा है?",
+      "options": [
+        "आनुवंशिक विविधता",
+        "केवल तापमान",
+        "केवल वर्षा",
+        "केवल मिट्टी"
+      ],
+      "answer": 0,
+      "solution": "जैव विविधता में genetic, species और ecosystem diversity जैसे स्तर शामिल हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 43,
+      "exam": "UPSC CSE",
+      "subject": "Environment & Ecology",
+      "chapter": "Climate Change",
+      "topic": "Greenhouse Effect",
+      "question": "ग्रीनहाउस प्रभाव का मूल कारण क्या है?",
+      "options": [
+        "कुछ गैसों द्वारा पृथ्वी से निकलने वाले अवरक्त विकिरण का अवशोषण",
+        "केवल ओजोन छिद्र",
+        "केवल समुद्री ज्वार",
+        "केवल भूकंप"
+      ],
+      "answer": 0,
+      "solution": "ग्रीनहाउस गैसें पृथ्वी के अवरक्त विकिरण के कुछ भाग को अवशोषित कर ऊष्मा संतुलन प्रभावित करती हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 44,
+      "exam": "UPSC CSE",
+      "subject": "Environment & Ecology",
+      "chapter": "Pollution",
+      "topic": "Eutrophication",
+      "question": "यूट्रोफिकेशन सामान्यतः किससे जुड़ा है?",
+      "options": [
+        "जल में पोषक तत्वों की अधिकता",
+        "वायुमंडलीय दाब",
+        "भूकंप",
+        "ध्वनि प्रदूषण मात्र"
+      ],
+      "answer": 0,
+      "solution": "नाइट्रोजन और फॉस्फोरस जैसे पोषक तत्वों की अधिकता जलाशयों में algal blooms को बढ़ा सकती है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 45,
+      "exam": "UPSC CSE",
+      "subject": "Environment & Ecology",
+      "chapter": "Conservation",
+      "topic": "In-situ",
+      "question": "इन-सीटू संरक्षण का अर्थ क्या है?",
+      "options": [
+        "प्रजातियों का उनके प्राकृतिक आवास में संरक्षण",
+        "प्रयोगशाला में संरक्षण",
+        "केवल बीज बैंक",
+        "केवल चिड़ियाघर"
+      ],
+      "answer": 0,
+      "solution": "In-situ संरक्षण प्रजातियों को उनके प्राकृतिक आवास में सुरक्षित रखने पर केंद्रित है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 46,
+      "exam": "UPSC CSE",
+      "subject": "Environment & Ecology",
+      "chapter": "Protected Areas",
+      "topic": "National Park",
+      "question": "राष्ट्रीय उद्यान का प्रमुख उद्देश्य क्या है?",
+      "options": [
+        "वन्यजीव और पारिस्थितिकी तंत्र का संरक्षण",
+        "केवल पर्यटन",
+        "केवल कृषि",
+        "केवल खनन"
+      ],
+      "answer": 0,
+      "solution": "राष्ट्रीय उद्यान संरक्षण के लिए कानूनी रूप से संरक्षित क्षेत्र हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 47,
+      "exam": "UPSC CSE",
+      "subject": "Environment & Ecology",
+      "chapter": "Climate Change",
+      "topic": "Carbon Sink",
+      "question": "कार्बन सिंक किसे कहा जा सकता है?",
+      "options": [
+        "ऐसी प्रणाली जो शुद्ध रूप से अधिक कार्बन अवशोषित करे",
+        "केवल कारखाना",
+        "केवल वाहन",
+        "केवल ज्वालामुखी"
+      ],
+      "answer": 0,
+      "solution": "वन, महासागर और कुछ पारिस्थितिक प्रणालियाँ कार्बन को अवशोषित कर सकती हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 48,
+      "exam": "UPSC CSE",
+      "subject": "Environment & Ecology",
+      "chapter": "Wildlife",
+      "topic": "Food Chain",
+      "question": "खाद्य श्रृंखला में ऊर्जा का प्रवाह सामान्यतः किस दिशा में होता है?",
+      "options": [
+        "उत्पादक से उपभोक्ता की ओर",
+        "उपभोक्ता से सूर्य की ओर",
+        "अपघटक से सूर्य की ओर",
+        "यादृच्छिक"
+      ],
+      "answer": 0,
+      "solution": "ऊर्जा का मूल स्रोत सूर्य है और वह उत्पादकों से उपभोक्ताओं की ओर स्थानांतरित होती है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 49,
+      "exam": "UPSC CSE",
+      "subject": "Environment & Ecology",
+      "chapter": "Ozone",
+      "topic": "Stratosphere",
+      "question": "ओजोन परत मुख्यतः किस वायुमंडलीय परत में पाई जाती है?",
+      "options": [
+        "समतापमंडल",
+        "क्षोभमंडल",
+        "मध्य मंडल",
+        "बहिर्मंडल"
+      ],
+      "answer": 0,
+      "solution": "ओजोन की उच्च सांद्रता समतापमंडल में पाई जाती है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 50,
+      "exam": "UPSC CSE",
+      "subject": "Environment & Ecology",
+      "chapter": "Sustainability",
+      "topic": "Sustainable Development",
+      "question": "सतत विकास का मूल विचार क्या है?",
+      "options": [
+        "वर्तमान जरूरतें पूरी करते हुए भविष्य की क्षमता से समझौता न करना",
+        "केवल आर्थिक वृद्धि",
+        "केवल संरक्षण",
+        "केवल औद्योगिकीकरण"
+      ],
+      "answer": 0,
+      "solution": "सतत विकास आर्थिक, सामाजिक और पर्यावरणीय जरूरतों के संतुलन पर जोर देता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 51,
+      "exam": "UPSC CSE",
+      "subject": "Science & Technology",
+      "chapter": "Physics",
+      "topic": "Units",
+      "question": "बल की SI इकाई क्या है?",
+      "options": [
+        "न्यूटन",
+        "जूल",
+        "वाट",
+        "पास्कल"
+      ],
+      "answer": 0,
+      "solution": "बल की SI इकाई न्यूटन है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 52,
+      "exam": "UPSC CSE",
+      "subject": "Science & Technology",
+      "chapter": "Physics",
+      "topic": "Electricity",
+      "question": "विद्युत धारा की SI इकाई क्या है?",
+      "options": [
+        "एम्पियर",
+        "वोल्ट",
+        "ओम",
+        "कूलॉम"
+      ],
+      "answer": 0,
+      "solution": "विद्युत धारा की SI इकाई एम्पियर है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 53,
+      "exam": "UPSC CSE",
+      "subject": "Science & Technology",
+      "chapter": "Chemistry",
+      "topic": "pH",
+      "question": "pH का उपयोग किसे व्यक्त करने में होता है?",
+      "options": [
+        "अम्लीय/क्षारीय प्रकृति",
+        "द्रव्यमान",
+        "तापमान",
+        "घनत्व"
+      ],
+      "answer": 0,
+      "solution": "pH जलीय विलयन की अम्लीय या क्षारीय प्रकृति का संकेत देता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 54,
+      "exam": "UPSC CSE",
+      "subject": "Science & Technology",
+      "chapter": "Chemistry",
+      "topic": "Catalyst",
+      "question": "उत्प्रेरक सामान्यतः क्या करता है?",
+      "options": [
+        "अभिक्रिया की दर बदलता है और स्वयं स्थायी रूप से उपभोग नहीं होता",
+        "अभिक्रिया को हमेशा रोकता है",
+        "द्रव्यमान नष्ट करता है",
+        "ऊर्जा पैदा करता है"
+      ],
+      "answer": 0,
+      "solution": "Catalyst reaction pathway की activation energy बदलकर दर प्रभावित करता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 55,
+      "exam": "UPSC CSE",
+      "subject": "Science & Technology",
+      "chapter": "Biology",
+      "topic": "Cell",
+      "question": "कोशिका का नियंत्रण केंद्र सामान्यतः किसे कहा जाता है?",
+      "options": [
+        "नाभिक",
+        "राइबोसोम",
+        "गॉल्जी तंत्र",
+        "लाइसोसोम"
+      ],
+      "answer": 0,
+      "solution": "अधिकांश यूकैरियोटिक कोशिकाओं में नाभिक आनुवंशिक सामग्री रखता है और प्रमुख नियंत्रण केंद्र है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 56,
+      "exam": "UPSC CSE",
+      "subject": "Science & Technology",
+      "chapter": "Biology",
+      "topic": "DNA",
+      "question": "DNA का पूरा नाम क्या है?",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Dynamic Nuclear Acid",
+        "Double Nitrogen Acid",
+        "Deoxygenated Nucleic Atom"
+      ],
+      "answer": 0,
+      "solution": "DNA का full form Deoxyribonucleic Acid है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 57,
+      "exam": "UPSC CSE",
+      "subject": "Science & Technology",
+      "chapter": "Biotechnology",
+      "topic": "Vaccines",
+      "question": "टीका मुख्यतः किस उद्देश्य से दिया जाता है?",
+      "options": [
+        "प्रतिरक्षा तंत्र को विशिष्ट रोगजनक के विरुद्ध तैयार करना",
+        "रक्तचाप बढ़ाना",
+        "ऑक्सीजन कम करना",
+        "पाचन रोकना"
+      ],
+      "answer": 0,
+      "solution": "टीके adaptive immune response को प्रशिक्षित करने में मदद करते हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 58,
+      "exam": "UPSC CSE",
+      "subject": "Science & Technology",
+      "chapter": "Space",
+      "topic": "Satellites",
+      "question": "किसी उपग्रह की कक्षा मुख्यतः किन बलों के संतुलन से निर्धारित होती है?",
+      "options": [
+        "गुरुत्वाकर्षण और जड़त्वीय गति",
+        "केवल घर्षण",
+        "केवल चुम्बकत्व",
+        "केवल वायु दाब"
+      ],
+      "answer": 0,
+      "solution": "कक्षीय गति में गुरुत्वाकर्षण केंद्रीय भूमिका निभाता है और उपग्रह की जड़त्वीय गति कक्षा बनाती है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 59,
+      "exam": "UPSC CSE",
+      "subject": "Science & Technology",
+      "chapter": "IT & AI",
+      "topic": "Machine Learning",
+      "question": "मशीन लर्निंग में मॉडल सामान्यतः किससे पैटर्न सीखता है?",
+      "options": [
+        "डेटा",
+        "केवल बिजली",
+        "केवल इंटरनेट",
+        "केवल हार्डवेयर"
+      ],
+      "answer": 0,
+      "solution": "Machine learning algorithms डेटा से patterns/relationships सीखते हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 60,
+      "exam": "UPSC CSE",
+      "subject": "Science & Technology",
+      "chapter": "Defence Technology",
+      "topic": "Radar",
+      "question": "रडार का प्रमुख उपयोग क्या है?",
+      "options": [
+        "रेडियो तरंगों से वस्तुओं का पता/दूरी/दिशा अनुमानित करना",
+        "रक्त जांच",
+        "मौसम का तापमान सीधे मापना",
+        "मिट्टी की उर्वरता मापना"
+      ],
+      "answer": 0,
+      "solution": "Radar radio waves के reflection से target detection और ranging करता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 61,
+      "exam": "UPSC CSE",
+      "subject": "Art & Culture",
+      "chapter": "Architecture",
+      "topic": "Buddhist Architecture",
+      "question": "स्तूप मुख्यतः किससे संबंधित स्मारकीय परंपरा है?",
+      "options": [
+        "बौद्ध धर्म",
+        "केवल जैन धर्म",
+        "केवल सूफी परंपरा",
+        "केवल औपनिवेशिक वास्तुकला"
+      ],
+      "answer": 0,
+      "solution": "स्तूप बौद्ध स्थापत्य की प्रमुख स्मारकीय परंपरा है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 62,
+      "exam": "UPSC CSE",
+      "subject": "Art & Culture",
+      "chapter": "Architecture",
+      "topic": "Temple Architecture",
+      "question": "नागर शैली मुख्यतः भारत के किस भाग से जुड़ी है?",
+      "options": [
+        "उत्तर भारत",
+        "केवल दक्षिण भारत",
+        "केवल उत्तर-पूर्व",
+        "केवल तटीय द्वीप"
+      ],
+      "answer": 0,
+      "solution": "नागर मंदिर शैली उत्तर और मध्य भारत के अनेक क्षेत्रों में विकसित हुई।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 63,
+      "exam": "UPSC CSE",
+      "subject": "Art & Culture",
+      "chapter": "Music",
+      "topic": "Hindustani Music",
+      "question": "हिंदुस्तानी शास्त्रीय संगीत की एक प्रमुख गायन शैली कौन-सी है?",
+      "options": [
+        "ध्रुपद",
+        "कथकली",
+        "भरतनाट्यम",
+        "कुचिपुड़ी"
+      ],
+      "answer": 0,
+      "solution": "ध्रुपद हिंदुस्तानी शास्त्रीय संगीत की प्राचीन प्रमुख गायन शैलियों में है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 64,
+      "exam": "UPSC CSE",
+      "subject": "Art & Culture",
+      "chapter": "Dance",
+      "topic": "Classical Dance",
+      "question": "कथक का ऐतिहासिक विकास मुख्यतः किस क्षेत्रीय सांस्कृतिक परंपरा से जुड़ा है?",
+      "options": [
+        "उत्तर भारत",
+        "केवल केरल",
+        "केवल असम",
+        "केवल ओडिशा"
+      ],
+      "answer": 0,
+      "solution": "कथक का विकास उत्तर भारत की कथा-वाचन और दरबारी परंपराओं से जुड़ा है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 65,
+      "exam": "UPSC CSE",
+      "subject": "Art & Culture",
+      "chapter": "Literature",
+      "topic": "Sangam",
+      "question": "संगम साहित्य मुख्यतः किस भाषा की प्राचीन साहित्यिक परंपरा है?",
+      "options": [
+        "तमिल",
+        "संस्कृत",
+        "पाली",
+        "फारसी"
+      ],
+      "answer": 0,
+      "solution": "संगम साहित्य प्राचीन तमिल साहित्य की महत्वपूर्ण परंपरा है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 66,
+      "exam": "UPSC CSE",
+      "subject": "Art & Culture",
+      "chapter": "Religion & Philosophy",
+      "topic": "Jainism",
+      "question": "जैन दर्शन में अहिंसा का क्या महत्व है?",
+      "options": [
+        "केंद्रीय नैतिक सिद्धांत",
+        "केवल राजनीतिक सिद्धांत",
+        "केवल स्थापत्य नियम",
+        "केवल कृषि तकनीक"
+      ],
+      "answer": 0,
+      "solution": "अहिंसा जैन आचार और दर्शन का केंद्रीय सिद्धांत है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 67,
+      "exam": "UPSC CSE",
+      "subject": "Art & Culture",
+      "chapter": "Painting",
+      "topic": "Miniature Painting",
+      "question": "मुगल लघुचित्रकला पर किसका प्रभाव स्पष्ट रूप से देखा जाता है?",
+      "options": [
+        "फारसी और भारतीय परंपराओं का समन्वय",
+        "केवल यूरोपीय बारोक",
+        "केवल जापानी शैली",
+        "केवल आधुनिक अमूर्त कला"
+      ],
+      "answer": 0,
+      "solution": "मुगल चित्रकला में फारसी प्रभाव के साथ भारतीय विषय और कलाकारों की परंपरा विकसित हुई।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 68,
+      "exam": "UPSC CSE",
+      "subject": "Art & Culture",
+      "chapter": "Heritage",
+      "topic": "UNESCO",
+      "question": "विश्व धरोहर सूची किस अंतरराष्ट्रीय संस्था से जुड़ी है?",
+      "options": [
+        "UNESCO",
+        "WHO",
+        "WTO",
+        "IMF"
+      ],
+      "answer": 0,
+      "solution": "UNESCO World Heritage Convention के तहत सांस्कृतिक और प्राकृतिक धरोहरों की सूची से जुड़ा है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 69,
+      "exam": "UPSC CSE",
+      "subject": "Art & Culture",
+      "chapter": "Literature",
+      "topic": "Bhakti",
+      "question": "भक्ति आंदोलन की एक सामान्य विशेषता क्या थी?",
+      "options": [
+        "व्यक्तिगत भक्ति और स्थानीय भाषाओं का व्यापक प्रयोग",
+        "केवल राजकीय भाषा",
+        "केवल सैन्य संगठन",
+        "केवल व्यापार"
+      ],
+      "answer": 0,
+      "solution": "भक्ति परंपराओं ने व्यक्तिगत भक्ति और अनेक क्षेत्रीय भाषाओं में धार्मिक अभिव्यक्ति को बढ़ावा दिया।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 70,
+      "exam": "UPSC CSE",
+      "subject": "Art & Culture",
+      "chapter": "Architecture",
+      "topic": "Rock-cut",
+      "question": "अजंता की गुफाएँ मुख्यतः किस प्रकार की कला के लिए प्रसिद्ध हैं?",
+      "options": [
+        "बौद्ध भित्तिचित्र और शैल-कट वास्तुकला",
+        "केवल आधुनिक मूर्तिकला",
+        "केवल मुगल उद्यान",
+        "केवल औपनिवेशिक भवन"
+      ],
+      "answer": 0,
+      "solution": "अजंता बौद्ध गुफाओं और भित्तिचित्रों के लिए प्रसिद्ध है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 71,
+      "exam": "UPSC CSE",
+      "subject": "International Relations",
+      "chapter": "Institutions",
+      "topic": "UN",
+      "question": "संयुक्त राष्ट्र की स्थापना किस वर्ष हुई?",
+      "options": [
+        "1945",
+        "1919",
+        "1955",
+        "1962"
+      ],
+      "answer": 0,
+      "solution": "संयुक्त राष्ट्र संगठन की स्थापना 1945 में हुई।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 72,
+      "exam": "UPSC CSE",
+      "subject": "International Relations",
+      "chapter": "Institutions",
+      "topic": "UNSC",
+      "question": "संयुक्त राष्ट्र सुरक्षा परिषद में स्थायी सदस्य कितने हैं?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "10"
+      ],
+      "answer": 0,
+      "solution": "सुरक्षा परिषद के पाँच स्थायी सदस्य हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 73,
+      "exam": "UPSC CSE",
+      "subject": "International Relations",
+      "chapter": "Institutions",
+      "topic": "IMF",
+      "question": "IMF का प्रमुख उद्देश्य क्या है?",
+      "options": [
+        "अंतरराष्ट्रीय मौद्रिक सहयोग और वित्तीय स्थिरता को बढ़ावा देना",
+        "केवल सैन्य गठबंधन",
+        "केवल सांस्कृतिक संरक्षण",
+        "केवल खेल आयोजन"
+      ],
+      "answer": 0,
+      "solution": "IMF अंतरराष्ट्रीय मौद्रिक सहयोग, वित्तीय स्थिरता और भुगतान संतुलन सहायता से जुड़ा है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 74,
+      "exam": "UPSC CSE",
+      "subject": "International Relations",
+      "chapter": "Institutions",
+      "topic": "WTO",
+      "question": "WTO किस क्षेत्र से संबंधित है?",
+      "options": [
+        "अंतरराष्ट्रीय व्यापार",
+        "स्वास्थ्य",
+        "शरणार्थी कानून मात्र",
+        "परमाणु ऊर्जा मात्र"
+      ],
+      "answer": 0,
+      "solution": "विश्व व्यापार संगठन अंतरराष्ट्रीय व्यापार नियमों और वार्ताओं से संबंधित है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 75,
+      "exam": "UPSC CSE",
+      "subject": "International Relations",
+      "chapter": "India & Neighbours",
+      "topic": "Neighbourhood",
+      "question": "भारत की सबसे लंबी अंतरराष्ट्रीय स्थलीय सीमा किस देश के साथ है?",
+      "options": [
+        "बांग्लादेश",
+        "नेपाल",
+        "भूटान",
+        "म्यांमार"
+      ],
+      "answer": 0,
+      "solution": "भारत की सबसे लंबी अंतरराष्ट्रीय भूमि सीमा बांग्लादेश के साथ है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 76,
+      "exam": "UPSC CSE",
+      "subject": "International Relations",
+      "chapter": "Global Groupings",
+      "topic": "BRICS",
+      "question": "BRICS मूल रूप से किन उभरती अर्थव्यवस्थाओं के समूह के रूप में प्रसिद्ध हुआ?",
+      "options": [
+        "ब्राजील, रूस, भारत, चीन और दक्षिण अफ्रीका",
+        "ब्रिटेन, रूस, भारत, कनाडा और स्पेन",
+        "भारत, जापान, चीन, फ्रांस और जर्मनी",
+        "अमेरिका, भारत, रूस, चीन और जापान"
+      ],
+      "answer": 0,
+      "solution": "BRICS का मूल acronym Brazil, Russia, India, China और South Africa के लिए प्रयुक्त हुआ।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 77,
+      "exam": "UPSC CSE",
+      "subject": "International Relations",
+      "chapter": "Diplomacy",
+      "topic": "Soft Power",
+      "question": "Soft power का अर्थ क्या है?",
+      "options": [
+        "आकर्षण और persuasion से प्रभाव डालने की क्षमता",
+        "सैन्य बल का प्रत्यक्ष प्रयोग",
+        "केवल आर्थिक प्रतिबंध",
+        "केवल सीमा सुरक्षा"
+      ],
+      "answer": 0,
+      "solution": "Soft power संस्कृति, मूल्यों और नीतियों के आकर्षण के माध्यम से प्रभाव से जुड़ा है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 78,
+      "exam": "UPSC CSE",
+      "subject": "International Relations",
+      "chapter": "Climate Diplomacy",
+      "topic": "Paris Agreement",
+      "question": "पेरिस समझौता मुख्यतः किस विषय से संबंधित है?",
+      "options": [
+        "जलवायु परिवर्तन",
+        "समुद्री डकैती",
+        "अंतरराष्ट्रीय डाक",
+        "खाद्य लेबलिंग"
+      ],
+      "answer": 0,
+      "solution": "Paris Agreement जलवायु परिवर्तन पर वैश्विक समझौता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 79,
+      "exam": "UPSC CSE",
+      "subject": "International Relations",
+      "chapter": "Regional Groupings",
+      "topic": "SAARC",
+      "question": "SAARC का मुख्य क्षेत्रीय फोकस क्या है?",
+      "options": [
+        "दक्षिण एशिया",
+        "दक्षिण अमेरिका",
+        "उत्तरी यूरोप",
+        "पश्चिमी अफ्रीका"
+      ],
+      "answer": 0,
+      "solution": "SAARC दक्षिण एशियाई क्षेत्रीय सहयोग संगठन है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 80,
+      "exam": "UPSC CSE",
+      "subject": "International Relations",
+      "chapter": "Security",
+      "topic": "Maritime Security",
+      "question": "समुद्री सुरक्षा में क्या शामिल हो सकता है?",
+      "options": [
+        "समुद्री मार्गों, जहाजों और तटीय हितों की सुरक्षा",
+        "केवल हवाई यातायात",
+        "केवल कृषि बीमा",
+        "केवल अंतरिक्ष दूरबीन"
+      ],
+      "answer": 0,
+      "solution": "Maritime security में sea lanes, vessels, ports और समुद्री हितों की सुरक्षा शामिल हो सकती है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 81,
+      "exam": "UPSC CSE",
+      "subject": "Society",
+      "chapter": "Indian Society",
+      "topic": "Diversity",
+      "question": "भारत की सामाजिक विविधता का एक प्रमुख आयाम क्या है?",
+      "options": [
+        "भाषाई, धार्मिक और सांस्कृतिक विविधता",
+        "केवल भौगोलिक ऊँचाई",
+        "केवल मुद्रा",
+        "केवल जलवायु"
+      ],
+      "answer": 0,
+      "solution": "भारत में भाषाई, धार्मिक, जातीय और सांस्कृतिक विविधता महत्वपूर्ण सामाजिक विशेषताएँ हैं।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 82,
+      "exam": "UPSC CSE",
+      "subject": "Society",
+      "chapter": "Social Issues",
+      "topic": "Poverty",
+      "question": "बहुआयामी गरीबी किससे आगे की तस्वीर देती है?",
+      "options": [
+        "केवल आय",
+        "केवल GDP",
+        "केवल निर्यात",
+        "केवल कृषि"
+      ],
+      "answer": 0,
+      "solution": "Multidimensional poverty आय के साथ स्वास्थ्य, शिक्षा और जीवन स्तर जैसी वंचनाओं को भी देखती है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 83,
+      "exam": "UPSC CSE",
+      "subject": "Society",
+      "chapter": "Women",
+      "topic": "Gender Equality",
+      "question": "लैंगिक समानता का मूल अर्थ क्या है?",
+      "options": [
+        "अवसरों और अधिकारों में समानता",
+        "केवल समान वेतन",
+        "केवल शिक्षा",
+        "केवल राजनीतिक प्रतिनिधित्व"
+      ],
+      "answer": 0,
+      "solution": "Gender equality व्यापक रूप से अधिकार, अवसर और गरिमा में समानता से संबंधित है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 84,
+      "exam": "UPSC CSE",
+      "subject": "Society",
+      "chapter": "Population",
+      "topic": "Demography",
+      "question": "जनसंख्या पिरामिड किसे दर्शाता है?",
+      "options": [
+        "आयु और लिंग संरचना",
+        "केवल GDP",
+        "केवल साक्षरता",
+        "केवल वर्षा"
+      ],
+      "answer": 0,
+      "solution": "Population pyramid आयु और लिंग के अनुसार जनसंख्या संरचना दिखाता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 85,
+      "exam": "UPSC CSE",
+      "subject": "Society",
+      "chapter": "Urbanization",
+      "topic": "Urbanization",
+      "question": "नगरीकरण का सामान्य अर्थ क्या है?",
+      "options": [
+        "शहरी आबादी और शहरी बस्तियों का बढ़ना",
+        "कृषि भूमि का बढ़ना",
+        "वन क्षेत्र का स्वतः बढ़ना",
+        "केवल जन्मदर घटना"
+      ],
+      "answer": 0,
+      "solution": "Urbanization में शहरी आबादी के अनुपात और शहरी गतिविधियों का विस्तार शामिल है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 86,
+      "exam": "UPSC CSE",
+      "subject": "Society",
+      "chapter": "Education",
+      "topic": "Literacy",
+      "question": "साक्षरता सामाजिक विकास में क्यों महत्वपूर्ण है?",
+      "options": [
+        "ज्ञान, कौशल और अवसरों तक पहुँच बढ़ाती है",
+        "केवल कर बढ़ाती है",
+        "केवल जनसंख्या घटाती है",
+        "केवल मौसम बदलती है"
+      ],
+      "answer": 0,
+      "solution": "साक्षरता शिक्षा, सूचना और सामाजिक-आर्थिक अवसरों तक पहुँच में सहायक है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 87,
+      "exam": "UPSC CSE",
+      "subject": "Society",
+      "chapter": "Health",
+      "topic": "Public Health",
+      "question": "सार्वजनिक स्वास्थ्य का प्रमुख फोकस क्या है?",
+      "options": [
+        "समुदाय स्तर पर स्वास्थ्य की रक्षा और सुधार",
+        "केवल निजी अस्पताल",
+        "केवल दवा बिक्री",
+        "केवल व्यक्तिगत फिटनेस"
+      ],
+      "answer": 0,
+      "solution": "Public health population-level prevention, promotion और protection पर केंद्रित होता है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 88,
+      "exam": "UPSC CSE",
+      "subject": "Society",
+      "chapter": "Social Capital",
+      "topic": "Social Capital",
+      "question": "सामाजिक पूंजी किससे संबंधित है?",
+      "options": [
+        "विश्वास, नेटवर्क और सहयोग के सामाजिक संबंध",
+        "केवल वित्तीय संपत्ति",
+        "केवल भूमि",
+        "केवल मशीनरी"
+      ],
+      "answer": 0,
+      "solution": "Social capital सामाजिक networks, norms और trust से सहयोग की क्षमता को दर्शाती है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 89,
+      "exam": "UPSC CSE",
+      "subject": "Society",
+      "chapter": "Tribal Communities",
+      "topic": "Tribes",
+      "question": "जनजातीय समुदायों के अध्ययन में किस दृष्टिकोण की आवश्यकता महत्वपूर्ण है?",
+      "options": [
+        "स्थानीय संदर्भ और अधिकारों के प्रति संवेदनशील दृष्टिकोण",
+        "सभी समुदायों को एक जैसा मानना",
+        "केवल शहरी मानक",
+        "केवल बाजार मूल्य"
+      ],
+      "answer": 0,
+      "solution": "जनजातीय समाजों की विविधता और उनके अधिकारों/स्थानीय संदर्भ को समझना आवश्यक है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
+    },
+    {
+      "id": 90,
+      "exam": "UPSC CSE",
+      "subject": "Society",
+      "chapter": "Social Justice",
+      "topic": "Inclusion",
+      "question": "सामाजिक समावेशन का उद्देश्य क्या है?",
+      "options": [
+        "वंचित समूहों की भागीदारी और अवसर बढ़ाना",
+        "केवल कर संग्रह",
+        "केवल निजीकरण",
+        "केवल निर्यात"
+      ],
+      "answer": 0,
+      "solution": "Inclusion का उद्देश्य सामाजिक, आर्थिक और राजनीतिक अवसरों में बाधाएँ कम करना है।",
+      "type": "original_practice",
+      "source": "HackMind India practice bank"
     }
   ]
 }
