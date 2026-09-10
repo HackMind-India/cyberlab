@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "status": "starter",
+  "note": "Starter demo bank. Expand with verified exam-specific questions and 2025-2026 current affairs before production.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "भारतीय संविधान में राज्य के नीति-निदेशक तत्व किस भाग में हैं?",
+      "options": [
+        "Part IV",
+        "Part III",
+        "Part V",
+        "Part VI"
+      ],
+      "answer": 0,
+      "solution": "अनुच्छेद 36 से 51 तक राज्य के नीति-निदेशक तत्व हैं।",
+      "chapter": "Indian Polity",
+      "topic": "Fundamentals",
+      "article": "36-51"
+    }
+  ]
+}
