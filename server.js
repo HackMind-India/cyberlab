@@ -156,12 +156,15 @@ function normalizeBatch(b){
   return qs.map(q=>({
     question:q.question||q.text||q.q||"",
     question_hi:q.question_hi||q.hindi||q.hi||q.questionHindi||"",
-    question_en:q.question_en||q.english||q.en||q.questionEnglish||"",
-    options:Array.isArray(q.options)?q.options:(Array.isArray(q.choices)?q.choices:(Array.isArray(q.o)?q.o:[q.option1,q.option2,q.option3,q.option4].filter(x=>x!==undefined))),
+    question_en:q.question_en||q.english||q.en||q.questionEnglish||q.q||"",
+    options:Array.isArray(q.options)?q.options:
+      (Array.isArray(q.choices)?q.choices:
+      (Array.isArray(q.o)?q.o:
+      [q.option1,q.option2,q.option3,q.option4].filter(x=>x!==undefined))),
     answer:q.answer??q.correct??q.correctAnswer??q.correct_option??q.a??0,
-    explanation:q.explanation||q.solution||"",
-    explanation_hi:q.explanation_hi||q.solution_hi||q.explanationHindi||"",
-    explanation_en:q.explanation_en||q.solution_en||q.explanationEnglish||""
+    explanation:q.explanation||q.solution||q.e||"",
+    explanation_hi:q.explanation_hi||q.solution_hi||q.explanationHindi||q.eh||"",
+    explanation_en:q.explanation_en||q.solution_en||q.explanationEnglish||q.e||""
   }));
 }
 function qText(q){
