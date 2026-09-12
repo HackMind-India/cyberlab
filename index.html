@@ -22,4 +22,5 @@ function finish(){if(!qs.length)return;clearInterval(timerInt);let correct=qs.re
 function openReview(){$('review').classList.remove('hidden');$('reviewList').innerHTML=qs.map((q,i)=>{let u=answers[i];return `<div class="review-item"><b>Q${i+1}. ${esc(q.question)}</b><p class="${u===q.answer?'correct':'wrong'}">${u===undefined?'⏭️ Skipped':u===q.answer?'✅ Correct':'❌ Wrong'}</p><p><b>Correct:</b> ${esc(q.options[q.answer])}</p><p><b>Solution:</b> ${esc(q.solution||'')}</p><small class="muted">${esc(q.chapter)} • ${esc(q.topic)}</small></div>`}).join('')}
 function renderHistory(){let h=JSON.parse(localStorage.getItem('hm_results')||'[]');if(!h.length){$('history').innerHTML='<p class="muted">अभी कोई test result नहीं है।</p>';return}$('history').innerHTML=h.map(x=>`<div class="review-item"><b>${esc(x.subject)}</b> — ${x.correct}/${x.count} (${x.accuracy}%)<br><small class="muted">${esc(x.date)} • Wrong ${x.wrong} • Skipped ${x.skipped}</small></div>`).join('')}
 init();
-</script></body></html>
+</script><script src="resources.js"></script>
+</body></html>
