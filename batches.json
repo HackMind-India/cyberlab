@@ -1,21 +1,216 @@
 {
-  "site":{"brand":"LoyalLearn","tagline":"Learn • Practice • Achieve","heroTitle":"Your Dream • Our Mission","heroHindi":"UPSC तैयारी अब और भी आसान!"},
-  "batches":[
-    {"id":"upsc-foundation","name":"UPSC Foundation Batch","description":"GS + CSAT bilingual practice","questions":[
-      {"q":"The Indus Valley Civilization is especially known for which feature?","hi":"सिंधु घाटी सभ्यता विशेष रूप से किस विशेषता के लिए जानी जाती है?","o":["Planned urban settlements / सुनियोजित नगर","Iron weapons / लौह हथियार","Large stone temples / बड़े पत्थर के मंदिर","Feudal castles / सामंती किले"],"a":0,"e":"Harappan cities such as Mohenjo-daro and Harappa are famous for planned streets, drainage and urban infrastructure.","eh":"मोहनजोदड़ो और हड़प्पा जैसे नगर सुनियोजित सड़कों, जल निकासी और शहरी ढांचे के लिए प्रसिद्ध हैं।"},
-      {"q":"Which river is known as the Sorrow of Bihar?","hi":"किस नदी को बिहार का शोक कहा जाता है?","o":["Ganga / गंगा","Kosi / कोसी","Yamuna / यमुना","Narmada / नर्मदा"],"a":1,"e":"The Kosi has historically caused severe flooding in Bihar.","eh":"कोसी नदी ने ऐतिहासिक रूप से बिहार में गंभीर बाढ़ की स्थिति पैदा की है।"},
-      {"q":"Which part of the Indian Constitution deals with Fundamental Rights?","hi":"भारतीय संविधान का कौन-सा भाग मौलिक अधिकारों से संबंधित है?","o":["Part II / भाग II","Part III / भाग III","Part IV / भाग IV","Part V / भाग V"],"a":1,"e":"Fundamental Rights are contained in Part III of the Constitution.","eh":"मौलिक अधिकार संविधान के भाग III में दिए गए हैं।"},
-      {"q":"Which institution is India's central bank?","hi":"भारत का केंद्रीय बैंक कौन-सा संस्थान है?","o":["SEBI","NABARD","RBI / भारतीय रिज़र्व बैंक","SBI / भारतीय स्टेट बैंक"],"a":2,"e":"The Reserve Bank of India is India's central bank.","eh":"भारतीय रिज़र्व बैंक भारत का केंद्रीय बैंक है।"},
-      {"q":"The term biodiversity refers to the variety of what?","hi":"जैव विविधता शब्द किसकी विविधता को दर्शाता है?","o":["Rocks only / केवल चट्टानें","Life forms / जीव-जंतु व जीवन रूप","Weather systems / मौसम प्रणालियां","Minerals / खनिज"],"a":1,"e":"Biodiversity includes the variety of genes, species and ecosystems.","eh":"जैव विविधता में जीन, प्रजातियों और पारिस्थितिक तंत्रों की विविधता शामिल है।"},
-      {"q":"What is the SI unit of electric current?","hi":"विद्युत धारा की SI इकाई क्या है?","o":["Volt / वोल्ट","Ohm / ओम","Ampere / एम्पियर","Watt / वाट"],"a":2,"e":"The ampere is the SI base unit of electric current.","eh":"एम्पियर विद्युत धारा की SI मूल इकाई है।"},
-      {"q":"Which body conducts elections to the Lok Sabha in India?","hi":"भारत में लोकसभा के चुनाव कौन कराता है?","o":["UPSC","Election Commission of India / भारत निर्वाचन आयोग","Finance Commission / वित्त आयोग","NITI Aayog / नीति आयोग"],"a":1,"e":"The Election Commission of India conducts elections to Parliament and state legislatures.","eh":"भारत निर्वाचन आयोग संसद और राज्य विधानमंडलों के चुनाव कराता है।"},
-      {"q":"If all A are B and all B are C, which statement must be true?","hi":"यदि सभी A, B हैं और सभी B, C हैं, तो कौन-सा कथन सही होना आवश्यक है?","o":["All C are A / सभी C, A हैं","All A are C / सभी A, C हैं","No A are C / कोई A, C नहीं है","Some C are not B / कुछ C, B नहीं हैं"],"a":1,"e":"If A is a subset of B and B is a subset of C, A is a subset of C.","eh":"यदि A, B का उपसमुच्चय है और B, C का उपसमुच्चय है, तो A, C का उपसमुच्चय होगा।"},
-      {"q":"Bharatanatyam is traditionally associated with which Indian state?","hi":"भरतनाट्यम परंपरागत रूप से किस भारतीय राज्य से जुड़ा है?","o":["Kerala / केरल","Tamil Nadu / तमिलनाडु","Punjab / पंजाब","Assam / असम"],"a":1,"e":"Bharatanatyam developed in the cultural traditions of Tamil Nadu.","eh":"भरतनाट्यम का विकास तमिलनाडु की सांस्कृतिक परंपराओं में हुआ।"},
-      {"q":"The Quit India Movement was launched in which year?","hi":"भारत छोड़ो आंदोलन किस वर्ष शुरू किया गया था?","o":["1930","1942","1947","1950"],"a":1,"e":"The Quit India Movement was launched in August 1942.","eh":"भारत छोड़ो आंदोलन अगस्त 1942 में शुरू किया गया था।"}
-    ]},
-    {"id":"csat-practice","name":"CSAT Practice Batch","description":"Reasoning, maths and comprehension","questions":[
-      {"q":"If 20% of a number is 40, what is the number?","hi":"किसी संख्या का 20% = 40 है, तो संख्या क्या होगी?","o":["100","150","200","250"],"a":2,"e":"20% of 200 is 40, so the number is 200.","eh":"200 का 20% 40 होता है, इसलिए संख्या 200 है।"},
-      {"q":"A train travels 120 km in 2 hours. What is its average speed?","hi":"एक ट्रेन 2 घंटे में 120 किमी जाती है। उसकी औसत गति क्या है?","o":["40 km/h","50 km/h","60 km/h","80 km/h"],"a":2,"e":"Average speed = distance/time = 120/2 = 60 km/h.","eh":"औसत गति = दूरी/समय = 120/2 = 60 किमी/घंटा।"}
-    ]}
+  "site": {
+    "brand": "LoyalLearn",
+    "tagline": "Learn • Practice • Achieve",
+    "heroTitle": "Your Dream • Our Mission",
+    "heroHindi": "UPSC तैयारी अब और भी आसान!"
+  },
+  "batches": [
+    {
+      "id": "upsc-foundation",
+      "name": "UPSC Foundation Batch",
+      "description": "GS + CSAT bilingual practice",
+      "questions": [
+        {
+          "q": "The Indus Valley Civilization is especially known for which feature?",
+          "hi": "सिंधु घाटी सभ्यता विशेष रूप से किस विशेषता के लिए जानी जाती है?",
+          "o": [
+            "Planned urban settlements / सुनियोजित नगर",
+            "Iron weapons / लौह हथियार",
+            "Large stone temples / बड़े पत्थर के मंदिर",
+            "Feudal castles / सामंती किले"
+          ],
+          "a": 0,
+          "e": "Harappan cities such as Mohenjo-daro and Harappa are famous for planned streets, drainage and urban infrastructure.",
+          "eh": "मोहनजोदड़ो और हड़प्पा जैसे नगर सुनियोजित सड़कों, जल निकासी और शहरी ढांचे के लिए प्रसिद्ध हैं।",
+          "subject": "History",
+          "chapter": "Ancient India",
+          "topic": "Indus Valley Civilization"
+        },
+        {
+          "q": "Which river is known as the Sorrow of Bihar?",
+          "hi": "किस नदी को बिहार का शोक कहा जाता है?",
+          "o": [
+            "Ganga / गंगा",
+            "Kosi / कोसी",
+            "Yamuna / यमुना",
+            "Narmada / नर्मदा"
+          ],
+          "a": 1,
+          "e": "The Kosi has historically caused severe flooding in Bihar.",
+          "eh": "कोसी नदी ने ऐतिहासिक रूप से बिहार में गंभीर बाढ़ की स्थिति पैदा की है।",
+          "subject": "Geography",
+          "chapter": "Indian Geography",
+          "topic": "Rivers of India"
+        },
+        {
+          "q": "Which part of the Indian Constitution deals with Fundamental Rights?",
+          "hi": "भारतीय संविधान का कौन-सा भाग मौलिक अधिकारों से संबंधित है?",
+          "o": [
+            "Part II / भाग II",
+            "Part III / भाग III",
+            "Part IV / भाग IV",
+            "Part V / भाग V"
+          ],
+          "a": 1,
+          "e": "Fundamental Rights are contained in Part III of the Constitution.",
+          "eh": "मौलिक अधिकार संविधान के भाग III में दिए गए हैं।",
+          "subject": "Polity",
+          "chapter": "Indian Constitution",
+          "topic": "Fundamental Rights"
+        },
+        {
+          "q": "Which institution is India's central bank?",
+          "hi": "भारत का केंद्रीय बैंक कौन-सा संस्थान है?",
+          "o": [
+            "SEBI",
+            "NABARD",
+            "RBI / भारतीय रिज़र्व बैंक",
+            "SBI / भारतीय स्टेट बैंक"
+          ],
+          "a": 2,
+          "e": "The Reserve Bank of India is India's central bank.",
+          "eh": "भारतीय रिज़र्व बैंक भारत का केंद्रीय बैंक है।",
+          "subject": "Economy",
+          "chapter": "Indian Economy",
+          "topic": "Banking & RBI"
+        },
+        {
+          "q": "The term biodiversity refers to the variety of what?",
+          "hi": "जैव विविधता शब्द किसकी विविधता को दर्शाता है?",
+          "o": [
+            "Rocks only / केवल चट्टानें",
+            "Life forms / जीव-जंतु व जीवन रूप",
+            "Weather systems / मौसम प्रणालियां",
+            "Minerals / खनिज"
+          ],
+          "a": 1,
+          "e": "Biodiversity includes the variety of genes, species and ecosystems.",
+          "eh": "जैव विविधता में जीन, प्रजातियों और पारिस्थितिक तंत्रों की विविधता शामिल है।",
+          "subject": "Environment",
+          "chapter": "Biodiversity & Ecology",
+          "topic": "Biodiversity"
+        },
+        {
+          "q": "What is the SI unit of electric current?",
+          "hi": "विद्युत धारा की SI इकाई क्या है?",
+          "o": [
+            "Volt / वोल्ट",
+            "Ohm / ओम",
+            "Ampere / एम्पियर",
+            "Watt / वाट"
+          ],
+          "a": 2,
+          "e": "The ampere is the SI base unit of electric current.",
+          "eh": "एम्पियर विद्युत धारा की SI मूल इकाई है।",
+          "subject": "Science",
+          "chapter": "Physics",
+          "topic": "Electricity"
+        },
+        {
+          "q": "Which body conducts elections to the Lok Sabha in India?",
+          "hi": "भारत में लोकसभा के चुनाव कौन कराता है?",
+          "o": [
+            "UPSC",
+            "Election Commission of India / भारत निर्वाचन आयोग",
+            "Finance Commission / वित्त आयोग",
+            "NITI Aayog / नीति आयोग"
+          ],
+          "a": 1,
+          "e": "The Election Commission of India conducts elections to Parliament and state legislatures.",
+          "eh": "भारत निर्वाचन आयोग संसद और राज्य विधानमंडलों के चुनाव कराता है।",
+          "subject": "Polity",
+          "chapter": "Constitutional Bodies",
+          "topic": "Election Commission of India"
+        },
+        {
+          "q": "If all A are B and all B are C, which statement must be true?",
+          "hi": "यदि सभी A, B हैं और सभी B, C हैं, तो कौन-सा कथन सही होना आवश्यक है?",
+          "o": [
+            "All C are A / सभी C, A हैं",
+            "All A are C / सभी A, C हैं",
+            "No A are C / कोई A, C नहीं है",
+            "Some C are not B / कुछ C, B नहीं हैं"
+          ],
+          "a": 1,
+          "e": "If A is a subset of B and B is a subset of C, A is a subset of C.",
+          "eh": "यदि A, B का उपसमुच्चय है और B, C का उपसमुच्चय है, तो A, C का उपसमुच्चय होगा।",
+          "subject": "CSAT",
+          "chapter": "Logical Reasoning",
+          "topic": "Syllogism"
+        },
+        {
+          "q": "Bharatanatyam is traditionally associated with which Indian state?",
+          "hi": "भरतनाट्यम परंपरागत रूप से किस भारतीय राज्य से जुड़ा है?",
+          "o": [
+            "Kerala / केरल",
+            "Tamil Nadu / तमिलनाडु",
+            "Punjab / पंजाब",
+            "Assam / असम"
+          ],
+          "a": 1,
+          "e": "Bharatanatyam developed in the cultural traditions of Tamil Nadu.",
+          "eh": "भरतनाट्यम का विकास तमिलनाडु की सांस्कृतिक परंपराओं में हुआ।",
+          "subject": "Culture",
+          "chapter": "Indian Dance",
+          "topic": "Classical Dances"
+        },
+        {
+          "q": "The Quit India Movement was launched in which year?",
+          "hi": "भारत छोड़ो आंदोलन किस वर्ष शुरू किया गया था?",
+          "o": [
+            "1930",
+            "1942",
+            "1947",
+            "1950"
+          ],
+          "a": 1,
+          "e": "The Quit India Movement was launched in August 1942.",
+          "eh": "भारत छोड़ो आंदोलन अगस्त 1942 में शुरू किया गया था।",
+          "subject": "History",
+          "chapter": "Modern India",
+          "topic": "Quit India Movement"
+        }
+      ]
+    },
+    {
+      "id": "csat-practice",
+      "name": "CSAT Practice Batch",
+      "description": "Reasoning, maths and comprehension",
+      "questions": [
+        {
+          "q": "If 20% of a number is 40, what is the number?",
+          "hi": "किसी संख्या का 20% = 40 है, तो संख्या क्या होगी?",
+          "o": [
+            "100",
+            "150",
+            "200",
+            "250"
+          ],
+          "a": 2,
+          "e": "20% of 200 is 40, so the number is 200.",
+          "eh": "200 का 20% 40 होता है, इसलिए संख्या 200 है।",
+          "subject": "CSAT",
+          "chapter": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "q": "A train travels 120 km in 2 hours. What is its average speed?",
+          "hi": "एक ट्रेन 2 घंटे में 120 किमी जाती है। उसकी औसत गति क्या है?",
+          "o": [
+            "40 km/h",
+            "50 km/h",
+            "60 km/h",
+            "80 km/h"
+          ],
+          "a": 2,
+          "e": "Average speed = distance/time = 120/2 = 60 km/h.",
+          "eh": "औसत गति = दूरी/समय = 120/2 = 60 किमी/घंटा।",
+          "subject": "CSAT",
+          "chapter": "Quantitative Aptitude",
+          "topic": "Speed, Time & Distance"
+        }
+      ]
+    }
   ]
 }
