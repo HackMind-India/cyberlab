@@ -1,32 +1,1634 @@
-const express=require('express'),fs=require('fs'),path=require('path');
-const app=express(),PORT=process.env.PORT||3000,DATA=path.join(__dirname,'batches.json'),DB=path.join(__dirname,'results.json');
-app.use(express.json({limit:'1mb'}));
-if(!fs.existsSync(DB))fs.writeFileSync(DB,'[]');
-const data=()=>JSON.parse(fs.readFileSync(DATA,'utf8')), results=()=>JSON.parse(fs.readFileSync(DB,'utf8'));
-const clean=n=>String(n||'Student').trim().replace(/\s+/g,' ').slice(0,40)||'Student';
-app.get('/api/data',(q,s)=>s.json(data()));
-app.get('/api/rank',(q,s)=>{let m={};for(const r of results()){let n=clean(r.name);if(!m[n])m[n]={name:n,tests:0,totalScore:0,bestScore:0,total:0,correct:0};m[n].tests++;m[n].totalScore+=+r.score||0;m[n].bestScore=Math.max(m[n].bestScore,+r.score||0);m[n].total+=+r.total||0;m[n].correct+=+r.correct||0}let a=Object.values(m).map(x=>({...x,accuracy:x.total?Math.round(x.correct/x.total*100):0})).sort((a,b)=>b.totalScore-a.totalScore||b.accuracy-a.accuracy||b.bestScore-a.bestScore||a.name.localeCompare(b.name));s.json(a.map((x,i)=>({...x,rank:i+1}))) });
-app.post('/api/result',(q,s)=>{let r=q.body||{},a=results();a.push({name:clean(r.name),score:+r.score||0,total:+r.total||0,correct:+r.correct||0,wrong:+r.wrong||0,accuracy:+r.accuracy||0,time:+r.time||0,batch:String(r.batch||'').slice(0,100),at:new Date().toISOString()});try{fs.writeFileSync(DB,JSON.stringify(a,null,2))}catch(e){}s.json({ok:true})});
-const HTML=`<!doctype html><html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LoyalLearn</title><style>
-*{box-sizing:border-box}body{margin:0;background:#f3f7ff;color:#14223b;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}button,input,select{font:inherit}.nav{height:68px;background:#052858;color:#fff;display:flex;align-items:center;padding:0 5%;gap:25px;position:sticky;top:0;z-index:9;box-shadow:0 4px 18px #092e5b25}.logo{font-size:24px;font-weight:900;display:flex;align-items:center;gap:9px}.logo:before{content:"📖";font-size:28px;filter:drop-shadow(0 2px 5px #0005)}.logo small{display:block;font-size:8px;letter-spacing:1px;opacity:.65}.navlinks{margin-left:auto;display:flex;gap:20px;align-items:center;font-size:13px}.navlinks a{color:white;text-decoration:none}.toggle{border:1px solid #ffffff55;border-radius:22px;padding:8px 12px}.hero{min-height:400px;padding:55px 6%;color:white;position:relative;overflow:hidden;background:radial-gradient(circle at 65% 42%,#ffbd62 0,#2a5f87 22%,#0a376a 48%,#031a3d 100%)}.hero:before{content:"";position:absolute;inset:auto -5% -95px 34%;height:250px;background:linear-gradient(135deg,transparent 25%,#1c4e79 25% 45%,#082d59 45% 62%,#031a3d 62%);transform:skewX(-18deg);opacity:.9}.hero:after{content:"★";position:absolute;right:11%;top:95px;font-size:115px;color:#ffffff18;text-shadow:0 0 35px #ffd24d66}.hero h1{font-size:50px;line-height:1.02;margin:20px 0 10px;max-width:580px}.hero h1 b{color:#ffc72b}.hero p{font-size:18px}.badge{display:inline-block;border:1px solid #ffffff66;padding:9px 16px;border-radius:25px;background:#06285899;font-weight:800}.heroHindi{position:absolute;right:8%;top:88px;font-size:34px;font-weight:900;text-align:center;text-shadow:0 3px 16px #0007}.heroHindi span{display:block;font-size:14px;color:#ffd22b;margin-top:14px}.btn{border:0;border-radius:12px;padding:13px 20px;background:#176cff;color:#fff;font-weight:850;cursor:pointer}.gold{background:#ffc62c;color:#15233b}.outline{background:transparent;border:1px solid #fff}.wrap{max-width:1180px;margin:auto;padding:20px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:-35px;position:relative;z-index:2}.card,.stat{background:#fff;border:1px solid #e1e9f6;border-radius:18px;box-shadow:0 12px 35px #143c7d0c}.stat{padding:18px}.stat b{font-size:23px}.stat span{display:block;color:#718097;font-size:12px;margin-top:3px}.section{margin:38px 0}.batches{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.batch{padding:22px}.batch .ico{font-size:36px}.namebox,.select{width:100%;padding:13px;border:1px solid #d6e1f1;border-radius:11px;background:white}.lang{display:flex;gap:8px;margin:10px 0}.lang button{border:1px solid #d6e1f1;background:#fff;border-radius:10px;padding:10px 15px}.lang button.active{background:#176cff;color:white}.test{max-width:950px;margin:25px auto}.top{background:#052858;color:white;padding:15px 18px;border-radius:16px 16px 0 0;display:flex;justify-content:space-between;align-items:center}.timer{font-size:22px;font-weight:900}.progress{height:8px;background:#e8eef8;border-radius:20px;overflow:hidden;margin:12px 0}.progress i{display:block;height:100%;background:#176cff}.qcard{padding:25px}.option{display:block;width:100%;text-align:left;padding:14px;margin:8px 0;border:1px solid #d8e2f1;border-radius:11px;background:#fff;cursor:pointer}.option.selected{border:2px solid #176cff;background:#eef5ff}.actions{display:flex;justify-content:space-between;margin-top:18px;gap:10px}.resultgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.review{padding:17px;margin:12px 0;border-left:5px solid #1aad69;background:#fbfdff;border-radius:10px}.review.bad{border-left-color:#e05261}.muted{color:#718097;font-size:13px}.podium{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;align-items:end}.pod{padding:22px;text-align:center;border-radius:18px;background:#edf3ff}.pod.first{background:#fff2c9;transform:translateY(-15px)}.pod.second{background:#edf0f4}.pod.third{background:#fff0e6}.ranktable{width:100%;border-collapse:collapse}.ranktable th,.ranktable td{padding:13px;border-bottom:1px solid #edf0f5;text-align:left}.footer{background:#052858;color:white;padding:35px 6%;display:flex;justify-content:space-between;margin-top:50px}.hide{display:none}@media(max-width:760px){.nav{height:60px;padding:0 14px}.navlinks{gap:9px;font-size:10px}.toggle{display:none}.hero{min-height:510px;padding:40px 22px}.hero h1{font-size:39px}.heroHindi{position:static;margin-top:55px;font-size:25px}.hero:before,.hero:after{display:none}.stats{grid-template-columns:repeat(2,1fr);margin-top:-20px}.batches,.podium{grid-template-columns:1fr}.pod.first{transform:none;order:-1}.resultgrid{grid-template-columns:repeat(2,1fr)}.footer{display:block}.hero .btn{margin-top:6px}}
-</style></head><body><div class="nav"><div class="logo">📘 LoyalLearn<small>LEARN • PRACTICE • ACHIEVE</small></div><div class="navlinks"><a href="#" onclick="home()">Home</a><a href="#" onclick="startPage()">Start Test</a><a href="#" onclick="rankPage()">🏆 Rank Dashboard</a><span class="toggle">हिंदी | English</span></div></div><div id="app"></div><script>
-let D,cur,ans=[],idx=0,secs=0,timer,lang='both',name='Student',batch;const $=x=>document.getElementById(x);const fmt=s=>String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');
+const express = require("express");
+const fs = require("fs");
+const path = require("path");
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+const DATA = path.join(__dirname, "batches.json");
+const DB = path.join(__dirname, "results.json");
+
+app.use(express.json({ limit: "1mb" }));
+
+function readJSON(file, fallback) {
+  try {
+    if (!fs.existsSync(file)) {
+      fs.writeFileSync(file, JSON.stringify(fallback, null, 2));
+      return fallback;
+    }
+    return JSON.parse(fs.readFileSync(file, "utf8"));
+  } catch (e) {
+    console.error("JSON error:", e.message);
+    return fallback;
+  }
+}
+
+function cleanName(name) {
+  return String(name || "Student")
+    .trim()
+    .replace(/\s+/g, " ")
+    .slice(0, 40) || "Student";
+}
+
+function getData() {
+  return readJSON(DATA, {
+    site: {
+      name: "LoyalLearn",
+      tagline: "Learn • Practice • Achieve"
+    },
+    batches: []
+  });
+}
+
+function getResults() {
+  return readJSON(DB, []);
+}
+
+if (!fs.existsSync(DB)) {
+  fs.writeFileSync(DB, "[]");
+}
+
+/* ---------------- API ---------------- */
+
+app.get("/health", (req, res) => {
+  res.json({
+    ok: true,
+    service: "LoyalLearn"
+  });
+});
+
+app.get("/api/data", (req, res) => {
+  try {
+    res.json(getData());
+  } catch (e) {
+    res.status(500).json({
+      error: "Unable to load batches"
+    });
+  }
+});
+
+app.get("/api/rank", (req, res) => {
+  try {
+    const results = getResults();
+
+    const grouped = {};
+
+    results.forEach(r => {
+      const name = cleanName(r.name);
+
+      if (!grouped[name]) {
+        grouped[name] = {
+          name,
+          tests: 0,
+          bestScore: 0,
+          totalCorrect: 0
+        };
+      }
+
+      grouped[name].tests++;
+      grouped[name].bestScore = Math.max(
+        grouped[name].bestScore,
+        Number(r.score || 0)
+      );
+      grouped[name].totalCorrect += Number(r.correct || 0);
+    });
+
+    const rank = Object.values(grouped)
+      .sort((a, b) => {
+        if (b.bestScore !== a.bestScore) {
+          return b.bestScore - a.bestScore;
+        }
+        return b.totalCorrect - a.totalCorrect;
+      })
+      .map((x, i) => ({
+        ...x,
+        rank: i + 1
+      }));
+
+    res.json(rank);
+  } catch (e) {
+    console.error(e);
+    res.status(500).json([]);
+  }
+});
+
+app.post("/api/result", (req, res) => {
+  try {
+    const body = req.body || {};
+
+    const result = {
+      name: cleanName(body.name),
+      batch: String(body.batch || "UPSC"),
+      score: Number(body.score || 0),
+      correct: Number(body.correct || 0),
+      wrong: Number(body.wrong || 0),
+      total: Number(body.total || 0),
+      accuracy: Number(body.accuracy || 0),
+      time: Number(body.time || 0),
+      date: new Date().toISOString()
+    };
+
+    const results = getResults();
+    results.push(result);
+
+    fs.writeFileSync(DB, JSON.stringify(results, null, 2));
+
+    res.json({
+      ok: true,
+      result
+    });
+  } catch (e) {
+    console.error(e);
+    res.status(500).json({
+      ok: false,
+      error: "Unable to save result"
+    });
+  }
+});
+
+/* ---------------- WEBSITE ---------------- */
+
+const HTML = `
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LoyalLearn</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#eef6ff;
+  color:#172033;
+}
+
+nav{
+  background:#071a38;
+  color:white;
+  min-height:64px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px 5%;
+  position:sticky;
+  top:0;
+  z-index:20;
+}
+
+.logo{
+  font-size:24px;
+  font-weight:900;
+}
+
+.logo span{
+  color:#ffd43b;
+}
+
+.navlinks{
+  display:flex;
+  gap:20px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.navlinks button{
+  background:none;
+  border:0;
+  color:white;
+  cursor:pointer;
+  font-size:15px;
+}
+
+.lang{
+  background:white!important;
+  color:#071a38!important;
+  padding:8px 12px;
+  border-radius:8px;
+}
+
+#app{
+  min-height:calc(100vh - 64px);
+}
+
+.container{
+  width:92%;
+  max-width:1150px;
+  margin:auto;
+}
+
+.hero{
+  min-height:460px;
+  padding:70px 0;
+  display:flex;
+  align-items:center;
+  background:
+    linear-gradient(135deg,#071a38,#124e8c);
+  color:white;
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:1.2fr 1fr;
+  gap:30px;
+  align-items:center;
+}
+
+.hero h1{
+  font-size:55px;
+  line-height:1.05;
+  margin-bottom:18px;
+}
+
+.hero h1 span{
+  color:#ffd43b;
+}
+
+.hero h2{
+  font-size:26px;
+  margin-bottom:15px;
+}
+
+.hero p{
+  font-size:18px;
+  line-height:1.6;
+  opacity:.92;
+}
+
+.buttons{
+  display:flex;
+  gap:12px;
+  margin-top:25px;
+  flex-wrap:wrap;
+}
+
+.btn{
+  border:0;
+  border-radius:10px;
+  padding:13px 20px;
+  cursor:pointer;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.primary{
+  background:#ffd43b;
+  color:#071a38;
+}
+
+.secondary{
+  background:white;
+  color:#071a38;
+}
+
+.hero-art{
+  min-height:290px;
+  border-radius:25px;
+  background:
+    radial-gradient(circle at 50% 25%,#ffd43b 0 8%,transparent 9%),
+    linear-gradient(145deg,#173f72,#0a2449);
+  display:flex;
+  align-items:end;
+  justify-content:center;
+  overflow:hidden;
+  box-shadow:0 20px 50px rgba(0,0,0,.3);
+}
+
+.mountain{
+  width:0;
+  height:0;
+  border-left:190px solid transparent;
+  border-right:190px solid transparent;
+  border-bottom:250px solid #f4f7fb;
+  filter:drop-shadow(0 5px 0 #b9cbe0);
+}
+
+.stats{
+  padding:40px 0;
+}
+
+.stats-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+
+.card{
+  background:white;
+  padding:24px;
+  border-radius:16px;
+  box-shadow:0 8px 25px rgba(20,50,90,.09);
+}
+
+.stat{
+  text-align:center;
+}
+
+.stat b{
+  display:block;
+  font-size:30px;
+  color:#124e8c;
+  margin-bottom:5px;
+}
+
+.section{
+  padding:50px 0;
+}
+
+.section h2{
+  font-size:32px;
+  margin-bottom:25px;
+}
+
+.batch-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.batch-card h3{
+  margin-bottom:10px;
+}
+
+.batch-card p{
+  color:#667085;
+  margin-bottom:18px;
+  line-height:1.5;
+}
+
+.testbox{
+  max-width:850px;
+  margin:40px auto;
+}
+
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  align-items:center;
+  margin-bottom:20px;
+  flex-wrap:wrap;
+}
+
+.timer{
+  background:#071a38;
+  color:#ffd43b;
+  padding:10px 16px;
+  border-radius:10px;
+  font-weight:bold;
+  font-size:18px;
+}
+
+.question{
+  font-size:23px;
+  line-height:1.5;
+  margin-bottom:20px;
+}
+
+.option{
+  display:block;
+  width:100%;
+  text-align:left;
+  border:2px solid #d8e0ea;
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  margin:10px 0;
+  cursor:pointer;
+  font-size:16px;
+}
+
+.option:hover{
+  border-color:#124e8c;
+}
+
+.option.selected{
+  border-color:#124e8c;
+  background:#e8f2ff;
+}
+
+.option.correct{
+  border-color:#159447;
+  background:#e5f8ed;
+}
+
+.option.wrong{
+  border-color:#d92d20;
+  background:#fff0ee;
+}
+
+.controls{
+  display:flex;
+  justify-content:space-between;
+  margin-top:25px;
+  gap:10px;
+}
+
+.result{
+  text-align:center;
+  max-width:800px;
+  margin:50px auto;
+}
+
+.score{
+  font-size:65px;
+  font-weight:900;
+  color:#124e8c;
+  margin:20px;
+}
+
+.result-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:15px;
+  margin:25px 0;
+}
+
+.review{
+  text-align:left;
+  margin-top:30px;
+}
+
+.review-item{
+  background:white;
+  padding:20px;
+  border-radius:14px;
+  margin:15px 0;
+  box-shadow:0 5px 18px rgba(0,0,0,.07);
+}
+
+.review-item h4{
+  margin-bottom:12px;
+}
+
+.rank-table{
+  width:100%;
+  border-collapse:collapse;
+  background:white;
+  border-radius:14px;
+  overflow:hidden;
+}
+
+.rank-table th,
+.rank-table td{
+  padding:15px;
+  border-bottom:1px solid #e8edf3;
+  text-align:left;
+}
+
+.rank-table th{
+  background:#071a38;
+  color:white;
+}
+
+.podium{
+  display:flex;
+  justify-content:center;
+  align-items:end;
+  gap:12px;
+  margin:35px auto;
+  max-width:650px;
+}
+
+.podium div{
+  width:30%;
+  text-align:center;
+  background:white;
+  padding:20px 10px;
+  border-radius:15px 15px 0 0;
+  box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.podium .first{
+  min-height:180px;
+}
+
+.podium .second{
+  min-height:140px;
+}
+
+.podium .third{
+  min-height:110px;
+}
+
+.error{
+  max-width:800px;
+  margin:50px auto;
+  padding:25px;
+  background:#fff0ee;
+  border:1px solid #ffb4ab;
+  border-radius:15px;
+}
+
+footer{
+  background:#071a38;
+  color:white;
+  text-align:center;
+  padding:30px 15px;
+  margin-top:40px;
+}
+
+@media(max-width:800px){
+  .hero-grid{
+    grid-template-columns:1fr;
+  }
+
+  .hero h1{
+    font-size:40px;
+  }
+
+  .stats-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .batch-grid{
+    grid-template-columns:1fr;
+  }
+
+  .result-grid{
+    grid-template-columns:1fr;
+  }
+
+  .navlinks{
+    gap:10px;
+  }
+
+  nav{
+    align-items:flex-start;
+  }
+}
+
+@media(max-width:500px){
+  .hero{
+    padding:45px 0;
+  }
+
+  .hero h1{
+    font-size:34px;
+  }
+
+  .stats-grid{
+    grid-template-columns:1fr;
+  }
+
+  .navlinks button{
+    font-size:13px;
+  }
+
+  .question{
+    font-size:19px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">Loyal<span>Learn</span></div>
+
+  <div class="navlinks">
+    <button onclick="home()">Home</button>
+    <button onclick="startPage()">Start Test</button>
+    <button onclick="rankPage()">Rank Dashboard</button>
+    <button onclick="aboutPage()">About</button>
+    <button class="lang" onclick="toggleLang()" id="langBtn">हिंदी</button>
+  </div>
+</nav>
+
+<div id="app"></div>
+
+<footer>
+  <b>LoyalLearn</b><br>
+  Learn • Practice • Achieve
+</footer>
+
+<script>
+
+let D = {};
+let currentBatch = null;
+let currentQuestions = [];
+let currentIndex = 0;
+let answers = [];
+let studentName = "";
+let seconds = 0;
+let timer = null;
+let language = "both";
+
+function esc(v){
+  return String(v ?? "")
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;")
+    .replace(/'/g,"&#039;");
+}
+
+function showError(message){
+  document.getElementById("app").innerHTML =
+    '<div class="container"><div class="error">' +
+    '<h2>Website Loading Error</h2>' +
+    '<p>' + esc(message) + '</p>' +
+    '<br><button class="btn primary" onclick="location.reload()">Reload</button>' +
+    '</div></div>';
+}
+
 async function boot(){
   try{
-    const res=await fetch('/api/data',{cache:'no-store'});
-    if(!res.ok) throw new Error('Data API '+res.status);
-    D=await res.json();
-    if(!D||!Array.isArray(D.batches)) throw new Error('batches.json format is invalid');
+    const r = await fetch("/api/data");
+
+    if(!r.ok){
+      throw new Error("Server data load failed");
+    }
+
+    D = await r.json();
+
+    if(!D || typeof D !== "object"){
+      throw new Error("Invalid batches.json");
+    }
+
     home();
   }catch(e){
     console.error(e);
-    $('app').innerHTML='<div class="wrap"><div class="card" style="padding:30px;margin:30px auto;max-width:760px;text-align:center"><div style="font-size:48px">⚠️</div><h2>LoyalLearn is loading...</h2><p class="muted">Batch data could not be loaded right now. Please refresh the page once.</p><button class="btn" onclick="location.reload()">↻ Refresh</button></div></div>';
+    showError(e.message);
   }
-}function home(){let bs=D.batches||[],n=bs.reduce((x,b)=>x+b.questions.length,0);$('app').innerHTML='<section class="hero"><span class="badge">🏛️ UPSC PRACTICE PORTAL</span><h1>Your Dream<br><b>Our Mission</b></h1><p>Practice • Improve • Crack UPSC</p><div class="heroHindi">'+D.site.heroHindi+'<span>“Discipline today, Success tomorrow.”</span></div><button class="btn gold" onclick="startPage()">▶ Start Test</button> <button class="btn outline" onclick="rankPage()">🏆 View Rank</button></section><div class="wrap"><div class="stats"><div class="stat"><b>'+n+'</b><span>Live Questions</span></div><div class="stat"><b>'+bs.length+'+</b><span>Active Batches</span></div><div class="stat"><b>Hindi + English</b><span>Bilingual Support</span></div><div class="stat"><b>100%</b><span>Solution Review</span></div></div><section class="section"><h2>📚 Choose Your Batch</h2><p class="muted">🔄 Batches are loaded live from <b>batches.json</b> — add a new batch there and it appears on the website automatically after the next deploy.</p><div class="batches">'+bs.map((b,i)=>'<div class="card batch"><div class="ico">'+(i?'📘':'🎯')+'</div><h3>'+b.name+'</h3><div class="muted">'+b.description+'</div><p><b>'+b.questions.length+'</b> Questions • Hindi + English</p><button class="btn" onclick="startPage(\''+b.id+'\')">Start Batch →</button></div>').join('')+'</div></section><section class="card section" style="padding:25px"><h2>✨ Why LoyalLearn?</h2><p>⏱️ Tick-tick timer &nbsp; • &nbsp; 🌐 Hindi + English &nbsp; • &nbsp; 💡 Detailed solutions &nbsp; • &nbsp; 🏆 Public live rank &nbsp; • &nbsp; 🔁 Retake</p></section></div><div class="footer"><b>📘 LoyalLearn<br><small>Learn • Practice • Achieve</small></b><span>Topic Wise Questions • Instant Solutions • Live Leaderboard • Bilingual Support</span></div>'}
-function startPage(pre){let bs=D.batches||[],ch=pre||bs[0]?.id;$('app').innerHTML='<div class="wrap"><div class="card" style="padding:28px;max-width:700px;margin:35px auto"><h1>🎯 Start Test</h1><p class="muted">Enter your name and choose a batch.</p><input id="nm" class="namebox" placeholder="👤 Enter your name"><h3>Select Batch / बैच चुनें</h3><select id="bt" class="select">'+bs.map(b=>'<option value="'+b.id+'" '+(b.id===ch?'selected':'')+'>'+b.name+' — '+b.questions.length+' Q</option>').join('')+'</select><h3>Select Language / भाषा चुनें</h3><div class="lang"><button id="both" class="active" onclick="setLang(\'both\')">Hindi + English</button><button id="en" onclick="setLang(\'en\')">English</button><button id="hi" onclick="setLang(\'hi\')">हिंदी</button></div><button class="btn" style="width:100%" onclick="begin()">🚀 Start Test</button></div></div>'}function setLang(x){lang=x;document.querySelectorAll('.lang button').forEach(b=>b.classList.remove('active'));$(x).classList.add('active')}
-function tick(){try{let A=window.AudioContext||window.webkitAudioContext,c=new A(),o=c.createOscillator(),g=c.createGain();o.frequency.value=720;g.gain.value=.025;o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+.045)}catch(e){}}function begin(){name=$('nm').value.trim()||'Student';batch=D.batches.find(b=>b.id===$('bt').value);ans=Array(batch.questions.length).fill(null);idx=0;secs=0;clearInterval(timer);timer=setInterval(()=>{secs++;let t=$('timer');if(t)t.textContent=fmt(secs);tick()},1000);renderQ()}
-function renderQ(){let q=batch.questions[idx],p=Math.round((idx+1)/batch.questions.length*100),qt=lang==='hi'?q.hi:lang==='en'?q.q:q.q+'<br><span class="muted">'+q.hi+'</span>';$('app').innerHTML='<div class="wrap test"><div class="top"><b>🟢 Test in Progress</b><div class="timer" id="timer">'+fmt(secs)+'</div></div><div class="card qcard"><div class="muted">Question '+(idx+1)+' of '+batch.questions.length+'</div><div class="progress"><i style="width:'+p+'%"></i></div><h2>Q'+(idx+1)+'. '+qt+'</h2>'+q.o.map((o,i)=>'<button class="option '+(ans[idx]===i?'selected':'')+'" onclick="pick('+i+')"><b>'+String.fromCharCode(65+i)+'.</b> '+o+'</button>').join('')+'<div class="actions"><button class="btn" onclick="prevQ()">← Previous</button><button class="btn" onclick="nextQ()">'+(idx===batch.questions.length-1?'Submit Test':'Next →')+'</button></div></div></div>'}
-function pick(i){ans[idx]=i;renderQ()}function prevQ(){if(idx>0){idx--;renderQ()}}function nextQ(){if(idx<batch.questions.length-1){idx++;renderQ()}else finish()}async function finish(){clearInterval(timer);let c=0;batch.questions.forEach((q,i)=>{if(ans[i]===q.a)c++});let t=batch.questions.length,ac=Math.round(c/t*100);await fetch('/api/result',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,score:c,total:t,correct:c,wrong:t-c,accuracy:ac,time:secs,batch:batch.name})});resultPage(c,t,ac)}
-function resultPage(c,t,ac){$('app').innerHTML='<div class="wrap"><div class="card" style="padding:25px;margin:20px auto;max-width:1000px"><h2>🎉 Test Completed!</h2><div class="resultgrid"><div class="stat"><b>'+c+'/'+t+'</b><span>Score</span></div><div class="stat"><b>'+ac+'%</b><span>Accuracy</span></div><div class="stat"><b>'+c+'</b><span>Correct</span></div><div class="stat"><b>'+(t-c)+'</b><span>Wrong</span></div><div class="stat"><b>'+fmt(secs)+'</b><span>Time Taken</span></div></div><h2>📖 Question Review</h2>'+batch.questions.map((q,i)=>{let ok=ans[i]===q.a,ya=ans[i]==null?'Not answered':q.o[ans[i]];return '<div class="review '+(ok?'':'bad')+'"><b>Q'+(i+1)+'. '+q.q+'</b><div class="muted">'+q.hi+'</div><p>Your answer: <b>'+ya+'</b></p><p>Correct answer: <b>'+q.o[q.a]+'</b></p><p>💡 <b>Solution:</b> '+q.e+'</p><p class="muted">'+q.eh+'</p></div>'}).join('')+'<button class="btn" onclick="startPage(\''+batch.id+'\')">🔁 Retake</button> <button class="btn" onclick="rankPage()">🏆 View Rank</button></div></div>'}
-async function rankPage(){let r=await (await fetch('/api/rank')).json(),top=r.slice(0,3);$('app').innerHTML='<div class="wrap"><div class="card" style="padding:25px;margin-top:20px"><h1>🏆 Public Rank Dashboard</h1><p class="muted">Everyone can see the leaderboard. New results update automatically.</p><div class="podium">'+[top[1],top[0],top[2]].map(x=>x?'<div class="pod '+(x.rank===1?'first':x.rank===2?'second':'third')+'"><div style="font-size:34px">'+(x.rank===1?'🥇':x.rank===2?'🥈':'🥉')+'</div><h2>'+x.name+'</h2><b>'+x.totalScore+' points</b><div class="muted">'+x.accuracy+'% accuracy • '+x.tests+' tests</div></div>':'<div></div>').join('')+'</div><h2>Leaderboard</h2><table class="ranktable"><tr><th>Rank</th><th>Name</th><th>Total Tests</th><th>Best Score</th><th>Total Score</th><th>Accuracy</th></tr>'+r.map(x=>'<tr><td>#'+x.rank+'</td><td><b>'+x.name+'</b></td><td>'+x.tests+'</td><td>'+x.bestScore+'</td><td>'+x.totalScore+'</td><td>'+x.accuracy+'%</td></tr>').join('')+'</table></div></div>'}boot();</script></body></html>`;
-app.get('/',(q,s)=>s.type('html').send(HTML));app.get('/health',(q,s)=>s.json({ok:true}));app.listen(PORT,'0.0.0.0',()=>console.log('LoyalLearn running on '+PORT));
+}
+
+function home(){
+
+  const batches = Array.isArray(D.batches) ? D.batches : [];
+
+  document.getElementById("app").innerHTML = `
+
+  <section class="hero">
+    <div class="container hero-grid">
+
+      <div>
+        <h2>Your Dream / Our Mission</h2>
+
+        <h1>
+          UPSC तैयारी
+          <span>अब और भी आसान!</span>
+        </h1>
+
+        <p>
+          अभ्यास करो, अपनी तैयारी जांचो और हर टेस्ट के साथ
+          अपने लक्ष्य के करीब पहुंचो।
+        </p>
+
+        <div class="buttons">
+          <button class="btn primary" onclick="startPage()">
+            🚀 Start Test
+          </button>
+
+          <button class="btn secondary" onclick="rankPage()">
+            🏆 Rank Dashboard
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="mountain"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="container">
+
+      <div class="stats-grid">
+
+        <div class="card stat">
+          <b>${batches.length}</b>
+          <span>Active Batches</span>
+        </div>
+
+        <div class="card stat">
+          <b>1000+</b>
+          <span>Practice Questions</span>
+        </div>
+
+        <div class="card stat">
+          <b>24×7</b>
+          <span>Practice</span>
+        </div>
+
+        <div class="card stat">
+          <b>FREE</b>
+          <span>For Students</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <h2>📚 Available Batches</h2>
+
+      <div class="batch-grid">
+
+        ${
+          batches.length
+          ? batches.map((b,i)=>`
+
+            <div class="card batch-card">
+
+              <h3>${esc(b.name || b.title || "UPSC Practice Batch")}</h3>
+
+              <p>
+                ${esc(
+                  b.description ||
+                  "UPSC level practice questions और detailed solutions."
+                )}
+              </p>
+
+              <button
+                class="btn primary"
+                onclick="selectBatch(${i})">
+                Start Batch
+              </button>
+
+            </div>
+
+          `).join("")
+          :
+          `<div class="card">
+            <h3>No Batch Found</h3>
+            <p>
+              batches.json में अभी कोई batch/question उपलब्ध नहीं है।
+            </p>
+          </div>`
+        }
+
+      </div>
+
+    </div>
+  </section>
+  `;
+}
+
+function startPage(){
+
+  const batches = Array.isArray(D.batches) ? D.batches : [];
+
+  document.getElementById("app").innerHTML = `
+
+  <section class="section">
+
+    <div class="container">
+
+      <div class="card testbox">
+
+        <h2>🚀 Start UPSC Test</h2>
+
+        <p style="margin:15px 0;color:#667085">
+          अपना नाम डालें और batch चुनकर test शुरू करें।
+        </p>
+
+        <input
+          id="studentName"
+          placeholder="अपना नाम लिखें"
+          style="
+            width:100%;
+            padding:14px;
+            border:1px solid #ccd5df;
+            border-radius:10px;
+            font-size:16px;
+            margin:15px 0;
+          "
+        >
+
+        <h3 style="margin:15px 0">Language</h3>
+
+        <select
+          id="languageSelect"
+          style="
+            width:100%;
+            padding:14px;
+            border:1px solid #ccd5df;
+            border-radius:10px;
+            font-size:16px;
+          "
+        >
+          <option value="both">हिंदी + English</option>
+          <option value="en">English</option>
+          <option value="hi">हिंदी</option>
+        </select>
+
+        <h3 style="margin:25px 0 15px">
+          Select Batch
+        </h3>
+
+        <div class="batch-grid">
+
+          ${
+            batches.map((b,i)=>`
+
+              <button
+                class="card"
+                onclick="begin(${i})"
+                style="
+                  text-align:left;
+                  border:2px solid #d8e0ea;
+                  cursor:pointer;
+                "
+              >
+                <h3>${esc(b.name || b.title || "Batch")}</h3>
+
+                <p>
+                  ${esc(
+                    b.description ||
+                    "UPSC Practice Test"
+                  )}
+                </p>
+              </button>
+
+            `).join("")
+          }
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  `;
+}
+
+function selectBatch(i){
+  startPage();
+
+  setTimeout(()=>{
+    begin(i);
+  },100);
+}
+
+function normalizeQuestions(batch){
+
+  let q =
+    batch.questions ||
+    batch.question ||
+    batch.data ||
+    [];
+
+  if(!Array.isArray(q)){
+    return [];
+  }
+
+  return q.map(x=>{
+
+    const options =
+      x.options ||
+      x.choices ||
+      [
+        x.option1,
+        x.option2,
+        x.option3,
+        x.option4
+      ].filter(Boolean);
+
+    return {
+      question:
+        x.question ||
+        x.q ||
+        x.text ||
+        "Question",
+
+      question_hi:
+        x.question_hi ||
+        x.hindi ||
+        x.hi ||
+        "",
+
+      question_en:
+        x.question_en ||
+        x.english ||
+        x.en ||
+        "",
+
+      options: Array.isArray(options) ? options : [],
+
+      answer:
+        x.answer ??
+        x.correct ??
+        x.correctAnswer ??
+        x.correct_option ??
+        0,
+
+      explanation:
+        x.explanation ||
+        x.solution ||
+        x.explain ||
+        "",
+
+      explanation_hi:
+        x.explanation_hi ||
+        x.solution_hi ||
+        "",
+
+      explanation_en:
+        x.explanation_en ||
+        x.solution_en ||
+        ""
+    };
+
+  });
+}
+
+function begin(index){
+
+  studentName =
+    document.getElementById("studentName")?.value.trim() ||
+    "Student";
+
+  language =
+    document.getElementById("languageSelect")?.value ||
+    "both";
+
+  currentBatch = D.batches[index];
+
+  currentQuestions = normalizeQuestions(currentBatch);
+
+  if(!currentQuestions.length){
+
+    showError(
+      "इस batch में questions नहीं मिले। batches.json check करें।"
+    );
+
+    return;
+  }
+
+  currentIndex = 0;
+  answers = new Array(currentQuestions.length).fill(null);
+  seconds = 0;
+
+  clearInterval(timer);
+
+  timer = setInterval(()=>{
+    seconds++;
+    const t = document.getElementById("timer");
+
+    if(t){
+      t.textContent = formatTime(seconds);
+    }
+  },1000);
+
+  renderQ();
+}
+
+function formatTime(s){
+
+  const m = Math.floor(s/60)
+    .toString()
+    .padStart(2,"0");
+
+  const sec = (s%60)
+    .toString()
+    .padStart(2,"0");
+
+  return m + ":" + sec;
+}
+
+function getQuestionText(q){
+
+  if(language === "hi"){
+    return q.question_hi || q.question || q.question_en;
+  }
+
+  if(language === "en"){
+    return q.question_en || q.question || q.question_hi;
+  }
+
+  const hi = q.question_hi || q.question;
+  const en = q.question_en || "";
+
+  if(hi && en && hi !== en){
+    return `<div>${esc(hi)}</div>
+            <div style="margin-top:12px;color:#667085">
+              ${esc(en)}
+            </div>`;
+  }
+
+  return esc(hi || en);
+}
+
+function renderQ(){
+
+  const q = currentQuestions[currentIndex];
+
+  const selected = answers[currentIndex];
+
+  document.getElementById("app").innerHTML = `
+
+  <section class="section">
+
+    <div class="container">
+
+      <div class="testbox">
+
+        <div class="topbar">
+
+          <b>
+            Question ${currentIndex + 1}
+            / ${currentQuestions.length}
+          </b>
+
+          <div class="timer" id="timer">
+            ${formatTime(seconds)}
+          </div>
+
+        </div>
+
+        <div class="card">
+
+          <div class="question">
+            ${getQuestionText(q)}
+          </div>
+
+          <div>
+
+            ${
+              q.options.map((op,i)=>`
+
+                <button
+                  class="option ${selected === i ? "selected" : ""}"
+                  onclick="pick(${i})"
+                >
+                  <b>${String.fromCharCode(65+i)}.</b>
+                  ${esc(op)}
+                </button>
+
+              `).join("")
+            }
+
+          </div>
+
+          <div class="controls">
+
+            <button
+              class="btn secondary"
+              onclick="prevQ()"
+              ${currentIndex===0 ? "disabled" : ""}
+            >
+              ← Previous
+            </button>
+
+            ${
+              currentIndex === currentQuestions.length - 1
+
+              ? `<button
+                   class="btn primary"
+                   onclick="finish()">
+                   Submit Test ✓
+                 </button>`
+
+              : `<button
+                   class="btn primary"
+                   onclick="nextQ()">
+                   Next →
+                 </button>`
+            }
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  `;
+}
+
+function pick(i){
+
+  answers[currentIndex] = i;
+
+  renderQ();
+}
+
+function prevQ(){
+
+  if(currentIndex > 0){
+    currentIndex--;
+    renderQ();
+  }
+}
+
+function nextQ(){
+
+  if(currentIndex < currentQuestions.length - 1){
+    currentIndex++;
+    renderQ();
+  }
+}
+
+async function finish(){
+
+  clearInterval(timer);
+
+  let correct = 0;
+
+  currentQuestions.forEach((q,i)=>{
+
+    if(isCorrect(q,answers[i])){
+      correct++;
+    }
+
+  });
+
+  const total = currentQuestions.length;
+
+  const wrong = total - correct;
+
+  const score = correct;
+
+  const accuracy =
+    total
+    ? Math.round((correct/total)*100)
+    : 0;
+
+  try{
+
+    await fetch("/api/result",{
+      method:"POST",
+      headers:{
+        "Content-Type":"application/json"
+      },
+      body:JSON.stringify({
+        name:studentName,
+        batch:
+          currentBatch.name ||
+          currentBatch.title ||
+          "UPSC",
+        score,
+        correct,
+        wrong,
+        total,
+        accuracy,
+        time:seconds
+      })
+    });
+
+  }catch(e){
+    console.error(e);
+  }
+
+  resultPage(
+    correct,
+    wrong,
+    total,
+    accuracy
+  );
+}
+
+function isCorrect(q,userAnswer){
+
+  if(userAnswer === null || userAnswer === undefined){
+    return false;
+  }
+
+  let a = q.answer;
+
+  if(typeof a === "string"){
+
+    const s = a.trim().toUpperCase();
+
+    if(/^[A-D]$/.test(s)){
+      a = s.charCodeAt(0) - 65;
+    }else if(!isNaN(Number(s))){
+      a = Number(s);
+    }
+
+  }
+
+  return Number(a) === Number(userAnswer);
+}
+
+function resultPage(
+  correct,
+  wrong,
+  total,
+  accuracy
+){
+
+  document.getElementById("app").innerHTML = `
+
+  <section class="section">
+
+    <div class="container">
+
+      <div class="card result">
+
+        <h1>🎉 Test Completed!</h1>
+
+        <p style="margin-top:10px">
+          Great job, ${esc(studentName)}!
+        </p>
+
+        <div class="score">
+          ${correct}/${total}
+        </div>
+
+        <div class="result-grid">
+
+          <div class="card">
+            <b style="color:#159447;font-size:25px">
+              ${correct}
+            </b>
+            <br>Correct
+          </div>
+
+          <div class="card">
+            <b style="color:#d92d20;font-size:25px">
+              ${wrong}
+            </b>
+            <br>Wrong
+          </div>
+
+          <div class="card">
+            <b style="color:#124e8c;font-size:25px">
+              ${accuracy}%
+            </b>
+            <br>Accuracy
+          </div>
+
+        </div>
+
+        <p>
+          Time Taken:
+          <b>${formatTime(seconds)}</b>
+        </p>
+
+        <div class="buttons" style="justify-content:center">
+
+          <button
+            class="btn primary"
+            onclick="showReview()">
+            📖 Detailed Review
+          </button>
+
+          <button
+            class="btn secondary"
+            onclick="startPage()">
+            🔄 Retake Test
+          </button>
+
+          <button
+            class="btn secondary"
+            onclick="rankPage()">
+            🏆 Rank Dashboard
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  `;
+}
+
+function showReview(){
+
+  let html = `
+
+  <section class="section">
+
+    <div class="container">
+
+      <div class="review">
+
+        <h2>📖 Detailed Solution</h2>
+
+  `;
+
+  currentQuestions.forEach((q,i)=>{
+
+    const user = answers[i];
+
+    const ok = isCorrect(q,user);
+
+    let answerText =
+      user === null
+      ? "Not Attempted"
+      : q.options[user];
+
+    let correctText =
+      q.options[q.answer];
+
+    let explanation =
+      q.explanation;
+
+    if(language === "hi"){
+      explanation =
+        q.explanation_hi ||
+        q.explanation ||
+        q.explanation_en;
+    }
+
+    if(language === "en"){
+      explanation =
+        q.explanation_en ||
+        q.explanation ||
+        q.explanation_hi;
+    }
+
+    if(language === "both"){
+      explanation =
+        q.explanation_hi ||
+        q.explanation ||
+        q.explanation_en;
+    }
+
+    html += `
+
+      <div class="review-item">
+
+        <h4>
+          Q${i+1}.
+          ${getQuestionText(q)}
+        </h4>
+
+        <p>
+          <b>Your Answer:</b>
+          <span style="color:${ok ? "#159447" : "#d92d20"}">
+            ${esc(answerText || "Not Attempted")}
+          </span>
+        </p>
+
+        <p style="margin-top:8px">
+          <b>Correct Answer:</b>
+          <span style="color:#159447">
+            ${esc(correctText || "")}
+          </span>
+        </p>
+
+        ${
+          explanation
+          ?
+          `<p style="margin-top:12px;line-height:1.6">
+             <b>Explanation:</b><br>
+             ${esc(explanation)}
+           </p>`
+          :
+          ""
+        }
+
+      </div>
+
+    `;
+
+  });
+
+  html += `
+
+        <button
+          class="btn primary"
+          onclick="resultPage(
+            ${answers.filter((a,i)=>isCorrect(currentQuestions[i],a)).length},
+            ${answers.filter((a,i)=>!isCorrect(currentQuestions[i],a)).length},
+            ${currentQuestions.length},
+            ${Math.round(
+              answers.filter((a,i)=>isCorrect(currentQuestions[i],a)).length /
+              currentQuestions.length * 100
+            )}
+          )">
+          ← Back to Result
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+  `;
+
+  document.getElementById("app").innerHTML = html;
+}
+
+async function rankPage(){
+
+  document.getElementById("app").innerHTML = `
+
+  <section class="section">
+
+    <div class="container">
+
+      <h2>🏆 Public Rank Dashboard</h2>
+
+      <p style="color:#667085;margin-bottom:20px">
+        सभी students की best performance यहाँ दिखाई जाएगी।
+      </p>
+
+      <div id="rankContent">
+        <div class="card">
+          Loading ranking...
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  `;
+
+  try{
+
+    const r = await fetch("/api/rank");
+
+    const data = await r.json();
+
+    renderRank(data);
+
+  }catch(e){
+
+    document.getElementById("rankContent").innerHTML = `
+      <div class="error">
+        Ranking load नहीं हो सकी।
+      </div>
+    `;
+
+  }
+}
+
+function renderRank(data){
+
+  const box =
+    document.getElementById("rankContent");
+
+  if(!data.length){
+
+    box.innerHTML = `
+      <div class="card">
+        अभी कोई test result नहीं है।
+      </div>
+    `;
+
+    return;
+  }
+
+  const top = data.slice(0,3);
+
+  let podium = "";
+
+  if(top[1]){
+    podium += `
+      <div class="second">
+        🥈<br>
+        <b>${esc(top[1].name)}</b><br>
+        ${top[1].bestScore}
+      </div>
+    `;
+  }
+
+  if(top[0]){
+    podium += `
+      <div class="first">
+        🥇<br>
+        <b>${esc(top[0].name)}</b><br>
+        ${top[0].bestScore}
+      </div>
+    `;
+  }
+
+  if(top[2]){
+    podium += `
+      <div class="third">
+        🥉<br>
+        <b>${esc(top[2].name)}</b><br>
+        ${top[2].bestScore}
+      </div>
+    `;
+  }
+
+  box.innerHTML = `
+
+    <div class="podium">
+      ${podium}
+    </div>
+
+    <div style="overflow-x:auto">
+
+      <table class="rank-table">
+
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Best Score</th>
+            <th>Tests</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          ${
+            data.map(x=>`
+
+              <tr>
+                <td><b>#${x.rank}</b></td>
+                <td>${esc(x.name)}</td>
+                <td>${x.bestScore}</td>
+                <td>${x.tests}</td>
+              </tr>
+
+            `).join("")
+          }
+
+        </tbody>
+
+      </table>
+
+    </div>
+  `;
+}
+
+function aboutPage(){
+
+  document.getElementById("app").innerHTML = `
+
+  <section class="section">
+
+    <div class="container">
+
+      <div class="card">
+
+        <h2>About LoyalLearn</h2>
+
+        <p style="line-height:1.8">
+          LoyalLearn एक modern practice platform है,
+          जहाँ students UPSC और competitive exams की
+          तैयारी practice tests, performance tracking और
+          detailed solutions के साथ कर सकते हैं।
+        </p>
+
+        <br>
+
+        <h3>Learn • Practice • Achieve</h3>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  `;
+
+}
+
+function toggleLang(){
+
+  if(language === "both"){
+    language = "hi";
+  }else if(language === "hi"){
+    language = "en";
+  }else{
+    language = "both";
+  }
+
+  const btn =
+    document.getElementById("langBtn");
+
+  if(btn){
+    btn.textContent =
+      language === "both"
+      ? "हिंदी"
+      : language === "hi"
+      ? "English"
+      : "हिंदी + English";
+  }
+
+  if(currentQuestions.length){
+    renderQ();
+  }
+}
+
+boot();
+
+</script>
+
+</body>
+</html>
+`;
+
+app.get("/", (req, res) => {
+  res.type("html").send(HTML);
+});
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`LoyalLearn running on port ${PORT}`);
+});
