@@ -1083,7 +1083,7 @@ function getQuestionText(question) {
 boot();
 `;
 
-const FINAL_HTML = HTML + PART2;
+const FINAL_HTML = HTML + PART2 + "</script></body></html>";
 
 app.get("/", function(req, res) {
   res.type("html").send(FINAL_HTML);
