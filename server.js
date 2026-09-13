@@ -1173,7 +1173,7 @@ function home(){
 
 setActive("navHome");
 
-const batches=D.batches||[];
+const batches=D.batches||[];\n\nsetTimeout(()=>{if(document.getElementById("batchSelect")?.value)loadSubjects();},0);
 
 document.getElementById("app").innerHTML=
 
@@ -1345,7 +1345,7 @@ document.getElementById("app").innerHTML=
 '<div style="margin-top:0">'+
 '<label class="label">📚 Select Batch</label>'+
 
-'<select id="batchSelect" class="input" onchange="loadSubjects()">'+
+'<select id="batchSelect" class="input" onchange="loadSubjects();this.blur()">'+
 
 '<option value="">Select Batch</option>'+
 
@@ -1362,7 +1362,7 @@ esc(b.name||b.title||"UPSC Batch")+
 '<div style="margin-top:15px">'+
 '<label class="label">📖 Select Subject</label>'+
 
-'<select id="subjectSelect" class="input" onchange="loadChapters()" disabled>'+
+'<select id="subjectSelect" class="input" onchange="loadChapters();this.blur()">'+
 '<option value="">Select Subject</option>'+
 '</select>'+
 
@@ -1371,7 +1371,7 @@ esc(b.name||b.title||"UPSC Batch")+
 '<div style="margin-top:15px">'+
 '<label class="label">📑 Select Chapter</label>'+
 
-'<select id="chapterSelect" class="input" onchange="loadTopics()" disabled>'+
+'<select id="chapterSelect" class="input" onchange="loadTopics();this.blur()">'+
 '<option value="">Select Chapter</option>'+
 '</select>'+
 
@@ -1402,48 +1402,39 @@ esc(b.name||b.title||"UPSC Batch")+
 ========================= */
 
 function getMetaQuestions(){
+const bi=Number(document.getElementById("batchSelect")?.value);
 
-const bi=Number(
-document.getElementById("batchSelect")?.value
-);
-
-if(
-!Number.isInteger(bi)||
-!D.batches[bi]
-)
+if(!Number.isInteger(bi)||!D.batches||!D.batches[bi]){
 return [];
+}
 
 return normalizeBatch(D.batches[bi]);
-
 }
 
 function fillSelect(id,items,label){
-
 const el=document.getElementById(id);
+if(!el)return;
 
-if(!el)
-return;
-
-el.innerHTML=
-'<option value="">'+label+'</option>'+
-items.map(x=>
-'<option value="'+esc(x)+'">'+
-esc(x)+
-'</option>'
-).join("");
+el.innerHTML='<option value="">'+label+'</option>'+
+items.map(x=>{
+const v=String(x??"");
+return '<option value="'+esc(v)+'">'+esc(v)+'</option>';
+}).join("");
 
 el.disabled=items.length===0;
+}
 
+function resetChapterTopic(){
+fillSelect("chapterSelect",[],"Select Chapter");
+fillSelect("topicSelect",[],"Select Topic");
 }
 
 function loadSubjects(){
-
 const qs=getMetaQuestions();
 
 const subjects=[
 ...new Set(
-qs
-.map(q=>q.subject)
+qs.map(q=>q.subject)
 .filter(Boolean)
 )
 ].sort();
@@ -1454,22 +1445,10 @@ subjects,
 "Select Subject"
 );
 
-fillSelect(
-"chapterSelect",
-[],
-"Select Chapter"
-);
-
-fillSelect(
-"topicSelect",
-[],
-"Select Topic"
-);
-
+resetChapterTopic();
 }
 
 function loadChapters(){
-
 const qs=getMetaQuestions();
 
 const subject=
@@ -1478,7 +1457,7 @@ document.getElementById("subjectSelect")?.value||"";
 const chapters=[
 ...new Set(
 qs
-.filter(q=>q.subject===subject)
+.filter(q=>String(q.subject||"")===String(subject))
 .map(q=>q.chapter)
 .filter(Boolean)
 )
@@ -1495,11 +1474,9 @@ fillSelect(
 [],
 "Select Topic"
 );
-
 }
 
 function loadTopics(){
-
 const qs=getMetaQuestions();
 
 const subject=
@@ -1511,10 +1488,9 @@ document.getElementById("chapterSelect")?.value||"";
 const topics=[
 ...new Set(
 qs
-.filter(
-q=>
-q.subject===subject&&
-q.chapter===chapter
+.filter(q=>
+String(q.subject||"")===String(subject) &&
+String(q.chapter||"")===String(chapter)
 )
 .map(q=>q.topic)
 .filter(Boolean)
@@ -1526,7 +1502,6 @@ fillSelect(
 topics,
 "Select Topic"
 );
-
 }
 
 /* =========================
