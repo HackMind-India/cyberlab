@@ -209,8 +209,140 @@ function home(){
 function startPage(){
   setActive("navStart");
   const batches=D.batches||[];
-  document.getElementById("app").innerHTML='<section class="section"><div class="card formCard"><h2>🎯 Start Test</h2><p style="color:#64748b">Enter your name to begin the test</p><div class="formRow"><div><label class="label">👤 Your Name</label><input id="studentName" class="input" placeholder="Enter your name"></div><div><label class="label">Select Language / भाषा चुनें</label><select id="languageSelect" class="input"><option value="both">Bilingual — हिंदी + English</option><option value="en">English</option><option value="hi">हिंदी</option></select></div></div><h3 style="margin-top:25px">Select Batch</h3><div class="grid">'+batches.map((b,i)=>'<button class="card batch" style="text-align:left" onclick="begin('+i+')"><h3>'+esc(b.name||b.title||"UPSC Batch")+'</h3><p>'+esc(b.description||"Practice test")+'</p></button>').join("")+'</div></div></section>';
+  document.getElementById("app").innerHTML=
+    '<section class="section"><div class="card formCard">'+
+    '<h2>🎯 Start Test</h2>'+
+    '<p style="color:#64748b">Enter your name, choose language and select a batch.</p>'+
+    '<div class="formRow">'+
+    '<div><label class="label">👤 Your Name</label><input id="studentName" class="input" placeholder="Enter your name"></div>'+
+    '<div><label class="label">Select Language / भाषा चुनें</label>'+
+    '<select id="languageSelect" class="input"><option value="both">Bilingual — हिंदी + English</option><option value="en">English</option><option value="hi">हिंदी</option></select></div>'+
+    '</div>'+
+    '<h3 style="margin-top:25px">Select Batch</h3>'+
+    '<div class="grid">'+
+    (batches.length?batches.map((b,i)=>'<div class="card batch"><h3>'+esc(b.name||b.title||"Batch")+
+    '</h3><p>'+esc(b.description||"Topic-wise practice")+
+    '</p><button class="btn primary" onclick="selectBatch('+i+')">Select Batch</button></div>').join("")+
+    '<div class="card"><h3>No batches found</h3><p>Add questions to batches.json.</p></div>')+
+    '</div></div></section>';
 }
+
+function selectBatch(i){
+  const b=D.batches[i];
+  if(!b) return;
+
+  const qs=b.questions||[];
+
+  const subjects=[...new Set(qs.map(q=>q.subject).filter(Boolean))];
+  const firstSubject=subjects[0]||"";
+
+  document.getElementById("app").innerHTML=
+    '<section class="section"><div class="card formCard">'+
+    '<h2>📚 '+esc(b.name||b.title||"Batch")+'</h2>'+
+    '<p style="color:#64748b">Subject → Chapter → Topic चुनें</p>'+
+    '<div class="formRow">'+
+    '<div><label class="label">Subject / विषय</label>'+
+    '<select id="subjectSelect" class="input" onchange="loadChapters('+i+')">'+
+    '<option value="">Select Subject</option>'+
+    subjects.map(x=>'<option value="'+escAttr(x)+'">'+esc(x)+'</option>').join("")+
+    '</select></div>'+
+    '<div><label class="label">Chapter / अध्याय</label>'+
+    '<select id="chapterSelect" class="input" onchange="loadTopics('+i+')"><option value="">Select Chapter</option></select></div>'+
+    '</div>'+
+    '<div class="formRow">'+
+    '<div><label class="label">Topic / टॉपिक</label>'+
+    '<select id="topicSelect" class="input"><option value="">Select Topic</option></select></div>'+
+    '<div style="display:flex;align-items:end"><button class="btn primary" onclick="startTopicTest('+i+')">🚀 Start Topic Test</button></div>'+
+    '</div>'+
+    '<button class="btn light" onclick="startPage()">← Back</button>'+
+    '</div></section>';
+
+  const st=document.getElementById("subjectSelect");
+  if(st && firstSubject){
+    st.value=firstSubject;
+    loadChapters(i);
+  }
+}
+
+function loadChapters(i){
+  const b=D.batches[i];
+  const subject=document.getElementById("subjectSelect")?.value;
+  const cs=document.getElementById("chapterSelect");
+  const ts=document.getElementById("topicSelect");
+  if(!b||!cs) return;
+
+  const chapters=[...new Set((b.questions||[])
+    .filter(q=>!subject||q.subject===subject)
+    .map(q=>q.chapter).filter(Boolean))];
+
+  cs.innerHTML='<option value="">Select Chapter</option>'+
+    chapters.map(x=>'<option value="'+escAttr(x)+'">'+esc(x)+'</option>').join("");
+
+  if(ts) ts.innerHTML='<option value="">Select Topic</option>';
+
+  if(chapters.length){
+    cs.value=chapters[0];
+    loadTopics(i);
+  }
+}
+
+function loadTopics(i){
+  const b=D.batches[i];
+  const subject=document.getElementById("subjectSelect")?.value;
+  const chapter=document.getElementById("chapterSelect")?.value;
+  const ts=document.getElementById("topicSelect");
+  if(!b||!ts) return;
+
+  const topics=[...new Set((b.questions||[])
+    .filter(q=>(!subject||q.subject===subject)&&(!chapter||q.chapter===chapter))
+    .map(q=>q.topic).filter(Boolean))];
+
+  ts.innerHTML='<option value="">Select Topic</option>'+
+    topics.map(x=>'<option value="'+escAttr(x)+'">'+esc(x)+'</option>').join("");
+
+  if(topics.length) ts.value=topics[0];
+}
+
+function startTopicTest(i){
+  const b=D.batches[i];
+  const subject=document.getElementById("subjectSelect")?.value;
+  const chapter=document.getElementById("chapterSelect")?.value;
+  const topic=document.getElementById("topicSelect")?.value;
+
+  if(!subject||!chapter||!topic){
+    alert("Subject, Chapter और Topic select करें.");
+    return;
+  }
+
+  studentName=cleanClient(document.getElementById("studentName")?.value||"Student");
+  language=document.getElementById("languageSelect")?.value||"both";
+
+  currentBatch=b;
+  currentQuestions=(b.questions||[]).filter(q=>
+    q.subject===subject &&
+    q.chapter===chapter &&
+    q.topic===topic
+  );
+
+  if(!currentQuestions.length){
+    alert("इस Topic में questions नहीं मिले.");
+    return;
+  }
+
+  currentIndex=0;
+  answers=new Array(currentQuestions.length).fill(null);
+  seconds=0;
+  clearInterval(timer);
+
+  timer=setInterval(()=>{
+    seconds++;
+    const e=document.getElementById("timer");
+    if(e) e.textContent=formatTime(seconds);
+  },1000);
+
+  renderQ();
+}
+
 function begin(i){
   const nameEl=document.getElementById("studentName"); if(nameEl) studentName=cleanClient(nameEl.value);
   const langEl=document.getElementById("languageSelect"); if(langEl) language=langEl.value;
