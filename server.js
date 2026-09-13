@@ -209,21 +209,30 @@ function home(){
 function startPage(){
   setActive("navStart");
   const batches=D.batches||[];
+
   document.getElementById("app").innerHTML=
-    '<section class="section"><div class="card formCard">'+
-    '<h2>🎯 Start Test</h2>'+
-    '<p style="color:#64748b">Enter your name, choose language and select a batch.</p>'+
-    '<div class="formRow">'+
-    '<div><label class="label">👤 Your Name</label><input id="studentName" class="input" placeholder="Enter your name"></div>'+
-    '<div><label class="label">Select Language / भाषा चुनें</label>'+
-    '<select id="languageSelect" class="input"><option value="both">Bilingual — हिंदी + English</option><option value="en">English</option><option value="hi">हिंदी</option></select></div>'+
-    '</div>'+
+    '<section class="section"><div class="card">'+
+    '<h2>🚀 Start Test</h2>'+
+    '<label class="label">Your Name</label>'+
+    '<input id="studentName" class="input" placeholder="Enter your name">'+
+    '<label class="label">Language</label>'+
+    '<select id="languageSelect" class="input">'+
+    '<option value="both">Bilingual — हिन्दी + English</option>'+
+    '<option value="en">English</option>'+
+    '<option value="hi">हिंदी</option>'+
+    '</select>'+
     '<h3 style="margin-top:25px">Select Batch</h3>'+
     '<div class="grid">'+
-    (batches.length?batches.map((b,i)=>'<div class="card batch"><h3>'+esc(b.name||b.title||"Batch")+
-    '</h3><p>'+esc(b.description||"Topic-wise practice")+
-    '</p><button class="btn primary" onclick="selectBatch('+i+')">Select Batch</button></div>').join("")+
-    '<div class="card"><h3>No batches found</h3><p>Add questions to batches.json.</p></div>')+
+    (batches.length ?
+      batches.map((b,i)=>
+        '<div class="card batch">'+
+        '<h3>'+esc(b.name||b.title||("Batch "+(i+1)))+'</h3>'+
+        '<p>'+esc(b.description||"Topic-wise UPSC practice")+'</p>'+
+        '<button class="btn primary" onclick="selectBatch('+i+')">Select Batch</button>'+
+        '</div>'
+      ).join("") :
+      '<div class="card"><h3>No batches found</h3><p>Add questions to batches.json</p></div>'
+    )+
     '</div></div></section>';
 }
 
