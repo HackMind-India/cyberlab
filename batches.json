@@ -44,22 +44,6 @@
           "topic": "Rivers of India"
         },
         {
-          "q": "Which part of the Indian Constitution deals with Fundamental Rights?",
-          "hi": "भारतीय संविधान का कौन-सा भाग मौलिक अधिकारों से संबंधित है?",
-          "o": [
-            "Part II / भाग II",
-            "Part III / भाग III",
-            "Part IV / भाग IV",
-            "Part V / भाग V"
-          ],
-          "a": 1,
-          "e": "Fundamental Rights are contained in Part III of the Constitution.",
-          "eh": "मौलिक अधिकार संविधान के भाग III में दिए गए हैं।",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Fundamental Rights"
-        },
-        {
           "q": "Which institution is India's central bank?",
           "hi": "भारत का केंद्रीय बैंक कौन-सा संस्थान है?",
           "o": [
@@ -106,22 +90,6 @@
           "subject": "Science",
           "chapter": "Physics",
           "topic": "Electricity"
-        },
-        {
-          "q": "Which body conducts elections to the Lok Sabha in India?",
-          "hi": "भारत में लोकसभा के चुनाव कौन कराता है?",
-          "o": [
-            "UPSC",
-            "Election Commission of India / भारत निर्वाचन आयोग",
-            "Finance Commission / वित्त आयोग",
-            "NITI Aayog / नीति आयोग"
-          ],
-          "a": 1,
-          "e": "The Election Commission of India conducts elections to Parliament and state legislatures.",
-          "eh": "भारत निर्वाचन आयोग संसद और राज्य विधानमंडलों के चुनाव कराता है।",
-          "subject": "Polity",
-          "chapter": "Constitutional Bodies",
-          "topic": "Election Commission of India"
         },
         {
           "q": "If all A are B and all B are C, which statement must be true?",
@@ -172,683 +140,13 @@
           "topic": "Quit India Movement"
         },
         {
-          "q": "The Constitution of India was adopted by the Constituent Assembly on which date?",
-          "hi": "भारत का संविधान संविधान सभा द्वारा किस तारीख को अपनाया गया था?",
-          "o": [
-            "15 August 1947",
-            "26 November 1949",
-            "26 January 1950",
-            "9 December 1946"
-          ],
-          "a": 1,
-          "e": "The Constitution was adopted on 26 November 1949.",
-          "eh": "संविधान 26 नवंबर 1949 को अपनाया गया था.",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Constitution Making"
-        },
-        {
-          "q": "The Constitution of India came into force on which date?",
-          "hi": "भारत का संविधान किस तारीख को लागू हुआ?",
-          "o": [
-            "15 August 1947",
-            "26 November 1949",
-            "26 January 1950",
-            "2 October 1950"
-          ],
-          "a": 2,
-          "e": "The Constitution came into force on 26 January 1950.",
-          "eh": "संविधान 26 जनवरी 1950 को लागू हुआ.",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Constitution Making"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा कथन सही है? The Constitution of India was adopted on 26 November 1949.",
-          "hi": "The Constitution of India was adopted on 26 November 1949. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "26 November 1949",
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive"
-          ],
-          "a": 0,
-          "e": "सही उत्तर: 26 November 1949. The Constitution of India was adopted on 26 November 1949.",
-          "eh": "सही उत्तर: 26 November 1949. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Constitution Making"
-        },
-        {
-          "q": "भारतीय संविधान के संदर्भ में निम्नलिखित में से सही विकल्प चुनिए। The Constitution of India came into force on 26 January 1950.",
-          "hi": "The Constitution of India came into force on 26 January 1950. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive",
-            "26 January 1950"
-          ],
-          "a": 3,
-          "e": "सही उत्तर: 26 January 1950. The Constitution of India came into force on 26 January 1950.",
-          "eh": "सही उत्तर: 26 January 1950. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Preamble"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा विकल्प संबंधित तथ्य को सही रूप से दर्शाता है? The Constituent Assembly first met on 9 December 1946.",
-          "hi": "The Constituent Assembly first met on 9 December 1946. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Constitutional convention",
-            "State executive",
-            "9 December 1946",
-            "Parliamentary procedure"
-          ],
-          "a": 2,
-          "e": "सही उत्तर: 9 December 1946. The Constituent Assembly first met on 9 December 1946.",
-          "eh": "सही उत्तर: 9 December 1946. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Constitutional Features"
-        },
-        {
-          "q": "यह कथन किस संवैधानिक प्रावधान/तथ्य से संबंधित है? The Drafting Committee was chaired by Dr B. R. Ambedkar.",
-          "hi": "The Drafting Committee was chaired by Dr B. R. Ambedkar. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "State executive",
-            "Dr B. R. Ambedkar",
-            "Parliamentary procedure",
-            "Constitutional convention"
-          ],
-          "a": 1,
-          "e": "सही उत्तर: Dr B. R. Ambedkar. The Drafting Committee was chaired by Dr B. R. Ambedkar.",
-          "eh": "सही उत्तर: Dr B. R. Ambedkar. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Fundamental Rights"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा कथन सही है? The Preamble begins with the words We, the People of India.",
-          "hi": "The Preamble begins with the words We, the People of India. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "We, the People of India",
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive"
-          ],
-          "a": 0,
-          "e": "सही उत्तर: We, the People of India. The Preamble begins with the words We, the People of India.",
-          "eh": "सही उत्तर: We, the People of India. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Directive Principles"
-        },
-        {
-          "q": "भारतीय संविधान के संदर्भ में निम्नलिखित में से सही विकल्प चुनिए। Fundamental Rights are contained in Part III of the Constitution.",
-          "hi": "Fundamental Rights are contained in Part III of the Constitution. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive",
-            "Part III"
-          ],
-          "a": 3,
-          "e": "सही उत्तर: Part III. Fundamental Rights are contained in Part III of the Constitution.",
-          "eh": "सही उत्तर: Part III. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Fundamental Duties"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा विकल्प संबंधित तथ्य को सही रूप से दर्शाता है? Directive Principles are contained in Part IV.",
-          "hi": "Directive Principles are contained in Part IV. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Constitutional convention",
-            "State executive",
-            "Part IV",
-            "Parliamentary procedure"
-          ],
-          "a": 2,
-          "e": "सही उत्तर: Part IV. Directive Principles are contained in Part IV.",
-          "eh": "सही उत्तर: Part IV. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Constitutional Amendments"
-        },
-        {
-          "q": "यह कथन किस संवैधानिक प्रावधान/तथ्य से संबंधित है? Fundamental Duties are contained in Article 51A.",
-          "hi": "Fundamental Duties are contained in Article 51A. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "State executive",
-            "Article 51A",
-            "Parliamentary procedure",
-            "Constitutional convention"
-          ],
-          "a": 1,
-          "e": "सही उत्तर: Article 51A. Fundamental Duties are contained in Article 51A.",
-          "eh": "सही उत्तर: Article 51A. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Basic Structure Doctrine"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा कथन सही है? Article 14 deals with equality before law and equal protection of laws.",
-          "hi": "Article 14 deals with equality before law and equal protection of laws. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Article 14",
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive"
-          ],
-          "a": 0,
-          "e": "सही उत्तर: Article 14. Article 14 deals with equality before law and equal protection of laws.",
-          "eh": "सही उत्तर: Article 14. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Union and its Territory"
-        },
-        {
-          "q": "भारतीय संविधान के संदर्भ में निम्नलिखित में से सही विकल्प चुनिए। Article 19 guarantees specified freedoms to citizens.",
-          "hi": "Article 19 guarantees specified freedoms to citizens. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive",
-            "Article 19"
-          ],
-          "a": 3,
-          "e": "सही उत्तर: Article 19. Article 19 guarantees specified freedoms to citizens.",
-          "eh": "सही उत्तर: Article 19. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Citizenship"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा विकल्प संबंधित तथ्य को सही रूप से दर्शाता है? Article 21 protects life and personal liberty.",
-          "hi": "Article 21 protects life and personal liberty. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Constitutional convention",
-            "State executive",
-            "Article 21",
-            "Parliamentary procedure"
-          ],
-          "a": 2,
-          "e": "सही उत्तर: Article 21. Article 21 protects life and personal liberty.",
-          "eh": "सही उत्तर: Article 21. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Indian Constitution",
-          "topic": "Constitutional Interpretation"
-        },
-        {
-          "q": "यह कथन किस संवैधानिक प्रावधान/तथ्य से संबंधित है? Article 32 provides the right to constitutional remedies.",
-          "hi": "Article 32 provides the right to constitutional remedies. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "State executive",
-            "Article 32",
-            "Parliamentary procedure",
-            "Constitutional convention"
-          ],
-          "a": 1,
-          "e": "सही उत्तर: Article 32. Article 32 provides the right to constitutional remedies.",
-          "eh": "सही उत्तर: Article 32. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Parliament",
-          "topic": "Lok Sabha"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा कथन सही है? Article 44 relates to Uniform Civil Code.",
-          "hi": "Article 44 relates to Uniform Civil Code. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Article 44",
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive"
-          ],
-          "a": 0,
-          "e": "सही उत्तर: Article 44. Article 44 relates to Uniform Civil Code.",
-          "eh": "सही उत्तर: Article 44. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Parliament",
-          "topic": "Rajya Sabha"
-        },
-        {
-          "q": "भारतीय संविधान के संदर्भ में निम्नलिखित में से सही विकल्प चुनिए। Article 50 deals with separation of judiciary from executive.",
-          "hi": "Article 50 deals with separation of judiciary from executive. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive",
-            "Article 50"
-          ],
-          "a": 3,
-          "e": "सही उत्तर: Article 50. Article 50 deals with separation of judiciary from executive.",
-          "eh": "सही उत्तर: Article 50. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Parliament",
-          "topic": "Parliamentary Procedures"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा विकल्प संबंधित तथ्य को सही रूप से दर्शाता है? Article 368 deals with constitutional amendment.",
-          "hi": "Article 368 deals with constitutional amendment. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Constitutional convention",
-            "State executive",
-            "Article 368",
-            "Parliamentary procedure"
-          ],
-          "a": 2,
-          "e": "सही उत्तर: Article 368. Article 368 deals with constitutional amendment.",
-          "eh": "सही उत्तर: Article 368. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Parliament",
-          "topic": "Bills and Acts"
-        },
-        {
-          "q": "यह कथन किस संवैधानिक प्रावधान/तथ्य से संबंधित है? The President of India is elected indirectly.",
-          "hi": "The President of India is elected indirectly. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "State executive",
-            "Indirect election",
-            "Parliamentary procedure",
-            "Constitutional convention"
-          ],
-          "a": 1,
-          "e": "सही उत्तर: Indirect election. The President of India is elected indirectly.",
-          "eh": "सही उत्तर: Indirect election. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Parliament",
-          "topic": "Money Bill"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा कथन सही है? The Vice-President is elected by members of both Houses of Parliament.",
-          "hi": "The Vice-President is elected by members of both Houses of Parliament. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Members of both Houses of Parliament",
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive"
-          ],
-          "a": 0,
-          "e": "सही उत्तर: Members of both Houses of Parliament. The Vice-President is elected by members of both Houses of Parliament.",
-          "eh": "सही उत्तर: Members of both Houses of Parliament. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Parliament",
-          "topic": "Budget"
-        },
-        {
-          "q": "भारतीय संविधान के संदर्भ में निम्नलिखित में से सही विकल्प चुनिए। The Prime Minister is appointed by the President.",
-          "hi": "The Prime Minister is appointed by the President. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive",
-            "President"
-          ],
-          "a": 3,
-          "e": "सही उत्तर: President. The Prime Minister is appointed by the President.",
-          "eh": "सही उत्तर: President. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Parliament",
-          "topic": "Parliamentary Committees"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा विकल्प संबंधित तथ्य को सही रूप से दर्शाता है? The Council of Ministers is collectively responsible to the Lok Sabha.",
-          "hi": "The Council of Ministers is collectively responsible to the Lok Sabha. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Constitutional convention",
-            "State executive",
-            "Lok Sabha",
-            "Parliamentary procedure"
-          ],
-          "a": 2,
-          "e": "सही उत्तर: Lok Sabha. The Council of Ministers is collectively responsible to the Lok Sabha.",
-          "eh": "सही उत्तर: Lok Sabha. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Parliament",
-          "topic": "Privileges"
-        },
-        {
-          "q": "यह कथन किस संवैधानिक प्रावधान/तथ्य से संबंधित है? The Rajya Sabha is a permanent House.",
-          "hi": "The Rajya Sabha is a permanent House. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "State executive",
-            "Permanent House",
-            "Parliamentary procedure",
-            "Constitutional convention"
-          ],
-          "a": 1,
-          "e": "सही उत्तर: Permanent House. The Rajya Sabha is a permanent House.",
-          "eh": "सही उत्तर: Permanent House. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Parliament",
-          "topic": "Anti-Defection"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा कथन सही है? The normal term of the Lok Sabha is five years.",
-          "hi": "The normal term of the Lok Sabha is five years. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Five years",
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive"
-          ],
-          "a": 0,
-          "e": "सही उत्तर: Five years. The normal term of the Lok Sabha is five years.",
-          "eh": "सही उत्तर: Five years. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Executive",
-          "topic": "President"
-        },
-        {
-          "q": "भारतीय संविधान के संदर्भ में निम्नलिखित में से सही विकल्प चुनिए। The Supreme Court is the highest court of India.",
-          "hi": "The Supreme Court is the highest court of India. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive",
-            "Supreme Court"
-          ],
-          "a": 3,
-          "e": "सही उत्तर: Supreme Court. The Supreme Court is the highest court of India.",
-          "eh": "सही उत्तर: Supreme Court. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Executive",
-          "topic": "Vice President"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा विकल्प संबंधित तथ्य को सही रूप से दर्शाता है? The Constitution provides for an independent judiciary.",
-          "hi": "The Constitution provides for an independent judiciary. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Constitutional convention",
-            "State executive",
-            "Independent judiciary",
-            "Parliamentary procedure"
-          ],
-          "a": 2,
-          "e": "सही उत्तर: Independent judiciary. The Constitution provides for an independent judiciary.",
-          "eh": "सही उत्तर: Independent judiciary. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Executive",
-          "topic": "Prime Minister"
-        },
-        {
-          "q": "यह कथन किस संवैधानिक प्रावधान/तथ्य से संबंधित है? The Election Commission is a constitutional body.",
-          "hi": "The Election Commission is a constitutional body. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "State executive",
-            "Constitutional body",
-            "Parliamentary procedure",
-            "Constitutional convention"
-          ],
-          "a": 1,
-          "e": "सही उत्तर: Constitutional body. The Election Commission is a constitutional body.",
-          "eh": "सही उत्तर: Constitutional body. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Executive",
-          "topic": "Council of Ministers"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा कथन सही है? The Comptroller and Auditor General is a constitutional authority.",
-          "hi": "The Comptroller and Auditor General is a constitutional authority. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Constitutional authority",
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive"
-          ],
-          "a": 0,
-          "e": "सही उत्तर: Constitutional authority. The Comptroller and Auditor General is a constitutional authority.",
-          "eh": "सही उत्तर: Constitutional authority. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Executive",
-          "topic": "Cabinet"
-        },
-        {
-          "q": "भारतीय संविधान के संदर्भ में निम्नलिखित में से सही विकल्प चुनिए। The Finance Commission is constituted under Article 280.",
-          "hi": "The Finance Commission is constituted under Article 280. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive",
-            "Article 280"
-          ],
-          "a": 3,
-          "e": "सही उत्तर: Article 280. The Finance Commission is constituted under Article 280.",
-          "eh": "सही उत्तर: Article 280. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Executive",
-          "topic": "Governor"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा विकल्प संबंधित तथ्य को सही रूप से दर्शाता है? The UPSC is a constitutional body.",
-          "hi": "The UPSC is a constitutional body. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Constitutional convention",
-            "State executive",
-            "Constitutional body",
-            "Parliamentary procedure"
-          ],
-          "a": 2,
-          "e": "सही उत्तर: Constitutional body. The UPSC is a constitutional body.",
-          "eh": "सही उत्तर: Constitutional body. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Executive",
-          "topic": "Chief Minister"
-        },
-        {
-          "q": "यह कथन किस संवैधानिक प्रावधान/तथ्य से संबंधित है? Panchayats received constitutional status through the 73rd Amendment.",
-          "hi": "Panchayats received constitutional status through the 73rd Amendment. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "State executive",
-            "73rd Amendment",
-            "Parliamentary procedure",
-            "Constitutional convention"
-          ],
-          "a": 1,
-          "e": "सही उत्तर: 73rd Amendment. Panchayats received constitutional status through the 73rd Amendment.",
-          "eh": "सही उत्तर: 73rd Amendment. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Executive",
-          "topic": "State Council of Ministers"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा कथन सही है? Municipalities received constitutional status through the 74th Amendment.",
-          "hi": "Municipalities received constitutional status through the 74th Amendment. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "74th Amendment",
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive"
-          ],
-          "a": 0,
-          "e": "सही उत्तर: 74th Amendment. Municipalities received constitutional status through the 74th Amendment.",
-          "eh": "सही उत्तर: 74th Amendment. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Judiciary",
-          "topic": "Supreme Court"
-        },
-        {
-          "q": "भारतीय संविधान के संदर्भ में निम्नलिखित में से सही विकल्प चुनिए। The voting age was reduced from 21 to 18 by the 61st Amendment.",
-          "hi": "The voting age was reduced from 21 to 18 by the 61st Amendment. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive",
-            "61st Amendment"
-          ],
-          "a": 3,
-          "e": "सही उत्तर: 61st Amendment. The voting age was reduced from 21 to 18 by the 61st Amendment.",
-          "eh": "सही उत्तर: 61st Amendment. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Judiciary",
-          "topic": "High Courts"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा विकल्प संबंधित तथ्य को सही रूप से दर्शाता है? The anti-defection provisions are contained in the Tenth Schedule.",
-          "hi": "The anti-defection provisions are contained in the Tenth Schedule. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Constitutional convention",
-            "State executive",
-            "Tenth Schedule",
-            "Parliamentary procedure"
-          ],
-          "a": 2,
-          "e": "सही उत्तर: Tenth Schedule. The anti-defection provisions are contained in the Tenth Schedule.",
-          "eh": "सही उत्तर: Tenth Schedule. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Judiciary",
-          "topic": "Judicial Review"
-        },
-        {
-          "q": "यह कथन किस संवैधानिक प्रावधान/तथ्य से संबंधित है? The GST Council is provided under Article 279A.",
-          "hi": "The GST Council is provided under Article 279A. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "State executive",
-            "Article 279A",
-            "Parliamentary procedure",
-            "Constitutional convention"
-          ],
-          "a": 1,
-          "e": "सही उत्तर: Article 279A. The GST Council is provided under Article 279A.",
-          "eh": "सही उत्तर: Article 279A. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Judiciary",
-          "topic": "Judicial Activism"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा कथन सही है? National Emergency is provided under Article 352.",
-          "hi": "National Emergency is provided under Article 352. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Article 352",
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive"
-          ],
-          "a": 0,
-          "e": "सही उत्तर: Article 352. National Emergency is provided under Article 352.",
-          "eh": "सही उत्तर: Article 352. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Judiciary",
-          "topic": "Writ Jurisdiction"
-        },
-        {
-          "q": "भारतीय संविधान के संदर्भ में निम्नलिखित में से सही विकल्प चुनिए। President's Rule is provided under Article 356.",
-          "hi": "President's Rule is provided under Article 356. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive",
-            "Article 356"
-          ],
-          "a": 3,
-          "e": "सही उत्तर: Article 356. President's Rule is provided under Article 356.",
-          "eh": "सही उत्तर: Article 356. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Judiciary",
-          "topic": "Public Interest Litigation"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा विकल्प संबंधित तथ्य को सही रूप से दर्शाता है? Financial Emergency is provided under Article 360.",
-          "hi": "Financial Emergency is provided under Article 360. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Constitutional convention",
-            "State executive",
-            "Article 360",
-            "Parliamentary procedure"
-          ],
-          "a": 2,
-          "e": "सही उत्तर: Article 360. Financial Emergency is provided under Article 360.",
-          "eh": "सही उत्तर: Article 360. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Federalism",
-          "topic": "Centre-State Relations"
-        },
-        {
-          "q": "यह कथन किस संवैधानिक प्रावधान/तथ्य से संबंधित है? The Attorney General is the highest law officer of India.",
-          "hi": "The Attorney General is the highest law officer of India. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "State executive",
-            "Highest law officer",
-            "Parliamentary procedure",
-            "Constitutional convention"
-          ],
-          "a": 1,
-          "e": "सही उत्तर: Highest law officer. The Attorney General is the highest law officer of India.",
-          "eh": "सही उत्तर: Highest law officer. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Federalism",
-          "topic": "Inter-State Relations"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा कथन सही है? The Governor is the constitutional head of a state.",
-          "hi": "The Governor is the constitutional head of a state. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Constitutional head",
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive"
-          ],
-          "a": 0,
-          "e": "सही उत्तर: Constitutional head. The Governor is the constitutional head of a state.",
-          "eh": "सही उत्तर: Constitutional head. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Federalism",
-          "topic": "Emergency Provisions"
-        },
-        {
-          "q": "भारतीय संविधान के संदर्भ में निम्नलिखित में से सही विकल्प चुनिए। The Chief Minister is the real executive head of a state.",
-          "hi": "The Chief Minister is the real executive head of a state. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Parliamentary procedure",
-            "Constitutional convention",
-            "State executive",
-            "Real executive head"
-          ],
-          "a": 3,
-          "e": "सही उत्तर: Real executive head. The Chief Minister is the real executive head of a state.",
-          "eh": "सही उत्तर: Real executive head. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Federalism",
-          "topic": "Finance Commission"
-        },
-        {
-          "q": "निम्नलिखित में से कौन-सा विकल्प संबंधित तथ्य को सही रूप से दर्शाता है? The President is the constitutional head of the Union.",
-          "hi": "The President is the constitutional head of the Union. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "Constitutional convention",
-            "State executive",
-            "Constitutional head",
-            "Parliamentary procedure"
-          ],
-          "a": 2,
-          "e": "सही उत्तर: Constitutional head. The President is the constitutional head of the Union.",
-          "eh": "सही उत्तर: Constitutional head. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Local Government",
-          "topic": "Panchayati Raj"
-        },
-        {
-          "q": "यह कथन किस संवैधानिक प्रावधान/तथ्य से संबंधित है? The Parliament consists of the President and two Houses.",
-          "hi": "The Parliament consists of the President and two Houses. के संदर्भ में सही उत्तर चुनिए।",
-          "o": [
-            "State executive",
-            "President and two Houses",
-            "Parliamentary procedure",
-            "Constitutional convention"
-          ],
-          "a": 1,
-          "e": "सही उत्तर: President and two Houses. The Parliament consists of the President and two Houses.",
-          "eh": "सही उत्तर: President and two Houses. यह भारतीय संविधान और शासन व्यवस्था से संबंधित महत्वपूर्ण तथ्य है।",
-          "subject": "Polity",
-          "chapter": "Local Government",
-          "topic": "Municipalities"
-        },
-        {
           "q": "Which one of the following statements is correct regarding Regulating Act 1773?\n\nThe Regulating Act of 1773 was an important step in parliamentary control over the East India Company's administration.",
           "hi": "Regulating Act 1773 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\n1773 का रेग्युलेटिंग एक्ट ईस्ट इंडिया कंपनी के प्रशासन पर संसदीय नियंत्रण की दिशा में एक महत्वपूर्ण कदम था.",
           "o": [
             "R / e",
-            "1 / 7"
+            "Government of India Act 1858 / भारत शासन अधिनियम 1858",
+            "Charter Act 1813 / चार्टर एक्ट 1813",
+            "Indian Councils Act 1909 / भारतीय परिषद अधिनियम 1909"
           ],
           "a": 0,
           "e": "Correct Answer: R\n\nExplanation: The Regulating Act of 1773 was an important step in parliamentary control over the East India Company's administration.",
@@ -861,10 +159,12 @@
           "q": "With reference to Regulating Act 1773, which of the following is correct?\n\nThe Regulating Act of 1773 was an important step in parliamentary control over the East India Company's administration.",
           "hi": "Regulating Act 1773 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\n1773 का रेग्युलेटिंग एक्ट ईस्ट इंडिया कंपनी के प्रशासन पर संसदीय नियंत्रण की दिशा में एक महत्वपूर्ण कदम था.",
           "o": [
+            "Charter Act 1813 / चार्टर एक्ट 1813",
+            "Indian Councils Act 1909 / भारतीय परिषद अधिनियम 1909",
             "R / e",
-            "1 / 7"
+            "Government of India Act 1858 / भारत शासन अधिनियम 1858"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: R\n\nExplanation: The Regulating Act of 1773 was an important step in parliamentary control over the East India Company's administration.",
           "eh": "सही उत्तर: e\n\nव्याख्या: 1773 का रेग्युलेटिंग एक्ट ईस्ट इंडिया कंपनी के प्रशासन पर संसदीय नियंत्रण की दिशा में एक महत्वपूर्ण कदम था.",
           "subject": "Polity",
@@ -876,7 +176,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Regulating Act 1773 से संबंधित है?\n\n1773 का रेग्युलेटिंग एक्ट ईस्ट इंडिया कंपनी के प्रशासन पर संसदीय नियंत्रण की दिशा में एक महत्वपूर्ण कदम था.",
           "o": [
             "R / e",
-            "1 / 7"
+            "Government of India Act 1858 / भारत शासन अधिनियम 1858",
+            "Charter Act 1813 / चार्टर एक्ट 1813",
+            "Indian Councils Act 1909 / भारतीय परिषद अधिनियम 1909"
           ],
           "a": 0,
           "e": "Correct Answer: R\n\nExplanation: The Regulating Act of 1773 was an important step in parliamentary control over the East India Company's administration.",
@@ -889,10 +191,12 @@
           "q": "Which of the following best describes Regulating Act 1773?\n\nThe Regulating Act of 1773 was an important step in parliamentary control over the East India Company's administration.",
           "hi": "निम्नलिखित में से कौन-सा Regulating Act 1773 का सबसे उपयुक्त वर्णन करता है?\n\n1773 का रेग्युलेटिंग एक्ट ईस्ट इंडिया कंपनी के प्रशासन पर संसदीय नियंत्रण की दिशा में एक महत्वपूर्ण कदम था.",
           "o": [
+            "Charter Act 1813 / चार्टर एक्ट 1813",
+            "Indian Councils Act 1909 / भारतीय परिषद अधिनियम 1909",
             "R / e",
-            "1 / 7"
+            "Government of India Act 1858 / भारत शासन अधिनियम 1858"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: R\n\nExplanation: The Regulating Act of 1773 was an important step in parliamentary control over the East India Company's administration.",
           "eh": "सही उत्तर: e\n\nव्याख्या: 1773 का रेग्युलेटिंग एक्ट ईस्ट इंडिया कंपनी के प्रशासन पर संसदीय नियंत्रण की दिशा में एक महत्वपूर्ण कदम था.",
           "subject": "Polity",
@@ -904,7 +208,9 @@
           "hi": "Government of India Act 1858 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nभारत शासन अधिनियम 1858 ने भारत का शासन ईस्ट इंडिया कंपनी से ब्रिटिश क्राउन को स्थानांतरित कर दिया.",
           "o": [
             "T / r",
-            "ब / ्"
+            "Introduction of provincial autonomy / प्रांतीय स्वायत्तता की शुरुआत",
+            "Creation of the Constituent Assembly / संविधान सभा का गठन",
+            "Introduction of dyarchy in provinces / प्रांतों में द्वैध शासन की शुरुआत"
           ],
           "a": 0,
           "e": "Correct Answer: T\n\nExplanation: The Government of India Act 1858 transferred the governance of India from the East India Company to the British Crown.",
@@ -917,10 +223,12 @@
           "q": "With reference to Government of India Act 1858, which of the following is correct?\n\nThe Government of India Act 1858 transferred the governance of India from the East India Company to the British Crown.",
           "hi": "Government of India Act 1858 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nभारत शासन अधिनियम 1858 ने भारत का शासन ईस्ट इंडिया कंपनी से ब्रिटिश क्राउन को स्थानांतरित कर दिया.",
           "o": [
+            "Creation of the Constituent Assembly / संविधान सभा का गठन",
+            "Introduction of dyarchy in provinces / प्रांतों में द्वैध शासन की शुरुआत",
             "T / r",
-            "ब / ्"
+            "Introduction of provincial autonomy / प्रांतीय स्वायत्तता की शुरुआत"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: T\n\nExplanation: The Government of India Act 1858 transferred the governance of India from the East India Company to the British Crown.",
           "eh": "सही उत्तर: r\n\nव्याख्या: भारत शासन अधिनियम 1858 ने भारत का शासन ईस्ट इंडिया कंपनी से ब्रिटिश क्राउन को स्थानांतरित कर दिया.",
           "subject": "Polity",
@@ -932,7 +240,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Government of India Act 1858 से संबंधित है?\n\nभारत शासन अधिनियम 1858 ने भारत का शासन ईस्ट इंडिया कंपनी से ब्रिटिश क्राउन को स्थानांतरित कर दिया.",
           "o": [
             "T / r",
-            "ब / ्"
+            "Introduction of provincial autonomy / प्रांतीय स्वायत्तता की शुरुआत",
+            "Creation of the Constituent Assembly / संविधान सभा का गठन",
+            "Introduction of dyarchy in provinces / प्रांतों में द्वैध शासन की शुरुआत"
           ],
           "a": 0,
           "e": "Correct Answer: T\n\nExplanation: The Government of India Act 1858 transferred the governance of India from the East India Company to the British Crown.",
@@ -945,10 +255,12 @@
           "q": "Which of the following best describes Government of India Act 1858?\n\nThe Government of India Act 1858 transferred the governance of India from the East India Company to the British Crown.",
           "hi": "निम्नलिखित में से कौन-सा Government of India Act 1858 का सबसे उपयुक्त वर्णन करता है?\n\nभारत शासन अधिनियम 1858 ने भारत का शासन ईस्ट इंडिया कंपनी से ब्रिटिश क्राउन को स्थानांतरित कर दिया.",
           "o": [
+            "Creation of the Constituent Assembly / संविधान सभा का गठन",
+            "Introduction of dyarchy in provinces / प्रांतों में द्वैध शासन की शुरुआत",
             "T / r",
-            "ब / ्"
+            "Introduction of provincial autonomy / प्रांतीय स्वायत्तता की शुरुआत"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: T\n\nExplanation: The Government of India Act 1858 transferred the governance of India from the East India Company to the British Crown.",
           "eh": "सही उत्तर: r\n\nव्याख्या: भारत शासन अधिनियम 1858 ने भारत का शासन ईस्ट इंडिया कंपनी से ब्रिटिश क्राउन को स्थानांतरित कर दिया.",
           "subject": "Polity",
@@ -960,7 +272,9 @@
           "hi": "Indian Councils Act 1909 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nभारतीय परिषद अधिनियम 1909 मुसलमानों के लिए पृथक निर्वाचक मंडल की शुरुआत से संबंधित है.",
           "o": [
             "S / e",
-            "म / ु"
+            "Provincial autonomy / प्रांतीय स्वायत्तता",
+            "Universal adult franchise / सार्वभौमिक वयस्क मताधिकार",
+            "Fundamental Duties / मौलिक कर्तव्य"
           ],
           "a": 0,
           "e": "Correct Answer: S\n\nExplanation: The Indian Councils Act 1909 is associated with the introduction of separate electorates for Muslims.",
@@ -973,10 +287,12 @@
           "q": "With reference to Indian Councils Act 1909, which of the following is correct?\n\nThe Indian Councils Act 1909 is associated with the introduction of separate electorates for Muslims.",
           "hi": "Indian Councils Act 1909 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nभारतीय परिषद अधिनियम 1909 मुसलमानों के लिए पृथक निर्वाचक मंडल की शुरुआत से संबंधित है.",
           "o": [
+            "Universal adult franchise / सार्वभौमिक वयस्क मताधिकार",
+            "Fundamental Duties / मौलिक कर्तव्य",
             "S / e",
-            "म / ु"
+            "Provincial autonomy / प्रांतीय स्वायत्तता"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: S\n\nExplanation: The Indian Councils Act 1909 is associated with the introduction of separate electorates for Muslims.",
           "eh": "सही उत्तर: e\n\nव्याख्या: भारतीय परिषद अधिनियम 1909 मुसलमानों के लिए पृथक निर्वाचक मंडल की शुरुआत से संबंधित है.",
           "subject": "Polity",
@@ -988,7 +304,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Indian Councils Act 1909 से संबंधित है?\n\nभारतीय परिषद अधिनियम 1909 मुसलमानों के लिए पृथक निर्वाचक मंडल की शुरुआत से संबंधित है.",
           "o": [
             "S / e",
-            "म / ु"
+            "Provincial autonomy / प्रांतीय स्वायत्तता",
+            "Universal adult franchise / सार्वभौमिक वयस्क मताधिकार",
+            "Fundamental Duties / मौलिक कर्तव्य"
           ],
           "a": 0,
           "e": "Correct Answer: S\n\nExplanation: The Indian Councils Act 1909 is associated with the introduction of separate electorates for Muslims.",
@@ -1001,10 +319,12 @@
           "q": "Which of the following best describes Indian Councils Act 1909?\n\nThe Indian Councils Act 1909 is associated with the introduction of separate electorates for Muslims.",
           "hi": "निम्नलिखित में से कौन-सा Indian Councils Act 1909 का सबसे उपयुक्त वर्णन करता है?\n\nभारतीय परिषद अधिनियम 1909 मुसलमानों के लिए पृथक निर्वाचक मंडल की शुरुआत से संबंधित है.",
           "o": [
+            "Universal adult franchise / सार्वभौमिक वयस्क मताधिकार",
+            "Fundamental Duties / मौलिक कर्तव्य",
             "S / e",
-            "म / ु"
+            "Provincial autonomy / प्रांतीय स्वायत्तता"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: S\n\nExplanation: The Indian Councils Act 1909 is associated with the introduction of separate electorates for Muslims.",
           "eh": "सही उत्तर: e\n\nव्याख्या: भारतीय परिषद अधिनियम 1909 मुसलमानों के लिए पृथक निर्वाचक मंडल की शुरुआत से संबंधित है.",
           "subject": "Polity",
@@ -1016,7 +336,9 @@
           "hi": "Government of India Act 1919 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nभारत शासन अधिनियम 1919 ने प्रांतों में द्वैध शासन की शुरुआत की.",
           "o": [
             "D / y",
-            "प / ्"
+            "Complete provincial autonomy / पूर्ण प्रांतीय स्वायत्तता",
+            "Separate Constitution for India / भारत के लिए अलग संविधान",
+            "Fundamental Duties / मौलिक कर्तव्य"
           ],
           "a": 0,
           "e": "Correct Answer: D\n\nExplanation: The Government of India Act 1919 introduced dyarchy in the provinces.",
@@ -1029,10 +351,12 @@
           "q": "With reference to Government of India Act 1919, which of the following is correct?\n\nThe Government of India Act 1919 introduced dyarchy in the provinces.",
           "hi": "Government of India Act 1919 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nभारत शासन अधिनियम 1919 ने प्रांतों में द्वैध शासन की शुरुआत की.",
           "o": [
+            "Separate Constitution for India / भारत के लिए अलग संविधान",
+            "Fundamental Duties / मौलिक कर्तव्य",
             "D / y",
-            "प / ्"
+            "Complete provincial autonomy / पूर्ण प्रांतीय स्वायत्तता"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: D\n\nExplanation: The Government of India Act 1919 introduced dyarchy in the provinces.",
           "eh": "सही उत्तर: y\n\nव्याख्या: भारत शासन अधिनियम 1919 ने प्रांतों में द्वैध शासन की शुरुआत की.",
           "subject": "Polity",
@@ -1044,7 +368,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Government of India Act 1919 से संबंधित है?\n\nभारत शासन अधिनियम 1919 ने प्रांतों में द्वैध शासन की शुरुआत की.",
           "o": [
             "D / y",
-            "प / ्"
+            "Complete provincial autonomy / पूर्ण प्रांतीय स्वायत्तता",
+            "Separate Constitution for India / भारत के लिए अलग संविधान",
+            "Fundamental Duties / मौलिक कर्तव्य"
           ],
           "a": 0,
           "e": "Correct Answer: D\n\nExplanation: The Government of India Act 1919 introduced dyarchy in the provinces.",
@@ -1057,10 +383,12 @@
           "q": "Which of the following best describes Government of India Act 1919?\n\nThe Government of India Act 1919 introduced dyarchy in the provinces.",
           "hi": "निम्नलिखित में से कौन-सा Government of India Act 1919 का सबसे उपयुक्त वर्णन करता है?\n\nभारत शासन अधिनियम 1919 ने प्रांतों में द्वैध शासन की शुरुआत की.",
           "o": [
+            "Separate Constitution for India / भारत के लिए अलग संविधान",
+            "Fundamental Duties / मौलिक कर्तव्य",
             "D / y",
-            "प / ्"
+            "Complete provincial autonomy / पूर्ण प्रांतीय स्वायत्तता"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: D\n\nExplanation: The Government of India Act 1919 introduced dyarchy in the provinces.",
           "eh": "सही उत्तर: y\n\nव्याख्या: भारत शासन अधिनियम 1919 ने प्रांतों में द्वैध शासन की शुरुआत की.",
           "subject": "Polity",
@@ -1072,7 +400,9 @@
           "hi": "Government of India Act 1935 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nभारत शासन अधिनियम 1935 ने प्रांतीय स्वायत्तता की शुरुआत की और अखिल भारतीय संघ का प्रस्ताव किया.",
           "o": [
             "P / r",
-            "प / ्"
+            "Fundamental Rights / मौलिक अधिकार",
+            "Fundamental Duties / मौलिक कर्तव्य",
+            "Single citizenship / एकल नागरिकता"
           ],
           "a": 0,
           "e": "Correct Answer: P\n\nExplanation: The Government of India Act 1935 introduced provincial autonomy and proposed an all-India federation.",
@@ -1085,10 +415,12 @@
           "q": "With reference to Government of India Act 1935, which of the following is correct?\n\nThe Government of India Act 1935 introduced provincial autonomy and proposed an all-India federation.",
           "hi": "Government of India Act 1935 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nभारत शासन अधिनियम 1935 ने प्रांतीय स्वायत्तता की शुरुआत की और अखिल भारतीय संघ का प्रस्ताव किया.",
           "o": [
+            "Fundamental Duties / मौलिक कर्तव्य",
+            "Single citizenship / एकल नागरिकता",
             "P / r",
-            "प / ्"
+            "Fundamental Rights / मौलिक अधिकार"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: P\n\nExplanation: The Government of India Act 1935 introduced provincial autonomy and proposed an all-India federation.",
           "eh": "सही उत्तर: r\n\nव्याख्या: भारत शासन अधिनियम 1935 ने प्रांतीय स्वायत्तता की शुरुआत की और अखिल भारतीय संघ का प्रस्ताव किया.",
           "subject": "Polity",
@@ -1100,7 +432,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Government of India Act 1935 से संबंधित है?\n\nभारत शासन अधिनियम 1935 ने प्रांतीय स्वायत्तता की शुरुआत की और अखिल भारतीय संघ का प्रस्ताव किया.",
           "o": [
             "P / r",
-            "प / ्"
+            "Fundamental Rights / मौलिक अधिकार",
+            "Fundamental Duties / मौलिक कर्तव्य",
+            "Single citizenship / एकल नागरिकता"
           ],
           "a": 0,
           "e": "Correct Answer: P\n\nExplanation: The Government of India Act 1935 introduced provincial autonomy and proposed an all-India federation.",
@@ -1113,10 +447,12 @@
           "q": "Which of the following best describes Government of India Act 1935?\n\nThe Government of India Act 1935 introduced provincial autonomy and proposed an all-India federation.",
           "hi": "निम्नलिखित में से कौन-सा Government of India Act 1935 का सबसे उपयुक्त वर्णन करता है?\n\nभारत शासन अधिनियम 1935 ने प्रांतीय स्वायत्तता की शुरुआत की और अखिल भारतीय संघ का प्रस्ताव किया.",
           "o": [
+            "Fundamental Duties / मौलिक कर्तव्य",
+            "Single citizenship / एकल नागरिकता",
             "P / r",
-            "प / ्"
+            "Fundamental Rights / मौलिक अधिकार"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: P\n\nExplanation: The Government of India Act 1935 introduced provincial autonomy and proposed an all-India federation.",
           "eh": "सही उत्तर: r\n\nव्याख्या: भारत शासन अधिनियम 1935 ने प्रांतीय स्वायत्तता की शुरुआत की और अखिल भारतीय संघ का प्रस्ताव किया.",
           "subject": "Polity",
@@ -1128,7 +464,9 @@
           "hi": "Cabinet Mission के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\n1946 की कैबिनेट मिशन योजना ने भारत का संविधान बनाने के लिए संविधान सभा का प्रस्ताव किया.",
           "o": [
             "C / o",
-            "स / ं"
+            "Supreme Court / सर्वोच्च न्यायालय",
+            "Finance Commission / वित्त आयोग",
+            "Election Commission / निर्वाचन आयोग"
           ],
           "a": 0,
           "e": "Correct Answer: C\n\nExplanation: The Cabinet Mission Plan of 1946 proposed a Constituent Assembly for framing India's Constitution.",
@@ -1141,10 +479,12 @@
           "q": "With reference to Cabinet Mission, which of the following is correct?\n\nThe Cabinet Mission Plan of 1946 proposed a Constituent Assembly for framing India's Constitution.",
           "hi": "Cabinet Mission के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\n1946 की कैबिनेट मिशन योजना ने भारत का संविधान बनाने के लिए संविधान सभा का प्रस्ताव किया.",
           "o": [
+            "Finance Commission / वित्त आयोग",
+            "Election Commission / निर्वाचन आयोग",
             "C / o",
-            "स / ं"
+            "Supreme Court / सर्वोच्च न्यायालय"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: C\n\nExplanation: The Cabinet Mission Plan of 1946 proposed a Constituent Assembly for framing India's Constitution.",
           "eh": "सही उत्तर: o\n\nव्याख्या: 1946 की कैबिनेट मिशन योजना ने भारत का संविधान बनाने के लिए संविधान सभा का प्रस्ताव किया.",
           "subject": "Polity",
@@ -1156,7 +496,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Cabinet Mission से संबंधित है?\n\n1946 की कैबिनेट मिशन योजना ने भारत का संविधान बनाने के लिए संविधान सभा का प्रस्ताव किया.",
           "o": [
             "C / o",
-            "स / ं"
+            "Supreme Court / सर्वोच्च न्यायालय",
+            "Finance Commission / वित्त आयोग",
+            "Election Commission / निर्वाचन आयोग"
           ],
           "a": 0,
           "e": "Correct Answer: C\n\nExplanation: The Cabinet Mission Plan of 1946 proposed a Constituent Assembly for framing India's Constitution.",
@@ -1169,10 +511,12 @@
           "q": "Which of the following best describes Cabinet Mission?\n\nThe Cabinet Mission Plan of 1946 proposed a Constituent Assembly for framing India's Constitution.",
           "hi": "निम्नलिखित में से कौन-सा Cabinet Mission का सबसे उपयुक्त वर्णन करता है?\n\n1946 की कैबिनेट मिशन योजना ने भारत का संविधान बनाने के लिए संविधान सभा का प्रस्ताव किया.",
           "o": [
+            "Finance Commission / वित्त आयोग",
+            "Election Commission / निर्वाचन आयोग",
             "C / o",
-            "स / ं"
+            "Supreme Court / सर्वोच्च न्यायालय"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: C\n\nExplanation: The Cabinet Mission Plan of 1946 proposed a Constituent Assembly for framing India's Constitution.",
           "eh": "सही उत्तर: o\n\nव्याख्या: 1946 की कैबिनेट मिशन योजना ने भारत का संविधान बनाने के लिए संविधान सभा का प्रस्ताव किया.",
           "subject": "Polity",
@@ -1184,7 +528,9 @@
           "hi": "Objective Resolution के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nउद्देश्य प्रस्ताव संविधान सभा में जवाहरलाल नेहरू द्वारा प्रस्तुत किया गया था.",
           "o": [
             "J / a",
-            "ज / व"
+            "B. R. Ambedkar / बी. आर. आंबेडकर",
+            "Rajendra Prasad / राजेंद्र प्रसाद",
+            "Sardar Patel / सरदार पटेल"
           ],
           "a": 0,
           "e": "Correct Answer: J\n\nExplanation: The Objective Resolution was moved by Jawaharlal Nehru in the Constituent Assembly.",
@@ -1197,10 +543,12 @@
           "q": "With reference to Objective Resolution, which of the following is correct?\n\nThe Objective Resolution was moved by Jawaharlal Nehru in the Constituent Assembly.",
           "hi": "Objective Resolution के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nउद्देश्य प्रस्ताव संविधान सभा में जवाहरलाल नेहरू द्वारा प्रस्तुत किया गया था.",
           "o": [
+            "Rajendra Prasad / राजेंद्र प्रसाद",
+            "Sardar Patel / सरदार पटेल",
             "J / a",
-            "ज / व"
+            "B. R. Ambedkar / बी. आर. आंबेडकर"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: J\n\nExplanation: The Objective Resolution was moved by Jawaharlal Nehru in the Constituent Assembly.",
           "eh": "सही उत्तर: a\n\nव्याख्या: उद्देश्य प्रस्ताव संविधान सभा में जवाहरलाल नेहरू द्वारा प्रस्तुत किया गया था.",
           "subject": "Polity",
@@ -1212,7 +560,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Objective Resolution से संबंधित है?\n\nउद्देश्य प्रस्ताव संविधान सभा में जवाहरलाल नेहरू द्वारा प्रस्तुत किया गया था.",
           "o": [
             "J / a",
-            "ज / व"
+            "B. R. Ambedkar / बी. आर. आंबेडकर",
+            "Rajendra Prasad / राजेंद्र प्रसाद",
+            "Sardar Patel / सरदार पटेल"
           ],
           "a": 0,
           "e": "Correct Answer: J\n\nExplanation: The Objective Resolution was moved by Jawaharlal Nehru in the Constituent Assembly.",
@@ -1225,10 +575,12 @@
           "q": "Which of the following best describes Objective Resolution?\n\nThe Objective Resolution was moved by Jawaharlal Nehru in the Constituent Assembly.",
           "hi": "निम्नलिखित में से कौन-सा Objective Resolution का सबसे उपयुक्त वर्णन करता है?\n\nउद्देश्य प्रस्ताव संविधान सभा में जवाहरलाल नेहरू द्वारा प्रस्तुत किया गया था.",
           "o": [
+            "Rajendra Prasad / राजेंद्र प्रसाद",
+            "Sardar Patel / सरदार पटेल",
             "J / a",
-            "ज / व"
+            "B. R. Ambedkar / बी. आर. आंबेडकर"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: J\n\nExplanation: The Objective Resolution was moved by Jawaharlal Nehru in the Constituent Assembly.",
           "eh": "सही उत्तर: a\n\nव्याख्या: उद्देश्य प्रस्ताव संविधान सभा में जवाहरलाल नेहरू द्वारा प्रस्तुत किया गया था.",
           "subject": "Polity",
@@ -1240,7 +592,9 @@
           "hi": "Drafting Committee के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nसंविधान सभा की प्रारूप समिति की अध्यक्षता बी. आर. आंबेडकर ने की थी.",
           "o": [
             "B / .",
-            "ब / ी"
+            "Jawaharlal Nehru / जवाहरलाल नेहरू",
+            "Rajendra Prasad / राजेंद्र प्रसाद",
+            "Sardar Patel / सरदार पटेल"
           ],
           "a": 0,
           "e": "Correct Answer: B\n\nExplanation: The Drafting Committee of the Constituent Assembly was chaired by B. R. Ambedkar.",
@@ -1253,10 +607,12 @@
           "q": "With reference to Drafting Committee, which of the following is correct?\n\nThe Drafting Committee of the Constituent Assembly was chaired by B. R. Ambedkar.",
           "hi": "Drafting Committee के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nसंविधान सभा की प्रारूप समिति की अध्यक्षता बी. आर. आंबेडकर ने की थी.",
           "o": [
+            "Rajendra Prasad / राजेंद्र प्रसाद",
+            "Sardar Patel / सरदार पटेल",
             "B / .",
-            "ब / ी"
+            "Jawaharlal Nehru / जवाहरलाल नेहरू"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: B\n\nExplanation: The Drafting Committee of the Constituent Assembly was chaired by B. R. Ambedkar.",
           "eh": "सही उत्तर: .\n\nव्याख्या: संविधान सभा की प्रारूप समिति की अध्यक्षता बी. आर. आंबेडकर ने की थी.",
           "subject": "Polity",
@@ -1268,7 +624,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Drafting Committee से संबंधित है?\n\nसंविधान सभा की प्रारूप समिति की अध्यक्षता बी. आर. आंबेडकर ने की थी.",
           "o": [
             "B / .",
-            "ब / ी"
+            "Jawaharlal Nehru / जवाहरलाल नेहरू",
+            "Rajendra Prasad / राजेंद्र प्रसाद",
+            "Sardar Patel / सरदार पटेल"
           ],
           "a": 0,
           "e": "Correct Answer: B\n\nExplanation: The Drafting Committee of the Constituent Assembly was chaired by B. R. Ambedkar.",
@@ -1281,10 +639,12 @@
           "q": "Which of the following best describes Drafting Committee?\n\nThe Drafting Committee of the Constituent Assembly was chaired by B. R. Ambedkar.",
           "hi": "निम्नलिखित में से कौन-सा Drafting Committee का सबसे उपयुक्त वर्णन करता है?\n\nसंविधान सभा की प्रारूप समिति की अध्यक्षता बी. आर. आंबेडकर ने की थी.",
           "o": [
+            "Rajendra Prasad / राजेंद्र प्रसाद",
+            "Sardar Patel / सरदार पटेल",
             "B / .",
-            "ब / ी"
+            "Jawaharlal Nehru / जवाहरलाल नेहरू"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: B\n\nExplanation: The Drafting Committee of the Constituent Assembly was chaired by B. R. Ambedkar.",
           "eh": "सही उत्तर: .\n\nव्याख्या: संविधान सभा की प्रारूप समिति की अध्यक्षता बी. आर. आंबेडकर ने की थी.",
           "subject": "Polity",
@@ -1296,7 +656,9 @@
           "hi": "42nd Amendment के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nसमाजवादी, पंथनिरपेक्ष और अखंडता शब्द 42वें संविधान संशोधन द्वारा प्रस्तावना में जोड़े गए.",
           "o": [
             "4 / 2",
-            "4 / 2"
+            "44th Amendment / 44वाँ संशोधन",
+            "52nd Amendment / 52वाँ संशोधन",
+            "73rd Amendment / 73वाँ संशोधन"
           ],
           "a": 0,
           "e": "Correct Answer: 4\n\nExplanation: The words Socialist, Secular and Integrity were added to the Preamble by the 42nd Constitutional Amendment.",
@@ -1309,10 +671,12 @@
           "q": "With reference to 42nd Amendment, which of the following is correct?\n\nThe words Socialist, Secular and Integrity were added to the Preamble by the 42nd Constitutional Amendment.",
           "hi": "42nd Amendment के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nसमाजवादी, पंथनिरपेक्ष और अखंडता शब्द 42वें संविधान संशोधन द्वारा प्रस्तावना में जोड़े गए.",
           "o": [
+            "52nd Amendment / 52वाँ संशोधन",
+            "73rd Amendment / 73वाँ संशोधन",
             "4 / 2",
-            "4 / 2"
+            "44th Amendment / 44वाँ संशोधन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: 4\n\nExplanation: The words Socialist, Secular and Integrity were added to the Preamble by the 42nd Constitutional Amendment.",
           "eh": "सही उत्तर: 2\n\nव्याख्या: समाजवादी, पंथनिरपेक्ष और अखंडता शब्द 42वें संविधान संशोधन द्वारा प्रस्तावना में जोड़े गए.",
           "subject": "Polity",
@@ -1324,7 +688,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा 42nd Amendment से संबंधित है?\n\nसमाजवादी, पंथनिरपेक्ष और अखंडता शब्द 42वें संविधान संशोधन द्वारा प्रस्तावना में जोड़े गए.",
           "o": [
             "4 / 2",
-            "4 / 2"
+            "44th Amendment / 44वाँ संशोधन",
+            "52nd Amendment / 52वाँ संशोधन",
+            "73rd Amendment / 73वाँ संशोधन"
           ],
           "a": 0,
           "e": "Correct Answer: 4\n\nExplanation: The words Socialist, Secular and Integrity were added to the Preamble by the 42nd Constitutional Amendment.",
@@ -1337,10 +703,12 @@
           "q": "Which of the following best describes 42nd Amendment?\n\nThe words Socialist, Secular and Integrity were added to the Preamble by the 42nd Constitutional Amendment.",
           "hi": "निम्नलिखित में से कौन-सा 42nd Amendment का सबसे उपयुक्त वर्णन करता है?\n\nसमाजवादी, पंथनिरपेक्ष और अखंडता शब्द 42वें संविधान संशोधन द्वारा प्रस्तावना में जोड़े गए.",
           "o": [
+            "52nd Amendment / 52वाँ संशोधन",
+            "73rd Amendment / 73वाँ संशोधन",
             "4 / 2",
-            "4 / 2"
+            "44th Amendment / 44वाँ संशोधन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: 4\n\nExplanation: The words Socialist, Secular and Integrity were added to the Preamble by the 42nd Constitutional Amendment.",
           "eh": "सही उत्तर: 2\n\nव्याख्या: समाजवादी, पंथनिरपेक्ष और अखंडता शब्द 42वें संविधान संशोधन द्वारा प्रस्तावना में जोड़े गए.",
           "subject": "Polity",
@@ -1352,7 +720,9 @@
           "hi": "Article 13 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nअनुच्छेद 13 मौलिक अधिकारों के विरुद्ध या उनका उल्लंघन करने वाले कानूनों से संबंधित है.",
           "o": [
             "L / a",
-            "म / ौ"
+            "Election of President / राष्ट्रपति का निर्वाचन",
+            "Finance Commission / वित्त आयोग",
+            "Emergency / आपातकाल"
           ],
           "a": 0,
           "e": "Correct Answer: L\n\nExplanation: Article 13 deals with laws inconsistent with or in derogation of Fundamental Rights.",
@@ -1365,10 +735,12 @@
           "q": "With reference to Article 13, which of the following is correct?\n\nArticle 13 deals with laws inconsistent with or in derogation of Fundamental Rights.",
           "hi": "Article 13 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nअनुच्छेद 13 मौलिक अधिकारों के विरुद्ध या उनका उल्लंघन करने वाले कानूनों से संबंधित है.",
           "o": [
+            "Finance Commission / वित्त आयोग",
+            "Emergency / आपातकाल",
             "L / a",
-            "म / ौ"
+            "Election of President / राष्ट्रपति का निर्वाचन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: L\n\nExplanation: Article 13 deals with laws inconsistent with or in derogation of Fundamental Rights.",
           "eh": "सही उत्तर: a\n\nव्याख्या: अनुच्छेद 13 मौलिक अधिकारों के विरुद्ध या उनका उल्लंघन करने वाले कानूनों से संबंधित है.",
           "subject": "Polity",
@@ -1380,7 +752,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Article 13 से संबंधित है?\n\nअनुच्छेद 13 मौलिक अधिकारों के विरुद्ध या उनका उल्लंघन करने वाले कानूनों से संबंधित है.",
           "o": [
             "L / a",
-            "म / ौ"
+            "Election of President / राष्ट्रपति का निर्वाचन",
+            "Finance Commission / वित्त आयोग",
+            "Emergency / आपातकाल"
           ],
           "a": 0,
           "e": "Correct Answer: L\n\nExplanation: Article 13 deals with laws inconsistent with or in derogation of Fundamental Rights.",
@@ -1393,10 +767,12 @@
           "q": "Which of the following best describes Article 13?\n\nArticle 13 deals with laws inconsistent with or in derogation of Fundamental Rights.",
           "hi": "निम्नलिखित में से कौन-सा Article 13 का सबसे उपयुक्त वर्णन करता है?\n\nअनुच्छेद 13 मौलिक अधिकारों के विरुद्ध या उनका उल्लंघन करने वाले कानूनों से संबंधित है.",
           "o": [
+            "Finance Commission / वित्त आयोग",
+            "Emergency / आपातकाल",
             "L / a",
-            "म / ौ"
+            "Election of President / राष्ट्रपति का निर्वाचन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: L\n\nExplanation: Article 13 deals with laws inconsistent with or in derogation of Fundamental Rights.",
           "eh": "सही उत्तर: a\n\nव्याख्या: अनुच्छेद 13 मौलिक अधिकारों के विरुद्ध या उनका उल्लंघन करने वाले कानूनों से संबंधित है.",
           "subject": "Polity",
@@ -1408,7 +784,9 @@
           "hi": "Article 19 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nअनुच्छेद 19 के अंतर्गत दी गई स्वतंत्रताएँ नागरिकों को उपलब्ध हैं.",
           "o": [
             "C / i",
-            "न / ा"
+            "Only foreigners / केवल विदेशी",
+            "Only corporations / केवल निगम",
+            "Only government employees / केवल सरकारी कर्मचारी"
           ],
           "a": 0,
           "e": "Correct Answer: C\n\nExplanation: The freedoms guaranteed under Article 19 are available to citizens.",
@@ -1421,10 +799,12 @@
           "q": "With reference to Article 19, which of the following is correct?\n\nThe freedoms guaranteed under Article 19 are available to citizens.",
           "hi": "Article 19 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nअनुच्छेद 19 के अंतर्गत दी गई स्वतंत्रताएँ नागरिकों को उपलब्ध हैं.",
           "o": [
+            "Only corporations / केवल निगम",
+            "Only government employees / केवल सरकारी कर्मचारी",
             "C / i",
-            "न / ा"
+            "Only foreigners / केवल विदेशी"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: C\n\nExplanation: The freedoms guaranteed under Article 19 are available to citizens.",
           "eh": "सही उत्तर: i\n\nव्याख्या: अनुच्छेद 19 के अंतर्गत दी गई स्वतंत्रताएँ नागरिकों को उपलब्ध हैं.",
           "subject": "Polity",
@@ -1436,7 +816,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Article 19 से संबंधित है?\n\nअनुच्छेद 19 के अंतर्गत दी गई स्वतंत्रताएँ नागरिकों को उपलब्ध हैं.",
           "o": [
             "C / i",
-            "न / ा"
+            "Only foreigners / केवल विदेशी",
+            "Only corporations / केवल निगम",
+            "Only government employees / केवल सरकारी कर्मचारी"
           ],
           "a": 0,
           "e": "Correct Answer: C\n\nExplanation: The freedoms guaranteed under Article 19 are available to citizens.",
@@ -1449,10 +831,12 @@
           "q": "Which of the following best describes Article 19?\n\nThe freedoms guaranteed under Article 19 are available to citizens.",
           "hi": "निम्नलिखित में से कौन-सा Article 19 का सबसे उपयुक्त वर्णन करता है?\n\nअनुच्छेद 19 के अंतर्गत दी गई स्वतंत्रताएँ नागरिकों को उपलब्ध हैं.",
           "o": [
+            "Only corporations / केवल निगम",
+            "Only government employees / केवल सरकारी कर्मचारी",
             "C / i",
-            "न / ा"
+            "Only foreigners / केवल विदेशी"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: C\n\nExplanation: The freedoms guaranteed under Article 19 are available to citizens.",
           "eh": "सही उत्तर: i\n\nव्याख्या: अनुच्छेद 19 के अंतर्गत दी गई स्वतंत्रताएँ नागरिकों को उपलब्ध हैं.",
           "subject": "Polity",
@@ -1464,7 +848,9 @@
           "hi": "Writ Jurisdiction के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nसर्वोच्च न्यायालय अनुच्छेद 32 के अंतर्गत मौलिक अधिकारों के प्रवर्तन के लिए रिट जारी कर सकता है.",
           "o": [
             "A / r",
-            "अ / न"
+            "Article 40 / अनुच्छेद 40",
+            "Article 50 / अनुच्छेद 50",
+            "Article 280 / अनुच्छेद 280"
           ],
           "a": 0,
           "e": "Correct Answer: A\n\nExplanation: The Supreme Court can issue writs for enforcement of Fundamental Rights under Article 32.",
@@ -1477,10 +863,12 @@
           "q": "With reference to Writ Jurisdiction, which of the following is correct?\n\nThe Supreme Court can issue writs for enforcement of Fundamental Rights under Article 32.",
           "hi": "Writ Jurisdiction के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nसर्वोच्च न्यायालय अनुच्छेद 32 के अंतर्गत मौलिक अधिकारों के प्रवर्तन के लिए रिट जारी कर सकता है.",
           "o": [
+            "Article 50 / अनुच्छेद 50",
+            "Article 280 / अनुच्छेद 280",
             "A / r",
-            "अ / न"
+            "Article 40 / अनुच्छेद 40"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: A\n\nExplanation: The Supreme Court can issue writs for enforcement of Fundamental Rights under Article 32.",
           "eh": "सही उत्तर: r\n\nव्याख्या: सर्वोच्च न्यायालय अनुच्छेद 32 के अंतर्गत मौलिक अधिकारों के प्रवर्तन के लिए रिट जारी कर सकता है.",
           "subject": "Polity",
@@ -1492,7 +880,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Writ Jurisdiction से संबंधित है?\n\nसर्वोच्च न्यायालय अनुच्छेद 32 के अंतर्गत मौलिक अधिकारों के प्रवर्तन के लिए रिट जारी कर सकता है.",
           "o": [
             "A / r",
-            "अ / न"
+            "Article 40 / अनुच्छेद 40",
+            "Article 50 / अनुच्छेद 50",
+            "Article 280 / अनुच्छेद 280"
           ],
           "a": 0,
           "e": "Correct Answer: A\n\nExplanation: The Supreme Court can issue writs for enforcement of Fundamental Rights under Article 32.",
@@ -1505,10 +895,12 @@
           "q": "Which of the following best describes Writ Jurisdiction?\n\nThe Supreme Court can issue writs for enforcement of Fundamental Rights under Article 32.",
           "hi": "निम्नलिखित में से कौन-सा Writ Jurisdiction का सबसे उपयुक्त वर्णन करता है?\n\nसर्वोच्च न्यायालय अनुच्छेद 32 के अंतर्गत मौलिक अधिकारों के प्रवर्तन के लिए रिट जारी कर सकता है.",
           "o": [
+            "Article 50 / अनुच्छेद 50",
+            "Article 280 / अनुच्छेद 280",
             "A / r",
-            "अ / न"
+            "Article 40 / अनुच्छेद 40"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: A\n\nExplanation: The Supreme Court can issue writs for enforcement of Fundamental Rights under Article 32.",
           "eh": "सही उत्तर: r\n\nव्याख्या: सर्वोच्च न्यायालय अनुच्छेद 32 के अंतर्गत मौलिक अधिकारों के प्रवर्तन के लिए रिट जारी कर सकता है.",
           "subject": "Polity",
@@ -1520,7 +912,9 @@
           "hi": "Habeas Corpus के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nबंदी प्रत्यक्षीकरण रिट का उपयोग अवैध निरोध से मुक्ति दिलाने के लिए किया जाता है.",
           "o": [
             "R / e",
-            "अ / व"
+            "Compel a public authority to perform duty / लोक प्राधिकारी को कर्तव्य करने के लिए बाध्य करना",
+            "Stop a lower court from exceeding jurisdiction / अधीनस्थ न्यायालय को अधिकार-सीमा से बाहर जाने से रोकना",
+            "Question a person's right to hold public office / किसी व्यक्ति के सार्वजनिक पद धारण करने के अधिकार पर प्रश्न"
           ],
           "a": 0,
           "e": "Correct Answer: R\n\nExplanation: Habeas Corpus is a writ used to secure release from unlawful detention.",
@@ -1533,10 +927,12 @@
           "q": "With reference to Habeas Corpus, which of the following is correct?\n\nHabeas Corpus is a writ used to secure release from unlawful detention.",
           "hi": "Habeas Corpus के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nबंदी प्रत्यक्षीकरण रिट का उपयोग अवैध निरोध से मुक्ति दिलाने के लिए किया जाता है.",
           "o": [
+            "Stop a lower court from exceeding jurisdiction / अधीनस्थ न्यायालय को अधिकार-सीमा से बाहर जाने से रोकना",
+            "Question a person's right to hold public office / किसी व्यक्ति के सार्वजनिक पद धारण करने के अधिकार पर प्रश्न",
             "R / e",
-            "अ / व"
+            "Compel a public authority to perform duty / लोक प्राधिकारी को कर्तव्य करने के लिए बाध्य करना"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: R\n\nExplanation: Habeas Corpus is a writ used to secure release from unlawful detention.",
           "eh": "सही उत्तर: e\n\nव्याख्या: बंदी प्रत्यक्षीकरण रिट का उपयोग अवैध निरोध से मुक्ति दिलाने के लिए किया जाता है.",
           "subject": "Polity",
@@ -1548,7 +944,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Habeas Corpus से संबंधित है?\n\nबंदी प्रत्यक्षीकरण रिट का उपयोग अवैध निरोध से मुक्ति दिलाने के लिए किया जाता है.",
           "o": [
             "R / e",
-            "अ / व"
+            "Compel a public authority to perform duty / लोक प्राधिकारी को कर्तव्य करने के लिए बाध्य करना",
+            "Stop a lower court from exceeding jurisdiction / अधीनस्थ न्यायालय को अधिकार-सीमा से बाहर जाने से रोकना",
+            "Question a person's right to hold public office / किसी व्यक्ति के सार्वजनिक पद धारण करने के अधिकार पर प्रश्न"
           ],
           "a": 0,
           "e": "Correct Answer: R\n\nExplanation: Habeas Corpus is a writ used to secure release from unlawful detention.",
@@ -1561,10 +959,12 @@
           "q": "Which of the following best describes Habeas Corpus?\n\nHabeas Corpus is a writ used to secure release from unlawful detention.",
           "hi": "निम्नलिखित में से कौन-सा Habeas Corpus का सबसे उपयुक्त वर्णन करता है?\n\nबंदी प्रत्यक्षीकरण रिट का उपयोग अवैध निरोध से मुक्ति दिलाने के लिए किया जाता है.",
           "o": [
+            "Stop a lower court from exceeding jurisdiction / अधीनस्थ न्यायालय को अधिकार-सीमा से बाहर जाने से रोकना",
+            "Question a person's right to hold public office / किसी व्यक्ति के सार्वजनिक पद धारण करने के अधिकार पर प्रश्न",
             "R / e",
-            "अ / व"
+            "Compel a public authority to perform duty / लोक प्राधिकारी को कर्तव्य करने के लिए बाध्य करना"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: R\n\nExplanation: Habeas Corpus is a writ used to secure release from unlawful detention.",
           "eh": "सही उत्तर: e\n\nव्याख्या: बंदी प्रत्यक्षीकरण रिट का उपयोग अवैध निरोध से मुक्ति दिलाने के लिए किया जाता है.",
           "subject": "Polity",
@@ -1576,7 +976,9 @@
           "hi": "Mandamus के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nपरमादेश रिट सामान्यतः किसी लोक प्राधिकारी को कानूनी कर्तव्य का पालन करने का आदेश देने के लिए जारी की जाती है.",
           "o": [
             "C / o",
-            "क / ा"
+            "Release from detention / निरोध से मुक्ति",
+            "Transfer a criminal case / आपराधिक मामले का स्थानांतरण",
+            "Declare a law constitutional / किसी कानून को संवैधानिक घोषित करना"
           ],
           "a": 0,
           "e": "Correct Answer: C\n\nExplanation: Mandamus is a writ generally issued to command a public authority to perform a legal duty.",
@@ -1589,10 +991,12 @@
           "q": "With reference to Mandamus, which of the following is correct?\n\nMandamus is a writ generally issued to command a public authority to perform a legal duty.",
           "hi": "Mandamus के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nपरमादेश रिट सामान्यतः किसी लोक प्राधिकारी को कानूनी कर्तव्य का पालन करने का आदेश देने के लिए जारी की जाती है.",
           "o": [
+            "Transfer a criminal case / आपराधिक मामले का स्थानांतरण",
+            "Declare a law constitutional / किसी कानून को संवैधानिक घोषित करना",
             "C / o",
-            "क / ा"
+            "Release from detention / निरोध से मुक्ति"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: C\n\nExplanation: Mandamus is a writ generally issued to command a public authority to perform a legal duty.",
           "eh": "सही उत्तर: o\n\nव्याख्या: परमादेश रिट सामान्यतः किसी लोक प्राधिकारी को कानूनी कर्तव्य का पालन करने का आदेश देने के लिए जारी की जाती है.",
           "subject": "Polity",
@@ -1604,7 +1008,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Mandamus से संबंधित है?\n\nपरमादेश रिट सामान्यतः किसी लोक प्राधिकारी को कानूनी कर्तव्य का पालन करने का आदेश देने के लिए जारी की जाती है.",
           "o": [
             "C / o",
-            "क / ा"
+            "Release from detention / निरोध से मुक्ति",
+            "Transfer a criminal case / आपराधिक मामले का स्थानांतरण",
+            "Declare a law constitutional / किसी कानून को संवैधानिक घोषित करना"
           ],
           "a": 0,
           "e": "Correct Answer: C\n\nExplanation: Mandamus is a writ generally issued to command a public authority to perform a legal duty.",
@@ -1617,10 +1023,12 @@
           "q": "Which of the following best describes Mandamus?\n\nMandamus is a writ generally issued to command a public authority to perform a legal duty.",
           "hi": "निम्नलिखित में से कौन-सा Mandamus का सबसे उपयुक्त वर्णन करता है?\n\nपरमादेश रिट सामान्यतः किसी लोक प्राधिकारी को कानूनी कर्तव्य का पालन करने का आदेश देने के लिए जारी की जाती है.",
           "o": [
+            "Transfer a criminal case / आपराधिक मामले का स्थानांतरण",
+            "Declare a law constitutional / किसी कानून को संवैधानिक घोषित करना",
             "C / o",
-            "क / ा"
+            "Release from detention / निरोध से मुक्ति"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: C\n\nExplanation: Mandamus is a writ generally issued to command a public authority to perform a legal duty.",
           "eh": "सही उत्तर: o\n\nव्याख्या: परमादेश रिट सामान्यतः किसी लोक प्राधिकारी को कानूनी कर्तव्य का पालन करने का आदेश देने के लिए जारी की जाती है.",
           "subject": "Polity",
@@ -1632,7 +1040,9 @@
           "hi": "Certiorari के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nउत्प्रेषण रिट का उपयोग उपयुक्त मामलों में उच्च न्यायालय द्वारा अधीनस्थ न्यायालय या अधिकरण के आदेश को निरस्त करने के लिए किया जाता है.",
           "o": [
             "Q / u",
-            "अ / ध"
+            "Appoint a minister / मंत्री की नियुक्ति करना",
+            "Conduct an election / निर्वाचन कराना",
+            "Approve the Union Budget / केंद्रीय बजट को मंजूरी देना"
           ],
           "a": 0,
           "e": "Correct Answer: Q\n\nExplanation: Certiorari is a writ used by a superior court to quash an order of a lower court or tribunal in appropriate cases.",
@@ -1645,10 +1055,12 @@
           "q": "With reference to Certiorari, which of the following is correct?\n\nCertiorari is a writ used by a superior court to quash an order of a lower court or tribunal in appropriate cases.",
           "hi": "Certiorari के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nउत्प्रेषण रिट का उपयोग उपयुक्त मामलों में उच्च न्यायालय द्वारा अधीनस्थ न्यायालय या अधिकरण के आदेश को निरस्त करने के लिए किया जाता है.",
           "o": [
+            "Conduct an election / निर्वाचन कराना",
+            "Approve the Union Budget / केंद्रीय बजट को मंजूरी देना",
             "Q / u",
-            "अ / ध"
+            "Appoint a minister / मंत्री की नियुक्ति करना"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: Q\n\nExplanation: Certiorari is a writ used by a superior court to quash an order of a lower court or tribunal in appropriate cases.",
           "eh": "सही उत्तर: u\n\nव्याख्या: उत्प्रेषण रिट का उपयोग उपयुक्त मामलों में उच्च न्यायालय द्वारा अधीनस्थ न्यायालय या अधिकरण के आदेश को निरस्त करने के लिए किया जाता है.",
           "subject": "Polity",
@@ -1660,7 +1072,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Certiorari से संबंधित है?\n\nउत्प्रेषण रिट का उपयोग उपयुक्त मामलों में उच्च न्यायालय द्वारा अधीनस्थ न्यायालय या अधिकरण के आदेश को निरस्त करने के लिए किया जाता है.",
           "o": [
             "Q / u",
-            "अ / ध"
+            "Appoint a minister / मंत्री की नियुक्ति करना",
+            "Conduct an election / निर्वाचन कराना",
+            "Approve the Union Budget / केंद्रीय बजट को मंजूरी देना"
           ],
           "a": 0,
           "e": "Correct Answer: Q\n\nExplanation: Certiorari is a writ used by a superior court to quash an order of a lower court or tribunal in appropriate cases.",
@@ -1673,10 +1087,12 @@
           "q": "Which of the following best describes Certiorari?\n\nCertiorari is a writ used by a superior court to quash an order of a lower court or tribunal in appropriate cases.",
           "hi": "निम्नलिखित में से कौन-सा Certiorari का सबसे उपयुक्त वर्णन करता है?\n\nउत्प्रेषण रिट का उपयोग उपयुक्त मामलों में उच्च न्यायालय द्वारा अधीनस्थ न्यायालय या अधिकरण के आदेश को निरस्त करने के लिए किया जाता है.",
           "o": [
+            "Conduct an election / निर्वाचन कराना",
+            "Approve the Union Budget / केंद्रीय बजट को मंजूरी देना",
             "Q / u",
-            "अ / ध"
+            "Appoint a minister / मंत्री की नियुक्ति करना"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: Q\n\nExplanation: Certiorari is a writ used by a superior court to quash an order of a lower court or tribunal in appropriate cases.",
           "eh": "सही उत्तर: u\n\nव्याख्या: उत्प्रेषण रिट का उपयोग उपयुक्त मामलों में उच्च न्यायालय द्वारा अधीनस्थ न्यायालय या अधिकरण के आदेश को निरस्त करने के लिए किया जाता है.",
           "subject": "Polity",
@@ -1688,7 +1104,9 @@
           "hi": "Prohibition के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nप्रतिषेध रिट उच्च न्यायालय द्वारा अधीनस्थ न्यायालय या अधिकरण को अधिकार-सीमा से बाहर जाने से रोकने के लिए जारी की जाती है.",
           "o": [
             "P / r",
-            "अ / ध"
+            "Release a detained person / निरुद्ध व्यक्ति को मुक्त करना",
+            "Appoint a judge / न्यायाधीश नियुक्त करना",
+            "Approve legislation / विधायिका को मंजूरी देना"
           ],
           "a": 0,
           "e": "Correct Answer: P\n\nExplanation: Prohibition is issued by a superior court to prevent a lower court or tribunal from exceeding its jurisdiction.",
@@ -1701,10 +1119,12 @@
           "q": "With reference to Prohibition, which of the following is correct?\n\nProhibition is issued by a superior court to prevent a lower court or tribunal from exceeding its jurisdiction.",
           "hi": "Prohibition के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nप्रतिषेध रिट उच्च न्यायालय द्वारा अधीनस्थ न्यायालय या अधिकरण को अधिकार-सीमा से बाहर जाने से रोकने के लिए जारी की जाती है.",
           "o": [
+            "Appoint a judge / न्यायाधीश नियुक्त करना",
+            "Approve legislation / विधायिका को मंजूरी देना",
             "P / r",
-            "अ / ध"
+            "Release a detained person / निरुद्ध व्यक्ति को मुक्त करना"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: P\n\nExplanation: Prohibition is issued by a superior court to prevent a lower court or tribunal from exceeding its jurisdiction.",
           "eh": "सही उत्तर: r\n\nव्याख्या: प्रतिषेध रिट उच्च न्यायालय द्वारा अधीनस्थ न्यायालय या अधिकरण को अधिकार-सीमा से बाहर जाने से रोकने के लिए जारी की जाती है.",
           "subject": "Polity",
@@ -1716,7 +1136,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Prohibition से संबंधित है?\n\nप्रतिषेध रिट उच्च न्यायालय द्वारा अधीनस्थ न्यायालय या अधिकरण को अधिकार-सीमा से बाहर जाने से रोकने के लिए जारी की जाती है.",
           "o": [
             "P / r",
-            "अ / ध"
+            "Release a detained person / निरुद्ध व्यक्ति को मुक्त करना",
+            "Appoint a judge / न्यायाधीश नियुक्त करना",
+            "Approve legislation / विधायिका को मंजूरी देना"
           ],
           "a": 0,
           "e": "Correct Answer: P\n\nExplanation: Prohibition is issued by a superior court to prevent a lower court or tribunal from exceeding its jurisdiction.",
@@ -1729,10 +1151,12 @@
           "q": "Which of the following best describes Prohibition?\n\nProhibition is issued by a superior court to prevent a lower court or tribunal from exceeding its jurisdiction.",
           "hi": "निम्नलिखित में से कौन-सा Prohibition का सबसे उपयुक्त वर्णन करता है?\n\nप्रतिषेध रिट उच्च न्यायालय द्वारा अधीनस्थ न्यायालय या अधिकरण को अधिकार-सीमा से बाहर जाने से रोकने के लिए जारी की जाती है.",
           "o": [
+            "Appoint a judge / न्यायाधीश नियुक्त करना",
+            "Approve legislation / विधायिका को मंजूरी देना",
             "P / r",
-            "अ / ध"
+            "Release a detained person / निरुद्ध व्यक्ति को मुक्त करना"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: P\n\nExplanation: Prohibition is issued by a superior court to prevent a lower court or tribunal from exceeding its jurisdiction.",
           "eh": "सही उत्तर: r\n\nव्याख्या: प्रतिषेध रिट उच्च न्यायालय द्वारा अधीनस्थ न्यायालय या अधिकरण को अधिकार-सीमा से बाहर जाने से रोकने के लिए जारी की जाती है.",
           "subject": "Polity",
@@ -1744,7 +1168,9 @@
           "hi": "Quo Warranto के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nअधिकार-पृच्छा रिट किसी व्यक्ति के सार्वजनिक पद धारण करने के कानूनी अधिकार पर प्रश्न उठाती है.",
           "o": [
             "A / u",
-            "स / ा"
+            "Unlawful detention / अवैध निरोध",
+            "Government expenditure / सरकारी व्यय",
+            "Election timetable / निर्वाचन कार्यक्रम"
           ],
           "a": 0,
           "e": "Correct Answer: A\n\nExplanation: Quo Warranto questions the legal authority of a person holding a public office.",
@@ -1757,10 +1183,12 @@
           "q": "With reference to Quo Warranto, which of the following is correct?\n\nQuo Warranto questions the legal authority of a person holding a public office.",
           "hi": "Quo Warranto के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nअधिकार-पृच्छा रिट किसी व्यक्ति के सार्वजनिक पद धारण करने के कानूनी अधिकार पर प्रश्न उठाती है.",
           "o": [
+            "Government expenditure / सरकारी व्यय",
+            "Election timetable / निर्वाचन कार्यक्रम",
             "A / u",
-            "स / ा"
+            "Unlawful detention / अवैध निरोध"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: A\n\nExplanation: Quo Warranto questions the legal authority of a person holding a public office.",
           "eh": "सही उत्तर: u\n\nव्याख्या: अधिकार-पृच्छा रिट किसी व्यक्ति के सार्वजनिक पद धारण करने के कानूनी अधिकार पर प्रश्न उठाती है.",
           "subject": "Polity",
@@ -1772,7 +1200,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Quo Warranto से संबंधित है?\n\nअधिकार-पृच्छा रिट किसी व्यक्ति के सार्वजनिक पद धारण करने के कानूनी अधिकार पर प्रश्न उठाती है.",
           "o": [
             "A / u",
-            "स / ा"
+            "Unlawful detention / अवैध निरोध",
+            "Government expenditure / सरकारी व्यय",
+            "Election timetable / निर्वाचन कार्यक्रम"
           ],
           "a": 0,
           "e": "Correct Answer: A\n\nExplanation: Quo Warranto questions the legal authority of a person holding a public office.",
@@ -1785,10 +1215,12 @@
           "q": "Which of the following best describes Quo Warranto?\n\nQuo Warranto questions the legal authority of a person holding a public office.",
           "hi": "निम्नलिखित में से कौन-सा Quo Warranto का सबसे उपयुक्त वर्णन करता है?\n\nअधिकार-पृच्छा रिट किसी व्यक्ति के सार्वजनिक पद धारण करने के कानूनी अधिकार पर प्रश्न उठाती है.",
           "o": [
+            "Government expenditure / सरकारी व्यय",
+            "Election timetable / निर्वाचन कार्यक्रम",
             "A / u",
-            "स / ा"
+            "Unlawful detention / अवैध निरोध"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: A\n\nExplanation: Quo Warranto questions the legal authority of a person holding a public office.",
           "eh": "सही उत्तर: u\n\nव्याख्या: अधिकार-पृच्छा रिट किसी व्यक्ति के सार्वजनिक पद धारण करने के कानूनी अधिकार पर प्रश्न उठाती है.",
           "subject": "Polity",
@@ -1800,7 +1232,9 @@
           "hi": "Article 38 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nअनुच्छेद 38 राज्य को न्याय पर आधारित सामाजिक व्यवस्था द्वारा लोक कल्याण को बढ़ावा देने का निर्देश देता है.",
           "o": [
             "P / r",
-            "न / ्"
+            "Abolition of untouchability / अस्पृश्यता का उन्मूलन",
+            "Election of President / राष्ट्रपति का निर्वाचन",
+            "Appointment of Governor / राज्यपाल की नियुक्ति"
           ],
           "a": 0,
           "e": "Correct Answer: P\n\nExplanation: Article 38 directs the State to promote the welfare of the people by securing a social order informed by justice.",
@@ -1813,10 +1247,12 @@
           "q": "With reference to Article 38, which of the following is correct?\n\nArticle 38 directs the State to promote the welfare of the people by securing a social order informed by justice.",
           "hi": "Article 38 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nअनुच्छेद 38 राज्य को न्याय पर आधारित सामाजिक व्यवस्था द्वारा लोक कल्याण को बढ़ावा देने का निर्देश देता है.",
           "o": [
+            "Election of President / राष्ट्रपति का निर्वाचन",
+            "Appointment of Governor / राज्यपाल की नियुक्ति",
             "P / r",
-            "न / ्"
+            "Abolition of untouchability / अस्पृश्यता का उन्मूलन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: P\n\nExplanation: Article 38 directs the State to promote the welfare of the people by securing a social order informed by justice.",
           "eh": "सही उत्तर: r\n\nव्याख्या: अनुच्छेद 38 राज्य को न्याय पर आधारित सामाजिक व्यवस्था द्वारा लोक कल्याण को बढ़ावा देने का निर्देश देता है.",
           "subject": "Polity",
@@ -1828,7 +1264,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Article 38 से संबंधित है?\n\nअनुच्छेद 38 राज्य को न्याय पर आधारित सामाजिक व्यवस्था द्वारा लोक कल्याण को बढ़ावा देने का निर्देश देता है.",
           "o": [
             "P / r",
-            "न / ्"
+            "Abolition of untouchability / अस्पृश्यता का उन्मूलन",
+            "Election of President / राष्ट्रपति का निर्वाचन",
+            "Appointment of Governor / राज्यपाल की नियुक्ति"
           ],
           "a": 0,
           "e": "Correct Answer: P\n\nExplanation: Article 38 directs the State to promote the welfare of the people by securing a social order informed by justice.",
@@ -1841,10 +1279,12 @@
           "q": "Which of the following best describes Article 38?\n\nArticle 38 directs the State to promote the welfare of the people by securing a social order informed by justice.",
           "hi": "निम्नलिखित में से कौन-सा Article 38 का सबसे उपयुक्त वर्णन करता है?\n\nअनुच्छेद 38 राज्य को न्याय पर आधारित सामाजिक व्यवस्था द्वारा लोक कल्याण को बढ़ावा देने का निर्देश देता है.",
           "o": [
+            "Election of President / राष्ट्रपति का निर्वाचन",
+            "Appointment of Governor / राज्यपाल की नियुक्ति",
             "P / r",
-            "न / ्"
+            "Abolition of untouchability / अस्पृश्यता का उन्मूलन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: P\n\nExplanation: Article 38 directs the State to promote the welfare of the people by securing a social order informed by justice.",
           "eh": "सही उत्तर: r\n\nव्याख्या: अनुच्छेद 38 राज्य को न्याय पर आधारित सामाजिक व्यवस्था द्वारा लोक कल्याण को बढ़ावा देने का निर्देश देता है.",
           "subject": "Polity",
@@ -1856,7 +1296,9 @@
           "hi": "Article 39 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nअनुच्छेद 39 आजीविका के पर्याप्त साधनों और भौतिक संसाधनों के वितरण से संबंधित कई सिद्धांत रखता है.",
           "o": [
             "L / i",
-            "आ / ज"
+            "Election disputes / निर्वाचन विवाद",
+            "Judicial appointments / न्यायिक नियुक्तियाँ",
+            "Emergency proclamation / आपातकाल की उद्घोषणा"
           ],
           "a": 0,
           "e": "Correct Answer: L\n\nExplanation: Article 39 contains several principles relating to adequate means of livelihood and distribution of material resources.",
@@ -1869,10 +1311,12 @@
           "q": "With reference to Article 39, which of the following is correct?\n\nArticle 39 contains several principles relating to adequate means of livelihood and distribution of material resources.",
           "hi": "Article 39 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nअनुच्छेद 39 आजीविका के पर्याप्त साधनों और भौतिक संसाधनों के वितरण से संबंधित कई सिद्धांत रखता है.",
           "o": [
+            "Judicial appointments / न्यायिक नियुक्तियाँ",
+            "Emergency proclamation / आपातकाल की उद्घोषणा",
             "L / i",
-            "आ / ज"
+            "Election disputes / निर्वाचन विवाद"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: L\n\nExplanation: Article 39 contains several principles relating to adequate means of livelihood and distribution of material resources.",
           "eh": "सही उत्तर: i\n\nव्याख्या: अनुच्छेद 39 आजीविका के पर्याप्त साधनों और भौतिक संसाधनों के वितरण से संबंधित कई सिद्धांत रखता है.",
           "subject": "Polity",
@@ -1884,7 +1328,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Article 39 से संबंधित है?\n\nअनुच्छेद 39 आजीविका के पर्याप्त साधनों और भौतिक संसाधनों के वितरण से संबंधित कई सिद्धांत रखता है.",
           "o": [
             "L / i",
-            "आ / ज"
+            "Election disputes / निर्वाचन विवाद",
+            "Judicial appointments / न्यायिक नियुक्तियाँ",
+            "Emergency proclamation / आपातकाल की उद्घोषणा"
           ],
           "a": 0,
           "e": "Correct Answer: L\n\nExplanation: Article 39 contains several principles relating to adequate means of livelihood and distribution of material resources.",
@@ -1897,10 +1343,12 @@
           "q": "Which of the following best describes Article 39?\n\nArticle 39 contains several principles relating to adequate means of livelihood and distribution of material resources.",
           "hi": "निम्नलिखित में से कौन-सा Article 39 का सबसे उपयुक्त वर्णन करता है?\n\nअनुच्छेद 39 आजीविका के पर्याप्त साधनों और भौतिक संसाधनों के वितरण से संबंधित कई सिद्धांत रखता है.",
           "o": [
+            "Judicial appointments / न्यायिक नियुक्तियाँ",
+            "Emergency proclamation / आपातकाल की उद्घोषणा",
             "L / i",
-            "आ / ज"
+            "Election disputes / निर्वाचन विवाद"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: L\n\nExplanation: Article 39 contains several principles relating to adequate means of livelihood and distribution of material resources.",
           "eh": "सही उत्तर: i\n\nव्याख्या: अनुच्छेद 39 आजीविका के पर्याप्त साधनों और भौतिक संसाधनों के वितरण से संबंधित कई सिद्धांत रखता है.",
           "subject": "Polity",
@@ -1912,7 +1360,9 @@
           "hi": "Article 39A के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nअनुच्छेद 39A समान न्याय और निःशुल्क विधिक सहायता को बढ़ावा देता है.",
           "o": [
             "E / q",
-            "स / म"
+            "Free higher education / निःशुल्क उच्च शिक्षा",
+            "Uniform taxation / समान कराधान",
+            "Election reforms / निर्वाचन सुधार"
           ],
           "a": 0,
           "e": "Correct Answer: E\n\nExplanation: Article 39A promotes equal justice and free legal aid.",
@@ -1925,10 +1375,12 @@
           "q": "With reference to Article 39A, which of the following is correct?\n\nArticle 39A promotes equal justice and free legal aid.",
           "hi": "Article 39A के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nअनुच्छेद 39A समान न्याय और निःशुल्क विधिक सहायता को बढ़ावा देता है.",
           "o": [
+            "Uniform taxation / समान कराधान",
+            "Election reforms / निर्वाचन सुधार",
             "E / q",
-            "स / म"
+            "Free higher education / निःशुल्क उच्च शिक्षा"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: E\n\nExplanation: Article 39A promotes equal justice and free legal aid.",
           "eh": "सही उत्तर: q\n\nव्याख्या: अनुच्छेद 39A समान न्याय और निःशुल्क विधिक सहायता को बढ़ावा देता है.",
           "subject": "Polity",
@@ -1940,7 +1392,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Article 39A से संबंधित है?\n\nअनुच्छेद 39A समान न्याय और निःशुल्क विधिक सहायता को बढ़ावा देता है.",
           "o": [
             "E / q",
-            "स / म"
+            "Free higher education / निःशुल्क उच्च शिक्षा",
+            "Uniform taxation / समान कराधान",
+            "Election reforms / निर्वाचन सुधार"
           ],
           "a": 0,
           "e": "Correct Answer: E\n\nExplanation: Article 39A promotes equal justice and free legal aid.",
@@ -1953,10 +1407,12 @@
           "q": "Which of the following best describes Article 39A?\n\nArticle 39A promotes equal justice and free legal aid.",
           "hi": "निम्नलिखित में से कौन-सा Article 39A का सबसे उपयुक्त वर्णन करता है?\n\nअनुच्छेद 39A समान न्याय और निःशुल्क विधिक सहायता को बढ़ावा देता है.",
           "o": [
+            "Uniform taxation / समान कराधान",
+            "Election reforms / निर्वाचन सुधार",
             "E / q",
-            "स / म"
+            "Free higher education / निःशुल्क उच्च शिक्षा"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: E\n\nExplanation: Article 39A promotes equal justice and free legal aid.",
           "eh": "सही उत्तर: q\n\nव्याख्या: अनुच्छेद 39A समान न्याय और निःशुल्क विधिक सहायता को बढ़ावा देता है.",
           "subject": "Polity",
@@ -1968,7 +1424,9 @@
           "hi": "Article 43 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nअनुच्छेद 43 श्रमिकों के लिए निर्वाह मजदूरी और सम्मानजनक जीवन स्तर सुनिश्चित करने से संबंधित है.",
           "o": [
             "L / i",
-            "न / ि"
+            "Judicial review / न्यायिक पुनरावलोकन",
+            "Election of Vice-President / उपराष्ट्रपति का निर्वाचन",
+            "Financial emergency / वित्तीय आपातकाल"
           ],
           "a": 0,
           "e": "Correct Answer: L\n\nExplanation: Article 43 deals with securing a living wage and a decent standard of life for workers.",
@@ -1981,10 +1439,12 @@
           "q": "With reference to Article 43, which of the following is correct?\n\nArticle 43 deals with securing a living wage and a decent standard of life for workers.",
           "hi": "Article 43 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nअनुच्छेद 43 श्रमिकों के लिए निर्वाह मजदूरी और सम्मानजनक जीवन स्तर सुनिश्चित करने से संबंधित है.",
           "o": [
+            "Election of Vice-President / उपराष्ट्रपति का निर्वाचन",
+            "Financial emergency / वित्तीय आपातकाल",
             "L / i",
-            "न / ि"
+            "Judicial review / न्यायिक पुनरावलोकन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: L\n\nExplanation: Article 43 deals with securing a living wage and a decent standard of life for workers.",
           "eh": "सही उत्तर: i\n\nव्याख्या: अनुच्छेद 43 श्रमिकों के लिए निर्वाह मजदूरी और सम्मानजनक जीवन स्तर सुनिश्चित करने से संबंधित है.",
           "subject": "Polity",
@@ -1996,7 +1456,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Article 43 से संबंधित है?\n\nअनुच्छेद 43 श्रमिकों के लिए निर्वाह मजदूरी और सम्मानजनक जीवन स्तर सुनिश्चित करने से संबंधित है.",
           "o": [
             "L / i",
-            "न / ि"
+            "Judicial review / न्यायिक पुनरावलोकन",
+            "Election of Vice-President / उपराष्ट्रपति का निर्वाचन",
+            "Financial emergency / वित्तीय आपातकाल"
           ],
           "a": 0,
           "e": "Correct Answer: L\n\nExplanation: Article 43 deals with securing a living wage and a decent standard of life for workers.",
@@ -2009,10 +1471,12 @@
           "q": "Which of the following best describes Article 43?\n\nArticle 43 deals with securing a living wage and a decent standard of life for workers.",
           "hi": "निम्नलिखित में से कौन-सा Article 43 का सबसे उपयुक्त वर्णन करता है?\n\nअनुच्छेद 43 श्रमिकों के लिए निर्वाह मजदूरी और सम्मानजनक जीवन स्तर सुनिश्चित करने से संबंधित है.",
           "o": [
+            "Election of Vice-President / उपराष्ट्रपति का निर्वाचन",
+            "Financial emergency / वित्तीय आपातकाल",
             "L / i",
-            "न / ि"
+            "Judicial review / न्यायिक पुनरावलोकन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: L\n\nExplanation: Article 43 deals with securing a living wage and a decent standard of life for workers.",
           "eh": "सही उत्तर: i\n\nव्याख्या: अनुच्छेद 43 श्रमिकों के लिए निर्वाह मजदूरी और सम्मानजनक जीवन स्तर सुनिश्चित करने से संबंधित है.",
           "subject": "Polity",
@@ -2024,7 +1488,9 @@
           "hi": "Article 48A के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nअनुच्छेद 48A राज्य को पर्यावरण की रक्षा और सुधार तथा वनों और वन्यजीवों की सुरक्षा का निर्देश देता है.",
           "o": [
             "E / n",
-            "प / र"
+            "Public employment / लोक नियोजन",
+            "Inter-State trade / अंतर्राज्यीय व्यापार",
+            "Election procedure / निर्वाचन प्रक्रिया"
           ],
           "a": 0,
           "e": "Correct Answer: E\n\nExplanation: Article 48A directs the State to protect and improve the environment and safeguard forests and wildlife.",
@@ -2037,10 +1503,12 @@
           "q": "With reference to Article 48A, which of the following is correct?\n\nArticle 48A directs the State to protect and improve the environment and safeguard forests and wildlife.",
           "hi": "Article 48A के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nअनुच्छेद 48A राज्य को पर्यावरण की रक्षा और सुधार तथा वनों और वन्यजीवों की सुरक्षा का निर्देश देता है.",
           "o": [
+            "Inter-State trade / अंतर्राज्यीय व्यापार",
+            "Election procedure / निर्वाचन प्रक्रिया",
             "E / n",
-            "प / र"
+            "Public employment / लोक नियोजन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: E\n\nExplanation: Article 48A directs the State to protect and improve the environment and safeguard forests and wildlife.",
           "eh": "सही उत्तर: n\n\nव्याख्या: अनुच्छेद 48A राज्य को पर्यावरण की रक्षा और सुधार तथा वनों और वन्यजीवों की सुरक्षा का निर्देश देता है.",
           "subject": "Polity",
@@ -2052,7 +1520,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Article 48A से संबंधित है?\n\nअनुच्छेद 48A राज्य को पर्यावरण की रक्षा और सुधार तथा वनों और वन्यजीवों की सुरक्षा का निर्देश देता है.",
           "o": [
             "E / n",
-            "प / र"
+            "Public employment / लोक नियोजन",
+            "Inter-State trade / अंतर्राज्यीय व्यापार",
+            "Election procedure / निर्वाचन प्रक्रिया"
           ],
           "a": 0,
           "e": "Correct Answer: E\n\nExplanation: Article 48A directs the State to protect and improve the environment and safeguard forests and wildlife.",
@@ -2065,10 +1535,12 @@
           "q": "Which of the following best describes Article 48A?\n\nArticle 48A directs the State to protect and improve the environment and safeguard forests and wildlife.",
           "hi": "निम्नलिखित में से कौन-सा Article 48A का सबसे उपयुक्त वर्णन करता है?\n\nअनुच्छेद 48A राज्य को पर्यावरण की रक्षा और सुधार तथा वनों और वन्यजीवों की सुरक्षा का निर्देश देता है.",
           "o": [
+            "Inter-State trade / अंतर्राज्यीय व्यापार",
+            "Election procedure / निर्वाचन प्रक्रिया",
             "E / n",
-            "प / र"
+            "Public employment / लोक नियोजन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: E\n\nExplanation: Article 48A directs the State to protect and improve the environment and safeguard forests and wildlife.",
           "eh": "सही उत्तर: n\n\nव्याख्या: अनुच्छेद 48A राज्य को पर्यावरण की रक्षा और सुधार तथा वनों और वन्यजीवों की सुरक्षा का निर्देश देता है.",
           "subject": "Polity",
@@ -2080,7 +1552,9 @@
           "hi": "Scientific Temper के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nसंविधान नागरिकों से वैज्ञानिक दृष्टिकोण, मानवतावाद तथा जिज्ञासा और सुधार की भावना विकसित करने की अपेक्षा करता है.",
           "o": [
             "S / c",
-            "व / ै"
+            "Political neutrality only / केवल राजनीतिक तटस्थता",
+            "Economic equality only / केवल आर्थिक समानता",
+            "Judicial activism / न्यायिक सक्रियता"
           ],
           "a": 0,
           "e": "Correct Answer: S\n\nExplanation: The Constitution asks citizens to develop scientific temper, humanism and the spirit of inquiry and reform.",
@@ -2093,10 +1567,12 @@
           "q": "With reference to Scientific Temper, which of the following is correct?\n\nThe Constitution asks citizens to develop scientific temper, humanism and the spirit of inquiry and reform.",
           "hi": "Scientific Temper के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nसंविधान नागरिकों से वैज्ञानिक दृष्टिकोण, मानवतावाद तथा जिज्ञासा और सुधार की भावना विकसित करने की अपेक्षा करता है.",
           "o": [
+            "Economic equality only / केवल आर्थिक समानता",
+            "Judicial activism / न्यायिक सक्रियता",
             "S / c",
-            "व / ै"
+            "Political neutrality only / केवल राजनीतिक तटस्थता"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: S\n\nExplanation: The Constitution asks citizens to develop scientific temper, humanism and the spirit of inquiry and reform.",
           "eh": "सही उत्तर: c\n\nव्याख्या: संविधान नागरिकों से वैज्ञानिक दृष्टिकोण, मानवतावाद तथा जिज्ञासा और सुधार की भावना विकसित करने की अपेक्षा करता है.",
           "subject": "Polity",
@@ -2108,7 +1584,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Scientific Temper से संबंधित है?\n\nसंविधान नागरिकों से वैज्ञानिक दृष्टिकोण, मानवतावाद तथा जिज्ञासा और सुधार की भावना विकसित करने की अपेक्षा करता है.",
           "o": [
             "S / c",
-            "व / ै"
+            "Political neutrality only / केवल राजनीतिक तटस्थता",
+            "Economic equality only / केवल आर्थिक समानता",
+            "Judicial activism / न्यायिक सक्रियता"
           ],
           "a": 0,
           "e": "Correct Answer: S\n\nExplanation: The Constitution asks citizens to develop scientific temper, humanism and the spirit of inquiry and reform.",
@@ -2121,10 +1599,12 @@
           "q": "Which of the following best describes Scientific Temper?\n\nThe Constitution asks citizens to develop scientific temper, humanism and the spirit of inquiry and reform.",
           "hi": "निम्नलिखित में से कौन-सा Scientific Temper का सबसे उपयुक्त वर्णन करता है?\n\nसंविधान नागरिकों से वैज्ञानिक दृष्टिकोण, मानवतावाद तथा जिज्ञासा और सुधार की भावना विकसित करने की अपेक्षा करता है.",
           "o": [
+            "Economic equality only / केवल आर्थिक समानता",
+            "Judicial activism / न्यायिक सक्रियता",
             "S / c",
-            "व / ै"
+            "Political neutrality only / केवल राजनीतिक तटस्थता"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: S\n\nExplanation: The Constitution asks citizens to develop scientific temper, humanism and the spirit of inquiry and reform.",
           "eh": "सही उत्तर: c\n\nव्याख्या: संविधान नागरिकों से वैज्ञानिक दृष्टिकोण, मानवतावाद तथा जिज्ञासा और सुधार की भावना विकसित करने की अपेक्षा करता है.",
           "subject": "Polity",
@@ -2136,7 +1616,9 @@
           "hi": "Article 72 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nअनुच्छेद 72 राष्ट्रपति को निर्दिष्ट मामलों में क्षमादान की शक्ति प्रदान करता है.",
           "o": [
             "P / a",
-            "क / ्"
+            "Emergency power of Governor / राज्यपाल की आपातकालीन शक्ति",
+            "Election supervision / निर्वाचन पर्यवेक्षण",
+            "Audit of accounts / लेखाओं का लेखा-परीक्षण"
           ],
           "a": 0,
           "e": "Correct Answer: P\n\nExplanation: Article 72 confers pardoning power on the President in specified cases.",
@@ -2149,10 +1631,12 @@
           "q": "With reference to Article 72, which of the following is correct?\n\nArticle 72 confers pardoning power on the President in specified cases.",
           "hi": "Article 72 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nअनुच्छेद 72 राष्ट्रपति को निर्दिष्ट मामलों में क्षमादान की शक्ति प्रदान करता है.",
           "o": [
+            "Election supervision / निर्वाचन पर्यवेक्षण",
+            "Audit of accounts / लेखाओं का लेखा-परीक्षण",
             "P / a",
-            "क / ्"
+            "Emergency power of Governor / राज्यपाल की आपातकालीन शक्ति"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: P\n\nExplanation: Article 72 confers pardoning power on the President in specified cases.",
           "eh": "सही उत्तर: a\n\nव्याख्या: अनुच्छेद 72 राष्ट्रपति को निर्दिष्ट मामलों में क्षमादान की शक्ति प्रदान करता है.",
           "subject": "Polity",
@@ -2164,7 +1648,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Article 72 से संबंधित है?\n\nअनुच्छेद 72 राष्ट्रपति को निर्दिष्ट मामलों में क्षमादान की शक्ति प्रदान करता है.",
           "o": [
             "P / a",
-            "क / ्"
+            "Emergency power of Governor / राज्यपाल की आपातकालीन शक्ति",
+            "Election supervision / निर्वाचन पर्यवेक्षण",
+            "Audit of accounts / लेखाओं का लेखा-परीक्षण"
           ],
           "a": 0,
           "e": "Correct Answer: P\n\nExplanation: Article 72 confers pardoning power on the President in specified cases.",
@@ -2177,10 +1663,12 @@
           "q": "Which of the following best describes Article 72?\n\nArticle 72 confers pardoning power on the President in specified cases.",
           "hi": "निम्नलिखित में से कौन-सा Article 72 का सबसे उपयुक्त वर्णन करता है?\n\nअनुच्छेद 72 राष्ट्रपति को निर्दिष्ट मामलों में क्षमादान की शक्ति प्रदान करता है.",
           "o": [
+            "Election supervision / निर्वाचन पर्यवेक्षण",
+            "Audit of accounts / लेखाओं का लेखा-परीक्षण",
             "P / a",
-            "क / ्"
+            "Emergency power of Governor / राज्यपाल की आपातकालीन शक्ति"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: P\n\nExplanation: Article 72 confers pardoning power on the President in specified cases.",
           "eh": "सही उत्तर: a\n\nव्याख्या: अनुच्छेद 72 राष्ट्रपति को निर्दिष्ट मामलों में क्षमादान की शक्ति प्रदान करता है.",
           "subject": "Polity",
@@ -2192,7 +1680,9 @@
           "hi": "Ordinance के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nराष्ट्रपति अनुच्छेद 123 के अंतर्गत संसद के सत्र में न होने पर और संवैधानिक शर्तें पूरी होने पर अध्यादेश जारी कर सकता है.",
           "o": [
             "A / r",
-            "अ / न"
+            "Article 143 / अनुच्छेद 143",
+            "Article 280 / अनुच्छेद 280",
+            "Article 324 / अनुच्छेद 324"
           ],
           "a": 0,
           "e": "Correct Answer: A\n\nExplanation: The President can promulgate an Ordinance under Article 123 when Parliament is not in session and constitutional conditions are satisfied.",
@@ -2205,10 +1695,12 @@
           "q": "With reference to Ordinance, which of the following is correct?\n\nThe President can promulgate an Ordinance under Article 123 when Parliament is not in session and constitutional conditions are satisfied.",
           "hi": "Ordinance के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nराष्ट्रपति अनुच्छेद 123 के अंतर्गत संसद के सत्र में न होने पर और संवैधानिक शर्तें पूरी होने पर अध्यादेश जारी कर सकता है.",
           "o": [
+            "Article 280 / अनुच्छेद 280",
+            "Article 324 / अनुच्छेद 324",
             "A / r",
-            "अ / न"
+            "Article 143 / अनुच्छेद 143"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: A\n\nExplanation: The President can promulgate an Ordinance under Article 123 when Parliament is not in session and constitutional conditions are satisfied.",
           "eh": "सही उत्तर: r\n\nव्याख्या: राष्ट्रपति अनुच्छेद 123 के अंतर्गत संसद के सत्र में न होने पर और संवैधानिक शर्तें पूरी होने पर अध्यादेश जारी कर सकता है.",
           "subject": "Polity",
@@ -2220,7 +1712,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Ordinance से संबंधित है?\n\nराष्ट्रपति अनुच्छेद 123 के अंतर्गत संसद के सत्र में न होने पर और संवैधानिक शर्तें पूरी होने पर अध्यादेश जारी कर सकता है.",
           "o": [
             "A / r",
-            "अ / न"
+            "Article 143 / अनुच्छेद 143",
+            "Article 280 / अनुच्छेद 280",
+            "Article 324 / अनुच्छेद 324"
           ],
           "a": 0,
           "e": "Correct Answer: A\n\nExplanation: The President can promulgate an Ordinance under Article 123 when Parliament is not in session and constitutional conditions are satisfied.",
@@ -2233,10 +1727,12 @@
           "q": "Which of the following best describes Ordinance?\n\nThe President can promulgate an Ordinance under Article 123 when Parliament is not in session and constitutional conditions are satisfied.",
           "hi": "निम्नलिखित में से कौन-सा Ordinance का सबसे उपयुक्त वर्णन करता है?\n\nराष्ट्रपति अनुच्छेद 123 के अंतर्गत संसद के सत्र में न होने पर और संवैधानिक शर्तें पूरी होने पर अध्यादेश जारी कर सकता है.",
           "o": [
+            "Article 280 / अनुच्छेद 280",
+            "Article 324 / अनुच्छेद 324",
             "A / r",
-            "अ / न"
+            "Article 143 / अनुच्छेद 143"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: A\n\nExplanation: The President can promulgate an Ordinance under Article 123 when Parliament is not in session and constitutional conditions are satisfied.",
           "eh": "सही उत्तर: r\n\nव्याख्या: राष्ट्रपति अनुच्छेद 123 के अंतर्गत संसद के सत्र में न होने पर और संवैधानिक शर्तें पूरी होने पर अध्यादेश जारी कर सकता है.",
           "subject": "Polity",
@@ -2248,7 +1744,9 @@
           "hi": "Impeachment के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nराष्ट्रपति को संविधान के उल्लंघन के लिए महाभियोग द्वारा पद से हटाया जा सकता है.",
           "o": [
             "V / i",
-            "स / ं"
+            "Loss of majority in Lok Sabha / लोकसभा में बहुमत खोना",
+            "Judicial disagreement / न्यायिक असहमति",
+            "Failure to pass a Money Bill / धन विधेयक पारित न होना"
           ],
           "a": 0,
           "e": "Correct Answer: V\n\nExplanation: The President can be removed from office by impeachment for violation of the Constitution.",
@@ -2261,10 +1759,12 @@
           "q": "With reference to Impeachment, which of the following is correct?\n\nThe President can be removed from office by impeachment for violation of the Constitution.",
           "hi": "Impeachment के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nराष्ट्रपति को संविधान के उल्लंघन के लिए महाभियोग द्वारा पद से हटाया जा सकता है.",
           "o": [
+            "Judicial disagreement / न्यायिक असहमति",
+            "Failure to pass a Money Bill / धन विधेयक पारित न होना",
             "V / i",
-            "स / ं"
+            "Loss of majority in Lok Sabha / लोकसभा में बहुमत खोना"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: V\n\nExplanation: The President can be removed from office by impeachment for violation of the Constitution.",
           "eh": "सही उत्तर: i\n\nव्याख्या: राष्ट्रपति को संविधान के उल्लंघन के लिए महाभियोग द्वारा पद से हटाया जा सकता है.",
           "subject": "Polity",
@@ -2276,7 +1776,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Impeachment से संबंधित है?\n\nराष्ट्रपति को संविधान के उल्लंघन के लिए महाभियोग द्वारा पद से हटाया जा सकता है.",
           "o": [
             "V / i",
-            "स / ं"
+            "Loss of majority in Lok Sabha / लोकसभा में बहुमत खोना",
+            "Judicial disagreement / न्यायिक असहमति",
+            "Failure to pass a Money Bill / धन विधेयक पारित न होना"
           ],
           "a": 0,
           "e": "Correct Answer: V\n\nExplanation: The President can be removed from office by impeachment for violation of the Constitution.",
@@ -2289,10 +1791,12 @@
           "q": "Which of the following best describes Impeachment?\n\nThe President can be removed from office by impeachment for violation of the Constitution.",
           "hi": "निम्नलिखित में से कौन-सा Impeachment का सबसे उपयुक्त वर्णन करता है?\n\nराष्ट्रपति को संविधान के उल्लंघन के लिए महाभियोग द्वारा पद से हटाया जा सकता है.",
           "o": [
+            "Judicial disagreement / न्यायिक असहमति",
+            "Failure to pass a Money Bill / धन विधेयक पारित न होना",
             "V / i",
-            "स / ं"
+            "Loss of majority in Lok Sabha / लोकसभा में बहुमत खोना"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: V\n\nExplanation: The President can be removed from office by impeachment for violation of the Constitution.",
           "eh": "सही उत्तर: i\n\nव्याख्या: राष्ट्रपति को संविधान के उल्लंघन के लिए महाभियोग द्वारा पद से हटाया जा सकता है.",
           "subject": "Polity",
@@ -2304,7 +1808,9 @@
           "hi": "Removal के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nउपराष्ट्रपति को राज्यसभा के ऐसे संकल्प द्वारा हटाया जा सकता है जिसे लोकसभा सहमत हो.",
           "o": [
             "R / a",
-            "र / ा"
+            "Impeachment by Supreme Court / सर्वोच्च न्यायालय द्वारा महाभियोग",
+            "President's unilateral order / राष्ट्रपति का एकतरफा आदेश",
+            "Election Commission order / निर्वाचन आयोग का आदेश"
           ],
           "a": 0,
           "e": "Correct Answer: R\n\nExplanation: The Vice-President can be removed by a resolution of the Rajya Sabha agreed to by the Lok Sabha.",
@@ -2317,10 +1823,12 @@
           "q": "With reference to Removal, which of the following is correct?\n\nThe Vice-President can be removed by a resolution of the Rajya Sabha agreed to by the Lok Sabha.",
           "hi": "Removal के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nउपराष्ट्रपति को राज्यसभा के ऐसे संकल्प द्वारा हटाया जा सकता है जिसे लोकसभा सहमत हो.",
           "o": [
+            "President's unilateral order / राष्ट्रपति का एकतरफा आदेश",
+            "Election Commission order / निर्वाचन आयोग का आदेश",
             "R / a",
-            "र / ा"
+            "Impeachment by Supreme Court / सर्वोच्च न्यायालय द्वारा महाभियोग"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: R\n\nExplanation: The Vice-President can be removed by a resolution of the Rajya Sabha agreed to by the Lok Sabha.",
           "eh": "सही उत्तर: a\n\nव्याख्या: उपराष्ट्रपति को राज्यसभा के ऐसे संकल्प द्वारा हटाया जा सकता है जिसे लोकसभा सहमत हो.",
           "subject": "Polity",
@@ -2332,7 +1840,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Removal से संबंधित है?\n\nउपराष्ट्रपति को राज्यसभा के ऐसे संकल्प द्वारा हटाया जा सकता है जिसे लोकसभा सहमत हो.",
           "o": [
             "R / a",
-            "र / ा"
+            "Impeachment by Supreme Court / सर्वोच्च न्यायालय द्वारा महाभियोग",
+            "President's unilateral order / राष्ट्रपति का एकतरफा आदेश",
+            "Election Commission order / निर्वाचन आयोग का आदेश"
           ],
           "a": 0,
           "e": "Correct Answer: R\n\nExplanation: The Vice-President can be removed by a resolution of the Rajya Sabha agreed to by the Lok Sabha.",
@@ -2345,10 +1855,12 @@
           "q": "Which of the following best describes Removal?\n\nThe Vice-President can be removed by a resolution of the Rajya Sabha agreed to by the Lok Sabha.",
           "hi": "निम्नलिखित में से कौन-सा Removal का सबसे उपयुक्त वर्णन करता है?\n\nउपराष्ट्रपति को राज्यसभा के ऐसे संकल्प द्वारा हटाया जा सकता है जिसे लोकसभा सहमत हो.",
           "o": [
+            "President's unilateral order / राष्ट्रपति का एकतरफा आदेश",
+            "Election Commission order / निर्वाचन आयोग का आदेश",
             "R / a",
-            "र / ा"
+            "Impeachment by Supreme Court / सर्वोच्च न्यायालय द्वारा महाभियोग"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: R\n\nExplanation: The Vice-President can be removed by a resolution of the Rajya Sabha agreed to by the Lok Sabha.",
           "eh": "सही उत्तर: a\n\nव्याख्या: उपराष्ट्रपति को राज्यसभा के ऐसे संकल्प द्वारा हटाया जा सकता है जिसे लोकसभा सहमत हो.",
           "subject": "Polity",
@@ -2360,7 +1872,9 @@
           "hi": "Constitutional Position के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nप्रधानमंत्री संघ स्तर पर मंत्रिपरिषद का प्रमुख होता है.",
           "o": [
             "H / e",
-            "म / ं"
+            "Head of the Supreme Court / सर्वोच्च न्यायालय का प्रमुख",
+            "Head of Election Commission / निर्वाचन आयोग का प्रमुख",
+            "Head of CAG / नियंत्रक एवं महालेखा परीक्षक का प्रमुख"
           ],
           "a": 0,
           "e": "Correct Answer: H\n\nExplanation: The Prime Minister is the head of the Council of Ministers at the Union level.",
@@ -2373,10 +1887,12 @@
           "q": "With reference to Constitutional Position, which of the following is correct?\n\nThe Prime Minister is the head of the Council of Ministers at the Union level.",
           "hi": "Constitutional Position के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nप्रधानमंत्री संघ स्तर पर मंत्रिपरिषद का प्रमुख होता है.",
           "o": [
+            "Head of Election Commission / निर्वाचन आयोग का प्रमुख",
+            "Head of CAG / नियंत्रक एवं महालेखा परीक्षक का प्रमुख",
             "H / e",
-            "म / ं"
+            "Head of the Supreme Court / सर्वोच्च न्यायालय का प्रमुख"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: H\n\nExplanation: The Prime Minister is the head of the Council of Ministers at the Union level.",
           "eh": "सही उत्तर: e\n\nव्याख्या: प्रधानमंत्री संघ स्तर पर मंत्रिपरिषद का प्रमुख होता है.",
           "subject": "Polity",
@@ -2388,7 +1904,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Constitutional Position से संबंधित है?\n\nप्रधानमंत्री संघ स्तर पर मंत्रिपरिषद का प्रमुख होता है.",
           "o": [
             "H / e",
-            "म / ं"
+            "Head of the Supreme Court / सर्वोच्च न्यायालय का प्रमुख",
+            "Head of Election Commission / निर्वाचन आयोग का प्रमुख",
+            "Head of CAG / नियंत्रक एवं महालेखा परीक्षक का प्रमुख"
           ],
           "a": 0,
           "e": "Correct Answer: H\n\nExplanation: The Prime Minister is the head of the Council of Ministers at the Union level.",
@@ -2401,10 +1919,12 @@
           "q": "Which of the following best describes Constitutional Position?\n\nThe Prime Minister is the head of the Council of Ministers at the Union level.",
           "hi": "निम्नलिखित में से कौन-सा Constitutional Position का सबसे उपयुक्त वर्णन करता है?\n\nप्रधानमंत्री संघ स्तर पर मंत्रिपरिषद का प्रमुख होता है.",
           "o": [
+            "Head of Election Commission / निर्वाचन आयोग का प्रमुख",
+            "Head of CAG / नियंत्रक एवं महालेखा परीक्षक का प्रमुख",
             "H / e",
-            "म / ं"
+            "Head of the Supreme Court / सर्वोच्च न्यायालय का प्रमुख"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: H\n\nExplanation: The Prime Minister is the head of the Council of Ministers at the Union level.",
           "eh": "सही उत्तर: e\n\nव्याख्या: प्रधानमंत्री संघ स्तर पर मंत्रिपरिषद का प्रमुख होता है.",
           "subject": "Polity",
@@ -2416,7 +1936,9 @@
           "hi": "Article 75 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nसंघ स्तर की मंत्रिपरिषद सामूहिक रूप से लोकसभा के प्रति उत्तरदायी होती है.",
           "o": [
             "L / o",
-            "ल / ो"
+            "Rajya Sabha / राज्यसभा",
+            "Supreme Court / सर्वोच्च न्यायालय",
+            "Election Commission / निर्वाचन आयोग"
           ],
           "a": 0,
           "e": "Correct Answer: L\n\nExplanation: The Council of Ministers at the Union level is collectively responsible to the Lok Sabha.",
@@ -2429,10 +1951,12 @@
           "q": "With reference to Article 75, which of the following is correct?\n\nThe Council of Ministers at the Union level is collectively responsible to the Lok Sabha.",
           "hi": "Article 75 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nसंघ स्तर की मंत्रिपरिषद सामूहिक रूप से लोकसभा के प्रति उत्तरदायी होती है.",
           "o": [
+            "Supreme Court / सर्वोच्च न्यायालय",
+            "Election Commission / निर्वाचन आयोग",
             "L / o",
-            "ल / ो"
+            "Rajya Sabha / राज्यसभा"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: L\n\nExplanation: The Council of Ministers at the Union level is collectively responsible to the Lok Sabha.",
           "eh": "सही उत्तर: o\n\nव्याख्या: संघ स्तर की मंत्रिपरिषद सामूहिक रूप से लोकसभा के प्रति उत्तरदायी होती है.",
           "subject": "Polity",
@@ -2444,7 +1968,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Article 75 से संबंधित है?\n\nसंघ स्तर की मंत्रिपरिषद सामूहिक रूप से लोकसभा के प्रति उत्तरदायी होती है.",
           "o": [
             "L / o",
-            "ल / ो"
+            "Rajya Sabha / राज्यसभा",
+            "Supreme Court / सर्वोच्च न्यायालय",
+            "Election Commission / निर्वाचन आयोग"
           ],
           "a": 0,
           "e": "Correct Answer: L\n\nExplanation: The Council of Ministers at the Union level is collectively responsible to the Lok Sabha.",
@@ -2457,10 +1983,12 @@
           "q": "Which of the following best describes Article 75?\n\nThe Council of Ministers at the Union level is collectively responsible to the Lok Sabha.",
           "hi": "निम्नलिखित में से कौन-सा Article 75 का सबसे उपयुक्त वर्णन करता है?\n\nसंघ स्तर की मंत्रिपरिषद सामूहिक रूप से लोकसभा के प्रति उत्तरदायी होती है.",
           "o": [
+            "Supreme Court / सर्वोच्च न्यायालय",
+            "Election Commission / निर्वाचन आयोग",
             "L / o",
-            "ल / ो"
+            "Rajya Sabha / राज्यसभा"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: L\n\nExplanation: The Council of Ministers at the Union level is collectively responsible to the Lok Sabha.",
           "eh": "सही उत्तर: o\n\nव्याख्या: संघ स्तर की मंत्रिपरिषद सामूहिक रूप से लोकसभा के प्रति उत्तरदायी होती है.",
           "subject": "Polity",
@@ -2472,7 +2000,9 @@
           "hi": "Quorum के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nसंसद के किसी भी सदन की बैठक के लिए गणपूर्ति कुल सदस्यों की संख्या का दसवाँ भाग है.",
           "o": [
             "O / n",
-            "द / स"
+            "One-third / एक-तिहाई",
+            "One-half / आधा",
+            "Two-thirds / दो-तिहाई"
           ],
           "a": 0,
           "e": "Correct Answer: O\n\nExplanation: The quorum to constitute a meeting of either House of Parliament is one-tenth of the total number of members.",
@@ -2485,10 +2015,12 @@
           "q": "With reference to Quorum, which of the following is correct?\n\nThe quorum to constitute a meeting of either House of Parliament is one-tenth of the total number of members.",
           "hi": "Quorum के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nसंसद के किसी भी सदन की बैठक के लिए गणपूर्ति कुल सदस्यों की संख्या का दसवाँ भाग है.",
           "o": [
+            "One-half / आधा",
+            "Two-thirds / दो-तिहाई",
             "O / n",
-            "द / स"
+            "One-third / एक-तिहाई"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: O\n\nExplanation: The quorum to constitute a meeting of either House of Parliament is one-tenth of the total number of members.",
           "eh": "सही उत्तर: n\n\nव्याख्या: संसद के किसी भी सदन की बैठक के लिए गणपूर्ति कुल सदस्यों की संख्या का दसवाँ भाग है.",
           "subject": "Polity",
@@ -2500,7 +2032,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Quorum से संबंधित है?\n\nसंसद के किसी भी सदन की बैठक के लिए गणपूर्ति कुल सदस्यों की संख्या का दसवाँ भाग है.",
           "o": [
             "O / n",
-            "द / स"
+            "One-third / एक-तिहाई",
+            "One-half / आधा",
+            "Two-thirds / दो-तिहाई"
           ],
           "a": 0,
           "e": "Correct Answer: O\n\nExplanation: The quorum to constitute a meeting of either House of Parliament is one-tenth of the total number of members.",
@@ -2513,10 +2047,12 @@
           "q": "Which of the following best describes Quorum?\n\nThe quorum to constitute a meeting of either House of Parliament is one-tenth of the total number of members.",
           "hi": "निम्नलिखित में से कौन-सा Quorum का सबसे उपयुक्त वर्णन करता है?\n\nसंसद के किसी भी सदन की बैठक के लिए गणपूर्ति कुल सदस्यों की संख्या का दसवाँ भाग है.",
           "o": [
+            "One-half / आधा",
+            "Two-thirds / दो-तिहाई",
             "O / n",
-            "द / स"
+            "One-third / एक-तिहाई"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: O\n\nExplanation: The quorum to constitute a meeting of either House of Parliament is one-tenth of the total number of members.",
           "eh": "सही उत्तर: n\n\nव्याख्या: संसद के किसी भी सदन की बैठक के लिए गणपूर्ति कुल सदस्यों की संख्या का दसवाँ भाग है.",
           "subject": "Polity",
@@ -2528,7 +2064,9 @@
           "hi": "Question Hour के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nप्रश्नकाल एक महत्वपूर्ण माध्यम है जिसके द्वारा सदस्य सरकार से जानकारी प्राप्त कर सकते हैं.",
           "o": [
             "S / e",
-            "स / र"
+            "Judicial appointments / न्यायिक नियुक्तियाँ",
+            "Conducting the census / जनगणना कराना",
+            "Auditing private companies / निजी कंपनियों का लेखा-परीक्षण"
           ],
           "a": 0,
           "e": "Correct Answer: S\n\nExplanation: Question Hour provides an important mechanism through which members can seek information from the government.",
@@ -2541,10 +2079,12 @@
           "q": "With reference to Question Hour, which of the following is correct?\n\nQuestion Hour provides an important mechanism through which members can seek information from the government.",
           "hi": "Question Hour के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nप्रश्नकाल एक महत्वपूर्ण माध्यम है जिसके द्वारा सदस्य सरकार से जानकारी प्राप्त कर सकते हैं.",
           "o": [
+            "Conducting the census / जनगणना कराना",
+            "Auditing private companies / निजी कंपनियों का लेखा-परीक्षण",
             "S / e",
-            "स / र"
+            "Judicial appointments / न्यायिक नियुक्तियाँ"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: S\n\nExplanation: Question Hour provides an important mechanism through which members can seek information from the government.",
           "eh": "सही उत्तर: e\n\nव्याख्या: प्रश्नकाल एक महत्वपूर्ण माध्यम है जिसके द्वारा सदस्य सरकार से जानकारी प्राप्त कर सकते हैं.",
           "subject": "Polity",
@@ -2556,7 +2096,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Question Hour से संबंधित है?\n\nप्रश्नकाल एक महत्वपूर्ण माध्यम है जिसके द्वारा सदस्य सरकार से जानकारी प्राप्त कर सकते हैं.",
           "o": [
             "S / e",
-            "स / र"
+            "Judicial appointments / न्यायिक नियुक्तियाँ",
+            "Conducting the census / जनगणना कराना",
+            "Auditing private companies / निजी कंपनियों का लेखा-परीक्षण"
           ],
           "a": 0,
           "e": "Correct Answer: S\n\nExplanation: Question Hour provides an important mechanism through which members can seek information from the government.",
@@ -2569,10 +2111,12 @@
           "q": "Which of the following best describes Question Hour?\n\nQuestion Hour provides an important mechanism through which members can seek information from the government.",
           "hi": "निम्नलिखित में से कौन-सा Question Hour का सबसे उपयुक्त वर्णन करता है?\n\nप्रश्नकाल एक महत्वपूर्ण माध्यम है जिसके द्वारा सदस्य सरकार से जानकारी प्राप्त कर सकते हैं.",
           "o": [
+            "Conducting the census / जनगणना कराना",
+            "Auditing private companies / निजी कंपनियों का लेखा-परीक्षण",
             "S / e",
-            "स / र"
+            "Judicial appointments / न्यायिक नियुक्तियाँ"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: S\n\nExplanation: Question Hour provides an important mechanism through which members can seek information from the government.",
           "eh": "सही उत्तर: e\n\nव्याख्या: प्रश्नकाल एक महत्वपूर्ण माध्यम है जिसके द्वारा सदस्य सरकार से जानकारी प्राप्त कर सकते हैं.",
           "subject": "Polity",
@@ -2584,7 +2128,9 @@
           "hi": "Zero Hour के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nशून्यकाल भारतीय संसदीय व्यवहार की एक प्रथा है जिसमें सदस्य तत्काल लोक महत्व के विषय उठाते हैं.",
           "o": [
             "M / a",
-            "त / त"
+            "Constitutional amendment only / केवल संवैधानिक संशोधन",
+            "Judicial review / न्यायिक पुनरावलोकन",
+            "Election of President / राष्ट्रपति का निर्वाचन"
           ],
           "a": 0,
           "e": "Correct Answer: M\n\nExplanation: Zero Hour is an Indian parliamentary practice used by members to raise matters of urgent public importance.",
@@ -2597,10 +2143,12 @@
           "q": "With reference to Zero Hour, which of the following is correct?\n\nZero Hour is an Indian parliamentary practice used by members to raise matters of urgent public importance.",
           "hi": "Zero Hour के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nशून्यकाल भारतीय संसदीय व्यवहार की एक प्रथा है जिसमें सदस्य तत्काल लोक महत्व के विषय उठाते हैं.",
           "o": [
+            "Judicial review / न्यायिक पुनरावलोकन",
+            "Election of President / राष्ट्रपति का निर्वाचन",
             "M / a",
-            "त / त"
+            "Constitutional amendment only / केवल संवैधानिक संशोधन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: M\n\nExplanation: Zero Hour is an Indian parliamentary practice used by members to raise matters of urgent public importance.",
           "eh": "सही उत्तर: a\n\nव्याख्या: शून्यकाल भारतीय संसदीय व्यवहार की एक प्रथा है जिसमें सदस्य तत्काल लोक महत्व के विषय उठाते हैं.",
           "subject": "Polity",
@@ -2612,7 +2160,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Zero Hour से संबंधित है?\n\nशून्यकाल भारतीय संसदीय व्यवहार की एक प्रथा है जिसमें सदस्य तत्काल लोक महत्व के विषय उठाते हैं.",
           "o": [
             "M / a",
-            "त / त"
+            "Constitutional amendment only / केवल संवैधानिक संशोधन",
+            "Judicial review / न्यायिक पुनरावलोकन",
+            "Election of President / राष्ट्रपति का निर्वाचन"
           ],
           "a": 0,
           "e": "Correct Answer: M\n\nExplanation: Zero Hour is an Indian parliamentary practice used by members to raise matters of urgent public importance.",
@@ -2625,10 +2175,12 @@
           "q": "Which of the following best describes Zero Hour?\n\nZero Hour is an Indian parliamentary practice used by members to raise matters of urgent public importance.",
           "hi": "निम्नलिखित में से कौन-सा Zero Hour का सबसे उपयुक्त वर्णन करता है?\n\nशून्यकाल भारतीय संसदीय व्यवहार की एक प्रथा है जिसमें सदस्य तत्काल लोक महत्व के विषय उठाते हैं.",
           "o": [
+            "Judicial review / न्यायिक पुनरावलोकन",
+            "Election of President / राष्ट्रपति का निर्वाचन",
             "M / a",
-            "त / त"
+            "Constitutional amendment only / केवल संवैधानिक संशोधन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: M\n\nExplanation: Zero Hour is an Indian parliamentary practice used by members to raise matters of urgent public importance.",
           "eh": "सही उत्तर: a\n\nव्याख्या: शून्यकाल भारतीय संसदीय व्यवहार की एक प्रथा है जिसमें सदस्य तत्काल लोक महत्व के विषय उठाते हैं.",
           "subject": "Polity",
@@ -2640,7 +2192,9 @@
           "hi": "Parliamentary Committees के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nसंसदीय समितियाँ विधेयकों, व्यय और अन्य विषयों की विस्तृत जाँच में संसद की सहायता करती हैं.",
           "o": [
             "D / e",
-            "स / ं"
+            "Appointment of judges / न्यायाधीशों की नियुक्ति",
+            "Conduct of elections / निर्वाचन संचालन",
+            "Foreign treaty ratification only / केवल विदेशी संधियों का अनुसमर्थन"
           ],
           "a": 0,
           "e": "Correct Answer: D\n\nExplanation: Parliamentary committees assist Parliament in detailed examination of legislation, expenditure and other matters.",
@@ -2653,10 +2207,12 @@
           "q": "With reference to Parliamentary Committees, which of the following is correct?\n\nParliamentary committees assist Parliament in detailed examination of legislation, expenditure and other matters.",
           "hi": "Parliamentary Committees के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nसंसदीय समितियाँ विधेयकों, व्यय और अन्य विषयों की विस्तृत जाँच में संसद की सहायता करती हैं.",
           "o": [
+            "Conduct of elections / निर्वाचन संचालन",
+            "Foreign treaty ratification only / केवल विदेशी संधियों का अनुसमर्थन",
             "D / e",
-            "स / ं"
+            "Appointment of judges / न्यायाधीशों की नियुक्ति"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: D\n\nExplanation: Parliamentary committees assist Parliament in detailed examination of legislation, expenditure and other matters.",
           "eh": "सही उत्तर: e\n\nव्याख्या: संसदीय समितियाँ विधेयकों, व्यय और अन्य विषयों की विस्तृत जाँच में संसद की सहायता करती हैं.",
           "subject": "Polity",
@@ -2668,7 +2224,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Parliamentary Committees से संबंधित है?\n\nसंसदीय समितियाँ विधेयकों, व्यय और अन्य विषयों की विस्तृत जाँच में संसद की सहायता करती हैं.",
           "o": [
             "D / e",
-            "स / ं"
+            "Appointment of judges / न्यायाधीशों की नियुक्ति",
+            "Conduct of elections / निर्वाचन संचालन",
+            "Foreign treaty ratification only / केवल विदेशी संधियों का अनुसमर्थन"
           ],
           "a": 0,
           "e": "Correct Answer: D\n\nExplanation: Parliamentary committees assist Parliament in detailed examination of legislation, expenditure and other matters.",
@@ -2681,10 +2239,12 @@
           "q": "Which of the following best describes Parliamentary Committees?\n\nParliamentary committees assist Parliament in detailed examination of legislation, expenditure and other matters.",
           "hi": "निम्नलिखित में से कौन-सा Parliamentary Committees का सबसे उपयुक्त वर्णन करता है?\n\nसंसदीय समितियाँ विधेयकों, व्यय और अन्य विषयों की विस्तृत जाँच में संसद की सहायता करती हैं.",
           "o": [
+            "Conduct of elections / निर्वाचन संचालन",
+            "Foreign treaty ratification only / केवल विदेशी संधियों का अनुसमर्थन",
             "D / e",
-            "स / ं"
+            "Appointment of judges / न्यायाधीशों की नियुक्ति"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: D\n\nExplanation: Parliamentary committees assist Parliament in detailed examination of legislation, expenditure and other matters.",
           "eh": "सही उत्तर: e\n\nव्याख्या: संसदीय समितियाँ विधेयकों, व्यय और अन्य विषयों की विस्तृत जाँच में संसद की सहायता करती हैं.",
           "subject": "Polity",
@@ -2696,7 +2256,9 @@
           "hi": "Special Power के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nराज्यसभा आवश्यक बहुमत से प्रस्ताव पारित करके राष्ट्रीय हित में राज्य सूची के विषय पर संसद को कानून बनाने के लिए अधिकृत कर सकती है.",
           "o": [
             "A / u",
-            "र / ा"
+            "Dissolve Lok Sabha / लोकसभा को भंग करना",
+            "Elect the Prime Minister / प्रधानमंत्री का निर्वाचन करना",
+            "Remove the President directly / राष्ट्रपति को सीधे हटाना"
           ],
           "a": 0,
           "e": "Correct Answer: A\n\nExplanation: The Rajya Sabha can authorize Parliament to legislate on a State List matter in the national interest by passing a resolution supported by the required majority.",
@@ -2709,10 +2271,12 @@
           "q": "With reference to Special Power, which of the following is correct?\n\nThe Rajya Sabha can authorize Parliament to legislate on a State List matter in the national interest by passing a resolution supported by the required majority.",
           "hi": "Special Power के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nराज्यसभा आवश्यक बहुमत से प्रस्ताव पारित करके राष्ट्रीय हित में राज्य सूची के विषय पर संसद को कानून बनाने के लिए अधिकृत कर सकती है.",
           "o": [
+            "Elect the Prime Minister / प्रधानमंत्री का निर्वाचन करना",
+            "Remove the President directly / राष्ट्रपति को सीधे हटाना",
             "A / u",
-            "र / ा"
+            "Dissolve Lok Sabha / लोकसभा को भंग करना"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: A\n\nExplanation: The Rajya Sabha can authorize Parliament to legislate on a State List matter in the national interest by passing a resolution supported by the required majority.",
           "eh": "सही उत्तर: u\n\nव्याख्या: राज्यसभा आवश्यक बहुमत से प्रस्ताव पारित करके राष्ट्रीय हित में राज्य सूची के विषय पर संसद को कानून बनाने के लिए अधिकृत कर सकती है.",
           "subject": "Polity",
@@ -2724,7 +2288,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Special Power से संबंधित है?\n\nराज्यसभा आवश्यक बहुमत से प्रस्ताव पारित करके राष्ट्रीय हित में राज्य सूची के विषय पर संसद को कानून बनाने के लिए अधिकृत कर सकती है.",
           "o": [
             "A / u",
-            "र / ा"
+            "Dissolve Lok Sabha / लोकसभा को भंग करना",
+            "Elect the Prime Minister / प्रधानमंत्री का निर्वाचन करना",
+            "Remove the President directly / राष्ट्रपति को सीधे हटाना"
           ],
           "a": 0,
           "e": "Correct Answer: A\n\nExplanation: The Rajya Sabha can authorize Parliament to legislate on a State List matter in the national interest by passing a resolution supported by the required majority.",
@@ -2737,10 +2303,12 @@
           "q": "Which of the following best describes Special Power?\n\nThe Rajya Sabha can authorize Parliament to legislate on a State List matter in the national interest by passing a resolution supported by the required majority.",
           "hi": "निम्नलिखित में से कौन-सा Special Power का सबसे उपयुक्त वर्णन करता है?\n\nराज्यसभा आवश्यक बहुमत से प्रस्ताव पारित करके राष्ट्रीय हित में राज्य सूची के विषय पर संसद को कानून बनाने के लिए अधिकृत कर सकती है.",
           "o": [
+            "Elect the Prime Minister / प्रधानमंत्री का निर्वाचन करना",
+            "Remove the President directly / राष्ट्रपति को सीधे हटाना",
             "A / u",
-            "र / ा"
+            "Dissolve Lok Sabha / लोकसभा को भंग करना"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: A\n\nExplanation: The Rajya Sabha can authorize Parliament to legislate on a State List matter in the national interest by passing a resolution supported by the required majority.",
           "eh": "सही उत्तर: u\n\nव्याख्या: राज्यसभा आवश्यक बहुमत से प्रस्ताव पारित करके राष्ट्रीय हित में राज्य सूची के विषय पर संसद को कानून बनाने के लिए अधिकृत कर सकती है.",
           "subject": "Polity",
@@ -2752,7 +2320,9 @@
           "hi": "Article 131 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nअनुच्छेद 131 संघ और राज्यों से जुड़े कुछ विवादों में सर्वोच्च न्यायालय की मूल अधिकारिता प्रदान करता है.",
           "o": [
             "O / r",
-            "न / ि"
+            "Advisory jurisdiction / परामर्शदात्री अधिकारिता",
+            "Election supervision / निर्वाचन पर्यवेक्षण",
+            "Financial audit / वित्तीय लेखा-परीक्षण"
           ],
           "a": 0,
           "e": "Correct Answer: O\n\nExplanation: Article 131 provides the Supreme Court's original jurisdiction in certain disputes involving the Union and States.",
@@ -2765,10 +2335,12 @@
           "q": "With reference to Article 131, which of the following is correct?\n\nArticle 131 provides the Supreme Court's original jurisdiction in certain disputes involving the Union and States.",
           "hi": "Article 131 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nअनुच्छेद 131 संघ और राज्यों से जुड़े कुछ विवादों में सर्वोच्च न्यायालय की मूल अधिकारिता प्रदान करता है.",
           "o": [
+            "Election supervision / निर्वाचन पर्यवेक्षण",
+            "Financial audit / वित्तीय लेखा-परीक्षण",
             "O / r",
-            "न / ि"
+            "Advisory jurisdiction / परामर्शदात्री अधिकारिता"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: O\n\nExplanation: Article 131 provides the Supreme Court's original jurisdiction in certain disputes involving the Union and States.",
           "eh": "सही उत्तर: r\n\nव्याख्या: अनुच्छेद 131 संघ और राज्यों से जुड़े कुछ विवादों में सर्वोच्च न्यायालय की मूल अधिकारिता प्रदान करता है.",
           "subject": "Polity",
@@ -2780,7 +2352,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Article 131 से संबंधित है?\n\nअनुच्छेद 131 संघ और राज्यों से जुड़े कुछ विवादों में सर्वोच्च न्यायालय की मूल अधिकारिता प्रदान करता है.",
           "o": [
             "O / r",
-            "न / ि"
+            "Advisory jurisdiction / परामर्शदात्री अधिकारिता",
+            "Election supervision / निर्वाचन पर्यवेक्षण",
+            "Financial audit / वित्तीय लेखा-परीक्षण"
           ],
           "a": 0,
           "e": "Correct Answer: O\n\nExplanation: Article 131 provides the Supreme Court's original jurisdiction in certain disputes involving the Union and States.",
@@ -2793,10 +2367,12 @@
           "q": "Which of the following best describes Article 131?\n\nArticle 131 provides the Supreme Court's original jurisdiction in certain disputes involving the Union and States.",
           "hi": "निम्नलिखित में से कौन-सा Article 131 का सबसे उपयुक्त वर्णन करता है?\n\nअनुच्छेद 131 संघ और राज्यों से जुड़े कुछ विवादों में सर्वोच्च न्यायालय की मूल अधिकारिता प्रदान करता है.",
           "o": [
+            "Election supervision / निर्वाचन पर्यवेक्षण",
+            "Financial audit / वित्तीय लेखा-परीक्षण",
             "O / r",
-            "न / ि"
+            "Advisory jurisdiction / परामर्शदात्री अधिकारिता"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: O\n\nExplanation: Article 131 provides the Supreme Court's original jurisdiction in certain disputes involving the Union and States.",
           "eh": "सही उत्तर: r\n\nव्याख्या: अनुच्छेद 131 संघ और राज्यों से जुड़े कुछ विवादों में सर्वोच्च न्यायालय की मूल अधिकारिता प्रदान करता है.",
           "subject": "Polity",
@@ -2808,7 +2384,9 @@
           "hi": "Article 136 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nअनुच्छेद 136 सर्वोच्च न्यायालय को उपयुक्त मामलों में विशेष अनुमति से अपील सुनने की शक्ति देता है.",
           "o": [
             "S / p",
-            "व / ि"
+            "Money Bill certification / धन विधेयक प्रमाणन",
+            "Budget approval / बजट अनुमोदन",
+            "Governor appointment / राज्यपाल नियुक्ति"
           ],
           "a": 0,
           "e": "Correct Answer: S\n\nExplanation: Article 136 gives the Supreme Court power to grant special leave to appeal in appropriate cases.",
@@ -2821,10 +2399,12 @@
           "q": "With reference to Article 136, which of the following is correct?\n\nArticle 136 gives the Supreme Court power to grant special leave to appeal in appropriate cases.",
           "hi": "Article 136 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nअनुच्छेद 136 सर्वोच्च न्यायालय को उपयुक्त मामलों में विशेष अनुमति से अपील सुनने की शक्ति देता है.",
           "o": [
+            "Budget approval / बजट अनुमोदन",
+            "Governor appointment / राज्यपाल नियुक्ति",
             "S / p",
-            "व / ि"
+            "Money Bill certification / धन विधेयक प्रमाणन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: S\n\nExplanation: Article 136 gives the Supreme Court power to grant special leave to appeal in appropriate cases.",
           "eh": "सही उत्तर: p\n\nव्याख्या: अनुच्छेद 136 सर्वोच्च न्यायालय को उपयुक्त मामलों में विशेष अनुमति से अपील सुनने की शक्ति देता है.",
           "subject": "Polity",
@@ -2836,7 +2416,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Article 136 से संबंधित है?\n\nअनुच्छेद 136 सर्वोच्च न्यायालय को उपयुक्त मामलों में विशेष अनुमति से अपील सुनने की शक्ति देता है.",
           "o": [
             "S / p",
-            "व / ि"
+            "Money Bill certification / धन विधेयक प्रमाणन",
+            "Budget approval / बजट अनुमोदन",
+            "Governor appointment / राज्यपाल नियुक्ति"
           ],
           "a": 0,
           "e": "Correct Answer: S\n\nExplanation: Article 136 gives the Supreme Court power to grant special leave to appeal in appropriate cases.",
@@ -2849,10 +2431,12 @@
           "q": "Which of the following best describes Article 136?\n\nArticle 136 gives the Supreme Court power to grant special leave to appeal in appropriate cases.",
           "hi": "निम्नलिखित में से कौन-सा Article 136 का सबसे उपयुक्त वर्णन करता है?\n\nअनुच्छेद 136 सर्वोच्च न्यायालय को उपयुक्त मामलों में विशेष अनुमति से अपील सुनने की शक्ति देता है.",
           "o": [
+            "Budget approval / बजट अनुमोदन",
+            "Governor appointment / राज्यपाल नियुक्ति",
             "S / p",
-            "व / ि"
+            "Money Bill certification / धन विधेयक प्रमाणन"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: S\n\nExplanation: Article 136 gives the Supreme Court power to grant special leave to appeal in appropriate cases.",
           "eh": "सही उत्तर: p\n\nव्याख्या: अनुच्छेद 136 सर्वोच्च न्यायालय को उपयुक्त मामलों में विशेष अनुमति से अपील सुनने की शक्ति देता है.",
           "subject": "Polity",
@@ -2864,7 +2448,9 @@
           "hi": "Article 137 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nअनुच्छेद 137 सर्वोच्च न्यायालय को कानून और नियमों के अधीन अपने निर्णयों या आदेशों का पुनर्विलोकन करने की शक्ति देता है.",
           "o": [
             "R / e",
-            "अ / प"
+            "Conduct elections / निर्वाचन कराना",
+            "Prepare the Union Budget / केंद्रीय बजट तैयार करना",
+            "Appoint Governors / राज्यपाल नियुक्त करना"
           ],
           "a": 0,
           "e": "Correct Answer: R\n\nExplanation: Article 137 gives the Supreme Court power to review its judgments or orders subject to law and rules.",
@@ -2877,10 +2463,12 @@
           "q": "With reference to Article 137, which of the following is correct?\n\nArticle 137 gives the Supreme Court power to review its judgments or orders subject to law and rules.",
           "hi": "Article 137 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nअनुच्छेद 137 सर्वोच्च न्यायालय को कानून और नियमों के अधीन अपने निर्णयों या आदेशों का पुनर्विलोकन करने की शक्ति देता है.",
           "o": [
+            "Prepare the Union Budget / केंद्रीय बजट तैयार करना",
+            "Appoint Governors / राज्यपाल नियुक्त करना",
             "R / e",
-            "अ / प"
+            "Conduct elections / निर्वाचन कराना"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: R\n\nExplanation: Article 137 gives the Supreme Court power to review its judgments or orders subject to law and rules.",
           "eh": "सही उत्तर: e\n\nव्याख्या: अनुच्छेद 137 सर्वोच्च न्यायालय को कानून और नियमों के अधीन अपने निर्णयों या आदेशों का पुनर्विलोकन करने की शक्ति देता है.",
           "subject": "Polity",
@@ -2892,7 +2480,9 @@
           "hi": "भारतीय राजव्यवस्था के संदर्भ में निम्नलिखित में से कौन-सा Article 137 से संबंधित है?\n\nअनुच्छेद 137 सर्वोच्च न्यायालय को कानून और नियमों के अधीन अपने निर्णयों या आदेशों का पुनर्विलोकन करने की शक्ति देता है.",
           "o": [
             "R / e",
-            "अ / प"
+            "Conduct elections / निर्वाचन कराना",
+            "Prepare the Union Budget / केंद्रीय बजट तैयार करना",
+            "Appoint Governors / राज्यपाल नियुक्त करना"
           ],
           "a": 0,
           "e": "Correct Answer: R\n\nExplanation: Article 137 gives the Supreme Court power to review its judgments or orders subject to law and rules.",
@@ -2905,10 +2495,12 @@
           "q": "Which of the following best describes Article 137?\n\nArticle 137 gives the Supreme Court power to review its judgments or orders subject to law and rules.",
           "hi": "निम्नलिखित में से कौन-सा Article 137 का सबसे उपयुक्त वर्णन करता है?\n\nअनुच्छेद 137 सर्वोच्च न्यायालय को कानून और नियमों के अधीन अपने निर्णयों या आदेशों का पुनर्विलोकन करने की शक्ति देता है.",
           "o": [
+            "Prepare the Union Budget / केंद्रीय बजट तैयार करना",
+            "Appoint Governors / राज्यपाल नियुक्त करना",
             "R / e",
-            "अ / प"
+            "Conduct elections / निर्वाचन कराना"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: R\n\nExplanation: Article 137 gives the Supreme Court power to review its judgments or orders subject to law and rules.",
           "eh": "सही उत्तर: e\n\nव्याख्या: अनुच्छेद 137 सर्वोच्च न्यायालय को कानून और नियमों के अधीन अपने निर्णयों या आदेशों का पुनर्विलोकन करने की शक्ति देता है.",
           "subject": "Polity",
@@ -2920,7 +2512,9 @@
           "hi": "Article 226 के संबंध में निम्नलिखित में से कौन-सा कथन सही है?\n\nउच्च न्यायालय अनुच्छेद 226 के अंतर्गत मौलिक अधिकारों के प्रवर्तन तथा अन्य उद्देश्यों के लिए रिट जारी कर सकते हैं.",
           "o": [
             "A / r",
-            "अ / न"
+            "Article 32 / अनुच्छेद 32",
+            "Article 123 / अनुच्छेद 123",
+            "Article 280 / अनुच्छेद 280"
           ],
           "a": 0,
           "e": "Correct Answer: A\n\nExplanation: High Courts can issue writs for enforcement of Fundamental Rights and for other purposes under Article 226.",
@@ -2933,10 +2527,12 @@
           "q": "With reference to Article 226, which of the following is correct?\n\nHigh Courts can issue writs for enforcement of Fundamental Rights and for other purposes under Article 226.",
           "hi": "Article 226 के संदर्भ में निम्नलिखित में से कौन-सा सही है?\n\nउच्च न्यायालय अनुच्छेद 226 के अंतर्गत मौलिक अधिकारों के प्रवर्तन तथा अन्य उद्देश्यों के लिए रिट जारी कर सकते हैं.",
           "o": [
+            "Article 123 / अनुच्छेद 123",
+            "Article 280 / अनुच्छेद 280",
             "A / r",
-            "अ / न"
+            "Article 32 / अनुच्छेद 32"
           ],
-          "a": 0,
+          "a": 2,
           "e": "Correct Answer: A\n\nExplanation: High Courts can issue writs for enforcement of Fundamental Rights and for other purposes under Article 226.",
           "eh": "सही उत्तर: r\n\nव्याख्या: उच्च न्यायालय अनुच्छेद 226 के अंतर्गत मौलिक अधिकारों के प्रवर्तन तथा अन्य उद्देश्यों के लिए रिट जारी कर सकते हैं.",
           "subject": "Polity",
