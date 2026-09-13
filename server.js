@@ -2237,7 +2237,7 @@ function resultPage(){
             :
             '<div class="solution">'+
             '<b>📖 Solution</b><br>'+
-            'Solution will be added soon.'
+            'Solution will be added soon.'+
             '</div>'
           )+
 
