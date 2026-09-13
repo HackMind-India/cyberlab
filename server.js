@@ -237,40 +237,7 @@ function startPage(){
 }
 
 function selectBatch(i){
-  const b=D.batches[i];
-  if(!b) return;
-
-  const qs=b.questions||[];
-
-  const subjects=[...new Set(qs.map(q=>q.subject).filter(Boolean))];
-  const firstSubject=subjects[0]||"";
-
-  document.getElementById("app").innerHTML=
-    '<section class="section"><div class="card formCard">'+
-    '<h2>📚 '+esc(b.name||b.title||"Batch")+'</h2>'+
-    '<p style="color:#64748b">Subject → Chapter → Topic चुनें</p>'+
-    '<div class="formRow">'+
-    '<div><label class="label">Subject / विषय</label>'+
-    '<select id="subjectSelect" class="input" onchange="loadChapters('+i+')">'+
-    '<option value="">Select Subject</option>'+
-    subjects.map(x=>'<option value="'+escAttr(x)+'">'+esc(x)+'</option>').join("")+
-    '</select></div>'+
-    '<div><label class="label">Chapter / अध्याय</label>'+
-    '<select id="chapterSelect" class="input" onchange="loadTopics('+i+')"><option value="">Select Chapter</option></select></div>'+
-    '</div>'+
-    '<div class="formRow">'+
-    '<div><label class="label">Topic / टॉपिक</label>'+
-    '<select id="topicSelect" class="input"><option value="">Select Topic</option></select></div>'+
-    '<div style="display:flex;align-items:end"><button class="btn primary" onclick="startTopicTest('+i+')">🚀 Start Topic Test</button></div>'+
-    '</div>'+
-    '<button class="btn light" onclick="startPage()">← Back</button>'+
-    '</div></section>';
-
-  const st=document.getElementById("subjectSelect");
-  if(st && firstSubject){
-    st.value=firstSubject;
-    loadChapters(i);
-  }
+  begin(i);
 }
 
 function loadChapters(i){
@@ -362,7 +329,54 @@ function begin(i){
   renderQ();
 }
 function cleanClient(v){return String(v||"Student").trim().replace(/\s+/g," ").slice(0,40)||"Student";}
-function renderQ(){
+function startQuestionTimer(){
+  clearInterval(timer);
+  seconds = 30;
+
+  const e = document.getElementById("timer");
+  if(e) e.textContent = "00:30";
+
+  timer = setInterval(()=>{
+    seconds--;
+
+    const el = document.getElementById("timer");
+    if(el) el.textContent = formatTime(seconds);
+
+    // हल्की tik-tik
+    try{
+      const AC = window.AudioContext || window.webkitAudioContext;
+      if(AC){
+        window._tickAC = window._tickAC || new AC();
+        const ac = window._tickAC;
+        const osc = ac.createOscillator();
+        const gain = ac.createGain();
+        osc.frequency.value = 720;
+        gain.gain.value = 0.025;
+        osc.connect(gain);
+        gain.connect(ac.destination);
+        osc.start();
+        gain.gain.exponentialRampToValueAtTime(
+          0.001, ac.currentTime + 0.045
+        );
+        osc.stop(ac.currentTime + 0.045);
+      }
+    }catch(e){}
+
+    if(seconds <= 0){
+      clearInterval(timer);
+
+      if(currentIndex < currentQuestions.length - 1){
+        currentIndex++;
+        answers[currentIndex] = answers[currentIndex] ?? null;
+        renderQ();
+      }else{
+        finish();
+      }
+    }
+  },1000);
+}
+
+function renderQ(){\n  clearInterval(timer);\n  startQuestionTimer();
   const q=currentQuestions[currentIndex], total=currentQuestions.length, selected=answers[currentIndex], pct=Math.round(((currentIndex+1)/total)*100);
   const optionHtml=q.options.length?q.options.map((o,j)=>'<button type="button" class="option '+(selected===j?'selected':'')+'" onclick="pick('+j+')"><b>'+String.fromCharCode(65+j)+'.</b> '+esc(o)+'</button>').join(""):'<div class="card" style="padding:12px;color:#b42318">Options not found in this question.</div>';
   document.getElementById("app").innerHTML='<section class="section"><div class="card" style="padding:0;overflow:hidden"><div class="testHead"><b>🟢 Test in Progress</b><b>⏱️ <span id="timer">'+fmt(seconds)+'</span></b></div><div style="padding:14px 22px"><div style="display:flex;justify-content:space-between;font-size:12px;font-weight:800"><span>Question '+(currentIndex+1)+' of '+total+'</span><span>'+pct+'%</span></div><div class="progress"><i style="width:'+pct+'%"></i></div></div><div class="qbox"><div class="qno">Q'+(currentIndex+1)+'.</div><div class="question">'+qText(q)+'</div><div class="options">'+optionHtml+'</div></div><div class="testFoot"><button class="btn light" onclick="prevQ()">← Previous</button><button class="btn blue" onclick="'+(currentIndex===total-1?'finish()':'nextQ()')+'">'+(currentIndex===total-1?'Submit Test':'Next →')+'</button></div></div></section>';
