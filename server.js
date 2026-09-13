@@ -203,7 +203,7 @@ function home(){
   '</div><div class="heroArt"><div class="sun"></div><div class="climber">🧗</div><div class="flag">⚑</div><div class="emblem">☸</div><div class="mountain"></div></div></div></section>'+
   '<section class="stats"><div class="section"><div class="statsGrid"><div class="stat"><b>'+batches.length+'</b><span>Active Batches</span></div><div class="stat"><b>1000+</b><span>Practice Questions</span></div><div class="stat"><b>24×7</b><span>Practice</span></div><div class="stat"><b>FREE</b><span>For Students</span></div></div></div></section>'+
   '<section class="section"><h2>📚 Available Batches</h2><div class="grid">'+
-  (batches.length?batches.map((b,i)=>'<div class="card batch"><h3>'+esc(b.name||b.title||"UPSC Batch")+'</h3><p>'+esc(b.description||"Topic-wise bilingual practice")+'</p><button class="btn primary" onclick="begin('+i+')">Start Batch</button></div>').join(""):'<div class="card"><h3>No batch found</h3><p>Add questions to batches.json.</p></div>')+
+  (batches.length?batches.map((b,i)=>'<div class="card batch"><h3>'+esc(b.name||b.title||"UPSC Batch")+'</h3><p>'+esc(b.description||"Topic-wise bilingual practice")+'</p><button class="btn primary" onclick="startPage()">Start Batch</button></div>').join(""):'<div class="card"><h3>No batch found</h3><p>Add questions to batches.json.</p></div>')+
   '</div></section>';
 }
 function startPage(){
