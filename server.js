@@ -1012,25 +1012,13 @@ q.questionEnglish||
 q.q||
 "",
 
-options:
-Array.isArray(q.options)
-?q.options:
-(
-Array.isArray(q.choices)
-?q.choices:
-(
-Array.isArray(q.o)
-?q.o:
-[
-q.option1,
-q.option2,
-q.option3,
-q.option4
-].filter(x=>x!==undefined)
-)
-),
-
-answer:
+options: normalizeOptions(
+      Array.isArray(q.options) ? q.options :
+      (Array.isArray(q.choices) ? q.choices :
+      (Array.isArray(q.o) ? q.o :
+      [q.option1,q.option2,q.option3,q.option4].filter(x=>x!==undefined)))
+    ),
+    answer:
 q.answer??
 q.correct??
 q.correctAnswer??
